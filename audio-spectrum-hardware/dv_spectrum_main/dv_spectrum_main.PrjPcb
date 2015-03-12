@@ -62,54 +62,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 
-[GeneratedDocument1]
-DocumentPath=Output\dv_spectrum_main.DRR
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Output\dv_spectrum_main.EXTREP
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Output\dv_spectrum_main.GBL
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=Output\dv_spectrum_main.GBS
-DItemRevisionGUID=
-
-[GeneratedDocument5]
-DocumentPath=Output\dv_spectrum_main.GKO
-DItemRevisionGUID=
-
-[GeneratedDocument6]
-DocumentPath=Output\dv_spectrum_main.GTL
-DItemRevisionGUID=
-
-[GeneratedDocument7]
-DocumentPath=Output\dv_spectrum_main.GTO
-DItemRevisionGUID=
-
-[GeneratedDocument8]
-DocumentPath=Output\dv_spectrum_main.GTS
-DItemRevisionGUID=
-
-[GeneratedDocument9]
-DocumentPath=Output\dv_spectrum_main.LDP
-DItemRevisionGUID=
-
-[GeneratedDocument10]
-DocumentPath=Output\dv_spectrum_main.REP
-DItemRevisionGUID=
-
-[GeneratedDocument11]
-DocumentPath=Output\dv_spectrum_main.RUL
-DItemRevisionGUID=
-
-[GeneratedDocument12]
-DocumentPath=Output\dv_spectrum_main.TXT
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -159,7 +111,7 @@ OutputDir=Output
 [OutputGroup1]
 Name=Netlist Outputs
 Description=
-TargetPrinter=Snagit 11
+TargetPrinter=Snagit 12
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=CadnetixNetlist
 OutputName1=Cadnetix Netlist
@@ -290,7 +242,7 @@ OutputDefault25=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Snagit 11
+TargetPrinter=Snagit 12
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=AdvSimNetlist
 OutputName1=Mixed Sim
@@ -311,7 +263,7 @@ OutputDefault3=0
 [OutputGroup3]
 Name=Documentation Outputs
 Description=
-TargetPrinter=Snagit 11
+TargetPrinter=Snagit 12
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Composite
 OutputName1=Composite Drawing
@@ -425,7 +377,7 @@ PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup4]
 Name=Assembly Outputs
 Description=
-TargetPrinter=Snagit 11
+TargetPrinter=Snagit 12
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Assembly
 OutputName1=Assembly Drawings
@@ -447,7 +399,7 @@ OutputDefault3=0
 [OutputGroup5]
 Name=Fabrication Outputs
 Description=
-TargetPrinter=Snagit 11
+TargetPrinter=Snagit 12
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Drill
 OutputName1=Drill Drawing/Guides
@@ -507,7 +459,7 @@ Configuration9_Item1=AddToAllPlots.Set=SerializeLayerHash.Version~2,ClassName~TL
 [OutputGroup6]
 Name=Report Outputs
 Description=
-TargetPrinter=Snagit 11
+TargetPrinter=Snagit 12
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=BOM_PartType
 OutputName1=Bill of Materials
@@ -544,7 +496,7 @@ OutputDefault6=0
 [OutputGroup7]
 Name=Other Outputs
 Description=
-TargetPrinter=Snagit 11
+TargetPrinter=Snagit 12
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Text Print
 OutputName1=Text Print
@@ -724,7 +676,7 @@ PageOptions29=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|Print
 [OutputGroup8]
 Name=Validation Outputs
 Description=
-TargetPrinter=Snagit 11
+TargetPrinter=Snagit 12
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
 OutputType1=Design Rules Check
 OutputName1=Design Rules Check
@@ -753,28 +705,18 @@ OutputDefault4=0
 [OutputGroup9]
 Name=Export Outputs
 Description=
-TargetPrinter=Snagit 11
+TargetPrinter=Snagit 12
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintWhat=1
-OutputType1=AutoCAD dwg/dxf PCB
-OutputName1=AutoCAD dwg/dxf File PCB
+OutputType1=ExportIDF
+OutputName1=Export IDF
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
-OutputType2=AutoCAD dwg/dxf Schematic
-OutputName2=AutoCAD dwg/dxf File Schematic
+OutputType2=ExportSTEP
+OutputName2=Export STEP
 OutputDocumentPath2=
 OutputVariantName2=
 OutputDefault2=0
-OutputType3=ExportIDF
-OutputName3=Export IDF
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
-OutputType4=ExportSTEP
-OutputName4=Export STEP
-OutputDocumentPath4=
-OutputVariantName4=
-OutputDefault4=0
 
 [Modification Levels]
 Type1=1
