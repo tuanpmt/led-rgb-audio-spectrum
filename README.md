@@ -2,7 +2,8 @@
 This application using [FFT library](http://www.embeddedsignals.com/ARM.htm) for ARM cortex-M3 to analyze audio and display on RGB LED
 
 #demonstration:
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YXznM0IRcUU/0.jpg)](https://youtu.be/YXznM0IRcUU)
+Youtube: ```[https://youtu.be/YXznM0IRcUU](https://youtu.be/YXznM0IRcUU)```
+[![Youtube](http://img.youtube.com/vi/YXznM0IRcUU/0.jpg)](https://youtu.be/YXznM0IRcUU)
 
 #installations
 1. Hardware Diagram: ```audio-spectrum-hardware\dv_spectrum_corel```
