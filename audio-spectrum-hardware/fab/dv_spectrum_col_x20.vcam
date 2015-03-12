@@ -1,0 +1,1182 @@
+$Header
+$Program	VisualCAM Service Release 2 (16.3.56)
+	Version	16.3
+	Created	Thu Mar 20 10:49:16 2014
+$End
+$Environment
+	SketchMode	No
+	OverlayMode	No
+	ShowErrors	No
+	ViewComposites	No
+	OrthoSnap	No
+	SnapAngle	45.0000
+	ActiveLayer	1
+	CurrentDcode	10
+	PreviousView	-2.820, -10.216, 23.751, 8.402
+	FilmBox	21.500, 15.750, yellow
+	DesignID		0x9cd1289
+	UniqID		0x31
+	NetID		0
+	Flags		0
+	NetCompareOk		No
+	GenAutoDrills		No
+	ImplicitMirrorBottom		No
+$End
+$Netlist
+	DrillLayer	14
+	WellBehaved	No
+	IncludeSinglePointNets	Yes
+	IgnoreSelectGroup	No
+	PreserveNetNames	No
+	GenByVersion	16.3
+	Clean		Yes
+	IsoPadsTagged	No
+$End
+$Views
+$End
+$TabViews
+$End
+$Layer	1
+	File		dv_spectrum_col.GTL
+	LyrName	dv_spectrum_col.GTL
+	Visibility	On
+	FlashColor	0xff00
+	DrawColor	0xae00
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	3.489, -0.381, 17.809, -0.009
+	ID		0x9cd128d
+	NetID		0
+	Virtual	0
+$End
+$Layer	2
+	File		dv_spectrum_col.GTS
+	LyrName	dv_spectrum_col.GTS
+	Visibility	On
+	FlashColor	0xffff00
+	DrawColor	0xc4c400
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	3.485, -0.375, 17.813, -0.045
+	ID		0x9cd128e
+	NetID		0
+	Virtual	0
+$End
+$Layer	4
+	File		dv_spectrum_col.GBL
+	LyrName	dv_spectrum_col.GBL
+	Visibility	On
+	FlashColor	0xff
+	DrawColor	0xae
+	Type		Bottom
+	Polarity	Dark
+	Key		0
+	Extents	3.489, -0.381, 12.250, -0.010
+	ID		0x9cd128a
+	NetID		0
+	Virtual	0
+$End
+$Layer	5
+	File		dv_spectrum_col.GBS
+	LyrName	dv_spectrum_col.GBS
+	Visibility	On
+	FlashColor	0x80ff
+	DrawColor	0x57ae
+	Type		Mask Bot
+	Polarity	Dark
+	Key		0
+	Extents	3.485, -0.379, 11.714, -0.010
+	ID		0x9cd128b
+	NetID		0
+	Virtual	0
+$End
+$Layer	7
+	File		dv_spectrum_col.TXT
+	LyrName	dv_spectrum_col.TXT
+	Visibility	On
+	FlashColor	0xff0000
+	DrawColor	0xae0000
+	Type		NC
+	Polarity	Dark
+	Key		0
+	Extents	3.521, -0.371, 12.240, -0.070
+	ID		0x9cd128f
+	NetID		0
+	Virtual	0
+$End
+$Layer	8
+	File		dv_spectrum_col.GKO
+	LyrName	dv_spectrum_col.GKO
+	Visibility	On
+	FlashColor	0xffff
+	DrawColor	0xaeae
+	Type		Border
+	Polarity	Dark
+	Key		0
+	Extents	-0.004, -0.399, 19.689, 0.009
+	ID		0x9cd128c
+	NetID		0
+	Virtual	0
+$End
+$LayerSets
+$End
+$ExportHPGL
+	OutFile	dv_spectrum_col_x201.plt
+	MediaSize	34.000, 22.000
+	Offset		0.000, 0.000
+	Scale		1.0000
+	Border	No 0
+	PenWidth	0.010
+	PenSpeed	60
+	$Pens
+		Layer 1	1	1
+		Layer 2	1	1
+		Layer 4	1	1
+		Layer 5	1	1
+		Layer 7	1	1
+		Layer 8	1	1
+	$End
+	Spread	No
+	$SpreadOffset
+	$End
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+$End
+$ExportPostScript
+	OutFile	dv_spectrum_col_x201.ps
+	MediaSize	8.000, 10.500
+	Offset		0.000, 0.000
+	Scale		1.0000
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+	GreyScale	No
+	Border	No
+$End
+$ImportHPGL
+	PlotSize	Large
+	Rotate		No
+	$PenSizes
+		1	0.0100
+		2	0.0110
+		3	0.0120
+		4	0.0130
+		5	0.0140
+		6	0.0150
+		7	0.0160
+		8	0.0170
+	$End
+$End
+$Text
+	Filename	dv_spectrum_col_x201.txt
+	Height		0.1000
+	Width		0.1000
+	LineSpace	1.0000
+	CharSpace	1.0000
+	Rotate		0
+	Slant		0
+	Mirror		No
+$End
+$ApReport
+	RepFile	dv_spectrum_col_x201.txt
+	Layer		1
+$End
+$Rotate
+	Degrees	0.00
+	Pivot		Center
+$End
+$Mirror
+	Direction	Horz
+	Pivot		Center
+$End
+$DcodeScale
+	Fixed		No
+	Scale		0.1000, 0.1000
+$End
+$Panelize
+	Panel 0 0 1 1 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0 0.0000 0.0000 0.0000 0 0
+$End
+$Spread
+	AutoSpread		No
+	Rows			1
+	Cols			1
+	TabSize		0.0000, 0.0000
+	Layer			0
+	SortType		Col
+$End
+$Analysis
+	$Setup
+		HiliLayer		0
+		IgnoreSelGrp	No
+		WellBehaved		No
+		WindowMode		No
+		MaxErrors		100
+		$Pass
+			Name		"DEFAULT"
+			DrillLayer		0
+			Enabled		Yes
+		$End
+	$End
+	NextErrorId	1
+$End
+$HoleCharts
+$End
+$Snoman
+	RepFile		dv_spectrum_col_x201.sno
+	FromLayer		All
+	ToLayer		0
+	DCode		All
+	Pad2Pad		0.0060
+	Pad2Trace		0.0060
+	Offset			-0.0050
+	MinPercent		0.6000
+	MaxPercent		0.8000
+	WindowMode		No
+$End
+$Teardrop
+	RepFile		dv_spectrum_col_x201.txt
+	Layer		All
+	DCode		All
+	Pad2Trace		0.0060
+	Trace2Trace		0.0060
+	HostOffsetPercent			0.1500
+	TeeLength		0.5000
+	TeeWidth		0.5000
+	WindowMode		No
+	DeleteExisting		No
+$End
+$TestPoints
+	FlyingProbe	Yes
+	GridSize	0.1000
+	Points		Ends
+	DblSided		No
+	ThruBarrel		No
+	OffsetForDrill	No
+	Isolated	Exclude
+	356A	No
+	NetFile	untitled.nl
+	$TestSideInfo
+		TPActive	Yes
+		TPLayer	0
+		TPUseSolder	No
+		ProbeSpacing	0.0460
+		EdgeSpacing	0.0060
+		MaxFlash	0.0500
+		StaggerDir		L-U
+		UseMiddle	No
+		WindowMode	Yes
+		MapFile	untitled.mp
+		$PlateInfo
+			Enabled	Yes
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+	$End
+	$TestSideInfo
+		TPActive	Yes
+		TPLayer	0
+		TPUseSolder	No
+		ProbeSpacing	0.0460
+		EdgeSpacing	0.0060
+		MaxFlash	0.0500
+		StaggerDir		L-U
+		UseMiddle	No
+		WindowMode	Yes
+		MapFile	untitled.mp
+		$PlateInfo
+			Enabled	Yes
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+	$End
+$End
+$Drill
+	OutFile	dv_spectrum_col_x201.drl
+	RepFile	dv_spectrum_col_x201.txt
+	Layer		1
+	PreDrill	0.250
+	WindowMode	No
+	NextFirstDrillSequence	998
+	NextLastDrillSequence	1000
+$End
+$Mill
+	Tool		3
+	ConvArcs	Yes
+	Compensate	Yes
+	SkipSlots	Yes
+	Mode		Auto
+	PlungeLength	0.1000
+	PlungeAngle	0
+	OverShoot	0.1000
+	DblPath	No
+	Plunge	red
+	Retract	red
+$End
+$FixSS
+	PadLayer	0
+	SilkLayer	0
+	WindowMode	No
+	Spacing	0.0100
+$End
+$PadRemoval
+	WindowMode	No
+	Layer		All
+	DCode		All
+$End
+$Highlights
+	Query		white
+	Select		white
+	DRC		white
+$End
+$EndHeader
+$NCToolTables
+	$NCToolTable
+		"dv_spectrum_col" Both 0.000000 0.000000 0.000000 0 0 0 N
+		T1 Drill Plated c376 0.000000 0.000000 0.000000 0 0 0 0 41 c376 0 -1 1 0 -1 "0xff" "A"
+		T2 Drill Plated 15f3c 0.000000 0.000000 0.000000 0 0 0 0 5 15f3c 0 -1 2 0 -1 "0xdf" "B"
+	$End
+$End
+$CustomApertureData
+ROUNDEDRECTD10 2bf42 38286 1 0
+6
+1e 1 20f59 0 fffe3ec9 0 1c137 0
+1e 1 2bf2a 0 fffe96a5 0 1695b 0
+14 1 afd1 107b9 1695b 0
+14 1 afd1 107b9 fffe96a5 0
+14 1 afd1 fffef847 fffe96a5 0
+14 1 afd1 fffef847 1695b 0
+ROUNDEDRECTD15 3da22 4b0a6 1 0
+6
+1e 1 249fc ffff2448 17c91 dbb8 fffe836f 0
+1e 1 124fe fffedb08 1fb70 124f8 fffe0490 0
+14 1 124fe fffea56e 13361 0
+14 1 124fe ffffa322 1c5d4 0
+14 1 124fe 15a92 fffecc9f 0
+14 1 124fe 5cde fffe3a2c 0
+ROUNDEDRECTD18 186a0 222e6 1 0
+6
+1e 1 124fe 0 fffeee8e 0 11172 0
+1e 1 186a0 0 ffff1f5e 0 e0a2 0
+14 1 61a2 9272 e0a2 0
+14 1 61a2 9272 ffff1f5e 0
+14 1 61a2 ffff6d8e ffff1f5e 0
+14 1 61a2 ffff6d8e e0a2 0
+ROUNDEDRECTD20 30ea2 3d1e6 1 0
+6
+1e 1 20f59 0 fffe1719 0 1e8e7 0
+1e 1 2d2b6 18745 0 fffe78bb 0 0
+14 1 ff31 107b9 1695b 0
+14 1 ff31 107b9 fffe96a5 0
+14 1 ff31 fffef847 fffe96a5 0
+14 1 ff31 fffef847 1695b 0
+ROUNDEDRECTD21 42982 50006 1 0
+6
+1e 1 2995c ffff2448 17c91 dbb8 fffe836f 0
+1e 1 124fe fffec730 21dce 138d0 fffde232 0
+14 1 1745e fffea56e 13361 0
+14 1 1745e ffffa322 1c5d4 0
+14 1 1745e 15a92 fffecc9f 0
+14 1 1745e 5cde fffe3a2c 0
+ROUNDEDRECTD23 1d600 27246 1 0
+6
+1e 1 124fe 0 fffec6de 0 13922 0
+1e 1 1c143 eb00 0 ffff1500 0 0
+14 1 b102 9272 e0a2 0
+14 1 b102 9272 ffff1f5e 0
+14 1 b102 ffff6d8e ffff1f5e 0
+14 1 b102 ffff6d8e e0a2 0
+$End
+$ApertureData
+25
+# Dcode  Shape  Width  Height  Type  Rotation  Mirror  NegDrawMode Properties
+#
+D10 	ROUNDEDRECTD10	2bf42	38286	ThruHole	0	N	Transparent	2bf42 38286
+D11 	Round	18ce0	18ce0	ThruHole	0	N	Transparent	18ce0
+D12 	Round	c670	c670	ThruHole	0	N	Transparent	c670
+D13 	Round	6338	6338	ThruHole	0	N	Transparent	6338
+D14 	Round	129a8	129a8	ThruHole	0	N	Transparent	129a8
+D15 	ROUNDEDRECTD15	3da22	4b0a6	ThruHole	0	N	Transparent	3da22 4b0a6
+D16 	Round	186a0	186a0	ThruHole	0	N	Transparent	186a0
+D17 	Oblong	9c45	249fc	SMT	0	N	Transparent	9c45 249fc
+D18 	ROUNDEDRECTD18	186a0	222e6	ThruHole	0	N	Transparent	186a0 222e6
+D19 	Rectangle	1fbcd	249fc	SMT	0	N	Transparent	1fbcd 249fc 1 0 0
+D20 	ROUNDEDRECTD20	30ea2	3d1e6	ThruHole	0	N	Transparent	30ea2 3d1e6
+D21 	ROUNDEDRECTD21	42982	50006	ThruHole	0	N	Transparent	42982 50006
+D22 	Oblong	ff7d	2ad34	SMT	0	N	Transparent	ff7d 2ad34
+D23 	ROUNDEDRECTD23	1d600	27246	ThruHole	0	N	Transparent	1d600 27246
+D24 	Rectangle	24b2d	2995c	SMT	0	N	Transparent	24b2d 2995c 1 0 0
+D25 	Round	4659	4659	ThruHole	0	N	Transparent	4659
+$End
+$StringTable
+7
+"$$UID"
+"$$UD"
+"$$EXNET_PADSIZE"
+"$$EXNET_LAYER"
+"$$HCHID"
+"$$HCUID"
+"$$HCTOOLNUMBER"
+$End
+$UserDefinedProperties
+$End
+$PanelData
+$End
+$FootPrintLibrary
+$End
+$Blocks
+$End
+$AssemblyAnalysis
+MaxErrors	100
+$End
+$LayerData
+L1
+I0
+N0
+F0
+C" Layer_Physical_Order=1"
+C" Layer_Color=255"
+C":AMPARAMS|DCode=10|XSize=90.55mil|YSize=70.87mil|CornerRadius=8.86mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=15|XSize=59.06mil|YSize=118.11mil|CornerRadius=14.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=210.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+A10
+D1
+e2ab4b fff85ee1
+e7182c fff85ee1
+1012fe0 fff85ee1
+1059ca8 fff85ee1
+11fb45c fff85ee1
+1242124 fff85ee1
+13e38d8 fff85ee1
+142a5a0 fff85ee1
+15cbd54 fff85ee1
+1612a1c fff85ee1
+17b41d0 fff85ee1
+17fae98 fff85ee1
+199c64c fff85ee1
+19e332d fff85ee1
+1b84ac8 fff85ee1
+1bcb7a9 fff85ee1
+1d6cf5e fff85ee1
+1db3c25 fff85ee1
+1f553da fff85ee1
+1f9c0a1 fff85ee1
+213d856 fff85ee1
+218451d fff85ee1
+2325cd2 fff85ee1
+236c999 fff85ee1
+250e14e fff85ee1
+2554e15 fff85ee1
+26f65ca fff85ee1
+273d291 fff85ee1
+28dea46 fff85ee1
+2925727 fff85ee1
+2ac6ec2 fff85ee1
+2b0dba3 fff85ee1
+A11
+D2
+a89828 fff45f70 18807c4 fff45f70
+9c6a35 fff45f70 a89828 fff45f70
+18807c4 fff45f70 18a5b14 fff45f70
+a89828 fff45f70 a89828 fff7aacc
+a2f97c fff4c2a8 a2f97c fff7aacc
+18807c4 fff45f70 18807c4 fffc516c
+18807c4 fffc516c 18a8cb0 fffc516c
+1ab39eb fff4d569 1b2211b fffbbc98
+1b2211b fffbbc98 1c54454 fffbbc98
+1c797a4 fff5bab4 1c797a4 fff96948
+1c54454 fffbbc98 1c797a4 fff96948
+1d75b2a fff51764 2505960 fff51764
+1d6cf5e fff5a34a 1d75b2a fff51764
+26f65ca fff85ee1 26f65ca fffc6361
+28dea46 fff85ee1 28dea46 fffc4b91
+2ac6ec2 fff85ee1 2ac6ec2 fffafb9d
+2aad8f4 fffc9184 2ac6ec2 fffafb9d
+251a000 fffc9184 2aad8f4 fffc9184
+250e14e fffbd2d2 251a000 fffc9184
+250e14e fff85ee1 250e14e fffbd2d2
+250cb14 fff58918 250e14e fff59f52
+2505960 fff51764 250cb14 fff58918
+1d6cf5e fff5a34a 1d6cf5e fff85ee1
+1c2f104 fff1fda4 1c512b8 fff1fda4
+1c257ec fff296d5 1c2f104 fff1fda4
+1c257ec fff296d5 1c257ec fff36764
+19f7a80 fff1fda4 1a4a778 fff1fda4
+1a4a778 fff1fda4 1a57c64 fff2d290
+1984ef4 fff3042c 1991564 fff3ca9c
+18f9688 fff3ca9c 19186a0 fff3ca9c
+1f553da fff5bb1a 1f553da fff85ee1
+213d856 fff5d41a 213d856 fff85ee1
+2325cd2 fff58aae 2325cd2 fff85ee1
+250e14e fff59f52 250e14e fff85ee1
+1b84ac8 fff85ee1 1b87a1c fff82f8d
+1b87a1c fff3fc38 1b87a1c fff82f8d
+1b75074 fff2d290 1b87a1c fff3fc38
+1b87a1c fff36764 1c257ec fff36764
+1a57c64 fff2d290 1b75074 fff2d290
+e2ab4b fffdce9f e3c180 fffee4d4
+e2ab4b fff85ee1 e2ab4b fffdce9f
+11fb45c fff85ee1 11fb45c fffe2178
+1012fe0 fff85ee1 1012fe0 fffebb5b
+15cbd54 fff85ee1 15cbd54 fffe9528
+15c6da8 fffee4d4 15cbd54 fffe9528
+1978884 fffee4d4 199c64c fffca6f3
+199c64c fff85ee1 199c64c fffca6f3
+15c6da8 fffee4d4 17b0bf0 fffee4d4
+17b41d0 fff85ee1 17b41d0 fffeaedb
+17b0bf0 fffee4d4 17b41d0 fffeaedb
+17b0bf0 fffee4d4 18fc824 fffee4d4
+18fc824 fffee4d4 1978884 fffee4d4
+18fc824 fff3fc38 18fc824 fffee4d4
+99bab8 fffee4d4 e3c180 fffee4d4
+96927c fffbbc98 99bab8 fffee4d4
+13e38d8 fff85ee1 13e38d8 fffeb979
+e3c180 fffee4d4 15c6da8 fffee4d4
+18f9688 fff3ca9c 18fc824 fff3fc38
+A12
+19b9a50 fff3ca9c 19dbc04 fff3ca9c
+1a42120 fff3ca9c 1a52bed fff4d569
+19dbc04 fff3ca9c 1a42120 fff3ca9c
+1a52bed fff4d569 1ab39eb fff4d569
+19756e8 fff36764 197ba20 fff3042c
+A13
+90f5b3 fff1774c 1929f37 fff1774c
+8c80af fff5ec50 90f5b3 fff1774c
+1929f37 fff1774c 1964dcb fff525e0
+1964dcb fff525e0 1a41da7 fff525e0
+1a41da7 fff525e0 1a578eb fff68124
+1a578eb fff68124 1aa863c fff68124
+1aa863c fff68124 1abafe4 fff7aacc
+1abafe4 fff7aacc 1abafe4 fffc516c
+8fdc04 fff7dc68 957ab0 fff23dbc
+957ab0 fff23dbc 1924d10 fff23dbc
+1924d10 fff23dbc 195fba4 fff5ec50
+195fba4 fff5ec50 1a3cb66 fff5ec50
+1a526aa fff74794 1a8f95c fff74794
+1a3cb66 fff5ec50 1a526aa fff74794
+1a8f95c fff74794 1a98e30 fff7dc68
+1a98e30 fff7dc68 1a98e30 fffc516c
+981f5c fff3042c 18ce000 fff3042c
+933740 fff7ec48 981f5c fff3042c
+18ce000 fff3042c 18da670 fff3ca9c
+18da670 fff3ca9c 18da670 fffc1fd0
+933740 fff7ec48 933740 fff9cc80
+1d369d0 fff83fa0 1d369d0 fffa6154
+1d3784c fff3bc20 254cffa fff3bc20
+1d1eb6c fff2f5b0 272d96e fff2f5b0
+1cf6680 fff22f40 29112e8 fff22f40
+1ce3cd8 fff168d0 2aeec56 fff168d0
+2554e15 fff43a54 2554e15 fff85ee1
+254cffa fff3bc20 2554e15 fff43a54
+273d291 fff3eeec 273d291 fff85ee1
+272d96e fff2f5b0 273d291 fff3eeec
+2925727 fff3737f 2925727 fff85ee1
+29112e8 fff22f40 2925727 fff3737f
+1d2d4fc fff45f70 1d3784c fff3bc20
+1d0e4e4 fff3fc38 1d1eb6c fff2f5b0
+1cef4cc fff2a0f4 1cf6680 fff22f40
+2aeec56 fff168d0 2b0dba3 fff3581c
+1cd04b4 fff2a0f4 1ce3cd8 fff168d0
+17fae98 fff85ee1 18205e0 fff85ee1
+2b0dba3 fff3581c 2b0dba3 fff85ee1
+1f9c0a1 fff73e27 1f9c0a1 fff85ee1
+e7182c fff85ee1 e970f1 fff85ee1
+e970f1 fff85ee1 e9834c fff8713c
+1059ca8 fff85ee1 105ed85 fff80e04
+105ed85 fff80e04 107eff8 fff80e04
+1242124 fff85ee1 12618ad fff85ee1
+142a5a0 fff85ee1 142c4e1 fff83fa0
+142c4e1 fff83fa0 144c950 fff83fa0
+144c950 fff83fa0 1452c88 fff83fa0
+1612a1c fff85ee1 161495d fff83fa0
+161495d fff83fa0 1636798 fff83fa0
+1636798 fff83fa0 163fc6c fff83fa0
+1db3c25 fff85ee1 1db3c25 fff9ec27
+1da63c0 fffac48c 1db3c25 fff9ec27
+218451d fff85ee1 21866c0 fff88084
+1f9c0a1 fff85ee1 1f9c0a1 fffac48c
+1f8fa31 fffb8afc 1f9c0a1 fffac48c
+21866c0 fff88084 21866c0 fffb27c4
+2173d18 fffc516c 21866c0 fffb27c4
+236c999 fff85ee1 236c999 fff9a4b7
+1bcb7a9 fff65563 1bcb7a9 fff85ee1
+1bcb7a9 fff65563 1bd20bc fff5ec50
+1d3cd08 fffac48c 1da63c0 fffac48c
+1d369d0 fffa6154 1d3cd08 fffac48c
+1d2a360 fffb8afc 1f8fa31 fffb8afc
+1d179b8 fffa6154 1d2a360 fffb8afc
+1d179b8 fff8713c 1d179b8 fffa6154
+1d081ac fffc516c 2173d18 fffc516c
+1cfbb3c fffb8afc 1d081ac fffc516c
+1cd3650 fff8713c 1cd3650 fffc8308
+1cd3650 fffc8308 1cdcb24 fffd17dc
+1cd04b4 fff2a0f4 1cd04b4 fff3fc38
+1cef4cc fff2a0f4 1cef4cc fff3fc38
+1cfbb3c fff8713c 1cfbb3c fffb8afc
+1cdcb24 fffd17dc 218c9f8 fffd17dc
+234e354 fffd17dc 23690bf fffb6a71
+23690bf fff9dd91 23690bf fffb6a71
+23690bf fff9dd91 236c999 fff9a4b7
+218c9f8 fffd17dc 234e354 fffd17dc
+19e332d fff85ee1 19e332d fffbee34
+A14
+197ba20 fff3042c 198c0a8 fff1fda4
+198c0a8 fff1fda4 19f7a80 fff1fda4
+A15
+D1
+892573 fff3fc38
+8c80af fff5ec50
+8fdc04 fff7dc68
+933740 fff9cc80
+96927c fffbbc98
+A16
+9c6a35 fff45f70
+a89828 fff7aacc
+a2f97c fff7aacc
+18807c4 fffc516c
+18a5b14 fff45f70
+18807c4 fff45f70
+19b9a50 fff3ca9c
+19dbc04 fff3ca9c
+1ab39eb fff4d569
+18a8cb0 fffc516c
+1c797a4 fff5bab4
+1abafe4 fffc516c
+1a98e30 fffc516c
+18da670 fff3ca9c
+18da670 fffc1fd0
+1a16a98 fffce640
+1d369d0 fff83fa0
+1da0088 fff525e0
+1c512b8 fff1fda4
+1991564 fff3ca9c
+19186a0 fff3ca9c
+e970f1 fff85ee1
+1265ca4 fff8713c
+144c950 fff83fa0
+1636798 fff83fa0
+18205e0 fff85ee1
+19e3c4e fffb9f86
+107eff8 fff80e04
+1bcbd84 fff5ec50
+1a57c64 fff2d290
+1c257ec fff36764
+1d6b52c fff58918
+1d179b8 fff8713c
+1cf5804 fff8713c
+1cd3650 fff8713c
+1d2d4fc fff45f70
+1cd04b4 fff3fc38
+19756e8 fff3ca9c
+1cef4cc fff3fc38
+1d0e4e4 fff3fc38
+18f9688 fff3ca9c
+L2
+I0
+N0
+F0
+C" Layer_Color=8388736"
+C":AMPARAMS|DCode=10|XSize=90.55mil|YSize=70.87mil|CornerRadius=8.86mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=15|XSize=59.06mil|YSize=118.11mil|CornerRadius=14.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=210.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=18|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=20|XSize=98.55mil|YSize=78.87mil|CornerRadius=12.86mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=21|XSize=67.06mil|YSize=126.11mil|CornerRadius=18.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=210.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+A20
+D1
+e2ab4b fff85ee1
+e7182c fff85ee1
+1012fe0 fff85ee1
+1059ca8 fff85ee1
+11fb45c fff85ee1
+1242124 fff85ee1
+13e38d8 fff85ee1
+142a5a0 fff85ee1
+15cbd54 fff85ee1
+1612a1c fff85ee1
+17b41d0 fff85ee1
+17fae98 fff85ee1
+199c64c fff85ee1
+19e332d fff85ee1
+1b84ac8 fff85ee1
+1bcb7a9 fff85ee1
+1d6cf5e fff85ee1
+1db3c25 fff85ee1
+1f553da fff85ee1
+1f9c0a1 fff85ee1
+213d856 fff85ee1
+218451d fff85ee1
+2325cd2 fff85ee1
+236c999 fff85ee1
+250e14e fff85ee1
+2554e15 fff85ee1
+26f65ca fff85ee1
+273d291 fff85ee1
+28dea46 fff85ee1
+2925727 fff85ee1
+2ac6ec2 fff85ee1
+2b0dba3 fff85ee1
+A21
+892573 fff3fc38
+8c80af fff5ec50
+8fdc04 fff7dc68
+933740 fff9cc80
+96927c fffbbc98
+L4
+I0
+N0
+F0
+C" Layer_Physical_Order=2"
+C" Layer_Color=16711680"
+C":AMPARAMS|DCode=10|XSize=90.55mil|YSize=70.87mil|CornerRadius=8.86mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=15|XSize=59.06mil|YSize=118.11mil|CornerRadius=14.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=210.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=18|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+A11
+D2
+892573 fff3fc38 8ae3ef fff23dbc
+9b6ab8 fff23dbc 9c6a35 fff33d39
+8ae3ef fff23dbc 9b6ab8 fff23dbc
+9c62c4 fff45f70 9c6a35 fff45f70
+9c6a35 fff33d39 9c6a35 fff45f70
+9c6a35 fff45f70 9c6a35 fff59089
+9c6a35 fff59089 9e8478 fff7aacc
+9e8478 fff7aacc a2f97c fff7aacc
+a2f97c fff7aacc a89828 fff7aacc
+18807c4 fffc516c 18a8cb0 fffc516c
+18807c4 fffc516c 18a8983 fffed32b
+18a8983 fffed32b 1a61465 fffed32b
+1a61465 fffed32b 1a6a60c fffe4184
+1c516fc fff5bab4 1c797a4 fff5bab4
+1d71864 fff525e0 1da0088 fff525e0
+1d6b52c fff58918 1d71864 fff525e0
+1d6b52c fff29278 1d6b52c fff58918
+1c512b8 fff1fda4 1d62058 fff1fda4
+1c2ff80 fff1fda4 1c512b8 fff1fda4
+19186a0 fff3ca9c 19756e8 fff3ca9c
+19756e8 fff3ca9c 1991564 fff3ca9c
+18fc824 fff3ca9c 19186a0 fff3ca9c
+1a57f2b fff2cfc9 1a6a60c fff2cfc9
+1d62058 fff1fda4 1d6b52c fff29278
+1c257ec fff2a538 1c2ff80 fff1fda4
+1c257ec fff36764 1c257ec fff5bab4
+A12
+19b9a50 fff25279 19b9a50 fff3ca9c
+19dbc04 fff3ca9c 19ee5ac fff2a0f4
+19ee5ac fff2a0f4 1a02920 fff2a0f4
+19fcbf5 fff2fe1f 1a02920 fff2a0f4
+A13
+1ab39eb fff2cfc9 1ab39eb fff4d569
+1ab39eb fffd5c39 1abfa4e fffc9bd6
+1ab39eb fffd5c39 1ab39eb fffe4184
+1a9b34c fffcc124 1a9b34c fffe4184
+18da670 fff3ca9c 18f6819 fff58c2b
+18e7e3d fffcf79d 1a1593b fffcf79d
+18f6819 fff58c2b 1a8c4ad fff58c2b
+18da670 fffc1fd0 18e7e3d fffcf79d
+1a2f778 fffbbfc5 1a38c4c fffbbfc5
+1a1cdd0 fffc8308 1a29113 fffbbfc5
+1a29113 fffbbfc5 1a2f778 fffbbfc5
+1a9b34c fff2cfc9 1a9b34c fff49d8c
+1a9b34c fff1e56e 1a9b34c fff2cfc9
+1a2f778 fffbbfc5 1a73df3 fffbbfc5
+1a8c4ad fff58c2b 1a9b34c fff49d8c
+1a1593b fffcf79d 1a16a98 fffce640
+1a73df3 fffbbfc5 1a82cac fffcae64
+1a82cac fffcae64 1a82cac fffe4184
+1d369d0 fff83fa0 1d369d0 fffa6154
+1b1546b fff2cfc9 1b1546b fff32fed
+8b5524 fff717db 8c80af fff5ec50
+8c80af fff5ec50 8e0d8f fff45f70
+1b461aa fffd501e 1b461aa fffe4184
+1b5e84a fffd87fa 1b5e84a fffe4184
+1b5e84a fffd87fa 1b6ed3c fffc8308
+1b461aa fffd501e 1b5f530 fffbbc98
+1b2db0a fffd7b7a 1b2db0a fffe4184
+1b2db0a fffd7b7a 1b5605c fffaf628
+1b76eea fff2cfc9 1bb9115 fff2cfc9
+1bb9115 fff2cfc9 1bcbd84 fff3fc38
+1bcbd84 fff3fc38 1bcbd84 fff5ec50
+1acc08b fff2cfc9 1acc08b fff53574
+1aba364 fff6529b 1acc08b fff53574
+1b6ed3c fffc8308 1d01e74 fffc8308
+1b5f530 fffbbc98 1ce9194 fffbbc98
+1ccd318 fffaf628 1cd3650 fffa92f0
+1cd3650 fff8713c 1cd3650 fffa92f0
+1b5605c fffaf628 1ccd318 fffaf628
+1b1546b fffd4253 1b46706 fffa2fb8
+1c8f2e8 fffa2fb8 1cc3e44 fff6e45c
+1b1546b fffd4253 1b1546b fffe4184
+1b46706 fffa2fb8 1c8f2e8 fffa2fb8
+1c8a0c1 fff96948 1cbec1d fff61dec
+1b354af fff8a2d8 1c84e80 fff8a2d8
+1c7fadc fff7dc68 1ca4e2c fff58918
+1c84e80 fff8a2d8 1cb99dc fff5577c
+1869d1f fff6529b 1aba364 fff6529b
+1a7cc87 fff4c5bb 1a82cac fff465b0
+1a35ddd fff4c5bb 1a7cc87 fff4c5bb
+1a30f48 fff47740 1a35ddd fff4c5bb
+1a30f48 fff2a0f4 1a30f48 fff47740
+1a82cac fff2cfc9 1a82cac fff465b0
+164aa0e fff6fd2a 182e51e fff6fd2a
+1636798 fff83fa0 164aa0e fff6fd2a
+144c950 fff83fa0 145c15c fff83fa0
+145c15c fff83fa0 147ca42 fff636ba
+147ca42 fff636ba 1833745 fff636ba
+1265ca4 fff8713c 1295d96 fff5704a
+1295d96 fff5704a 1838986 fff5704a
+107eff8 fff80e04 10b5422 fff4a9da
+10b5422 fff4a9da 183dbad fff4a9da
+e970f1 fff6b2c0 e970f1 fff85ee1
+e970f1 fff6b2c0 ec4047 fff3e36a
+ec4047 fff3e36a 1842dee fff3e36a
+1cb99dc fff5577c 1cdcb24 fff5577c
+1cdcb24 fff5577c 1cef4cc fff42dd4
+1cef4cc fff3fc38 1cef4cc fff42dd4
+1cbec1d fff61dec 1cec330 fff61dec
+1cec330 fff61dec 1d0e4e4 fff3fc38
+1d05010 fff6e45c 1d2d4fc fff45f70
+1cc3e44 fff6e45c 1d05010 fff6e45c
+1afcdcb fffd4253 1b3a6d6 fff96948
+1afcdcb fffd4253 1afcdcb fffe4184
+1b3a6d6 fff96948 1c8a0c1 fff96948
+1ae4ad7 fffdacb0 1b354af fff8a2d8
+1ae472b fffdacb0 1ae472b fffe4184
+1ae472b fffdacb0 1ae4ad7 fffdacb0
+1acc08b fffdacb0 1acc08b fffe4184
+1ce9194 fffbbc98 1cf5804 fffaf628
+1cf5804 fff8713c 1cf5804 fffaf628
+1d01e74 fffc8308 1d179b8 fffb27c4
+1d179b8 fff8713c 1d179b8 fffb27c4
+1b76eea fffe4184 1b866f6 fffd4978
+1b866f6 fffd4978 1d081ac fffd4978
+1d081ac fffd4978 1d369d0 fffa6154
+1cbdc89 fff3fc38 1cd04b4 fff3fc38
+1ca4fa9 fff58918 1cbdc89 fff3fc38
+1842dee fff3e36a 1869d1f fff6529b
+183dbad fff4a9da 1864af8 fff71925
+1864af8 fff71925 1ab7e48 fff71925
+1838986 fff5704a 185f8b7 fff7df95
+1833745 fff636ba 185a690 fff8a5eb
+182e51e fff6fd2a 185544f fff96c5b
+185544f fff96c5b 1a79e18 fff96c5b
+18205e0 fff85ee1 183d9ca fffa32e5
+19e3c4e fffb9f86 19ee299 fffaf955
+1ab7e48 fff71925 1ac1009 fff71925
+1ae472b fff2cfc9 1ae472b fff4e1e9
+1ac1009 fff71925 1ae472b fff4e1e9
+185f8b7 fff7df95 1ac6230 fff7df95
+1afcdcb fff2cfc9 1afcdcb fff473e0
+1ac6230 fff7df95 1afcdcb fff473e0
+185a690 fff8a5eb 1acb457 fff8a5eb
+1b1546b fff2cfc9 1b1546b fff405f1
+1acb457 fff8a5eb 1b1546b fff405f1
+1a79e18 fff96c5b 1ad0698 fff96c5b
+1b2db0a fff2cfc9 1b2db0a fff397e9
+1ad0698 fff96c5b 1b2db0a fff397e9
+1b461aa fff2cfc9 1b461aa fff3610a
+183d9ca fffa32e5 1ad8fd0 fffa32e5
+1ad8fd0 fffa32e5 1b461aa fff3610a
+19ee299 fffaf955 1ae5000 fffaf955
+1ae5000 fffaf955 1b5e84a fff3610a
+1acc08b fffdacb0 1b290d3 fff7dc68
+1b290d3 fff7dc68 1c7fadc fff7dc68
+A14
+18807c4 fff3042c 1890e4c fff1fda4
+18807c4 fff3042c 18807c4 fff45f70
+18a5b14 fff1fda4 19bef0c fff1fda4
+1890e4c fff1fda4 18a5b14 fff1fda4
+18a5b14 fff1fda4 18a5b14 fff45f70
+19bef0c fff1fda4 19dbc04 fff3ca9c
+A15
+D1
+892573 fff3fc38
+8c80af fff5ec50
+8fdc04 fff7dc68
+933740 fff9cc80
+96927c fffbbc98
+A16
+9c6a35 fff45f70
+a89828 fff7aacc
+a2f97c fff7aacc
+18807c4 fffc516c
+18a5b14 fff45f70
+18807c4 fff45f70
+19b9a50 fff3ca9c
+19dbc04 fff3ca9c
+1ab39eb fff4d569
+18a8cb0 fffc516c
+1c797a4 fff5bab4
+1abafe4 fffc516c
+1a98e30 fffc516c
+18da670 fff3ca9c
+18da670 fffc1fd0
+1a16a98 fffce640
+1d369d0 fff83fa0
+1da0088 fff525e0
+1c512b8 fff1fda4
+1991564 fff3ca9c
+19186a0 fff3ca9c
+e970f1 fff85ee1
+1265ca4 fff8713c
+144c950 fff83fa0
+1636798 fff83fa0
+18205e0 fff85ee1
+19e3c4e fffb9f86
+107eff8 fff80e04
+1bcbd84 fff5ec50
+1a57c64 fff2d290
+1c257ec fff36764
+1d6b52c fff58918
+1d179b8 fff8713c
+1cf5804 fff8713c
+1cd3650 fff8713c
+1d2d4fc fff45f70
+1cd04b4 fff3fc38
+19756e8 fff3ca9c
+1cef4cc fff3fc38
+1d0e4e4 fff3fc38
+18f9688 fff3ca9c
+A17
+1a6a60c fffe4184
+1a82cac fffe4184
+1a9b34c fffe4184
+1ab39eb fffe4184
+1acc08b fffe4184
+1ae472b fffe4184
+1afcdcb fffe4184
+1acc08b fff2cfc9
+1ae472b fff2cfc9
+1afcdcb fff2cfc9
+1b1546b fff2cfc9
+1b2db0a fff2cfc9
+1b461aa fff2cfc9
+1b5e84a fff2cfc9
+1b5e84a fffe4184
+1b76eea fffe4184
+1b76eea fff2cfc9
+1b461aa fffe4184
+1b2db0a fffe4184
+1b1546b fffe4184
+1ab39eb fff2cfc9
+1a9b34c fff2cfc9
+1a82cac fff2cfc9
+1a6a60c fff2cfc9
+A18
+1c257ec fff5bab4
+1c516fc fff5bab4
+A19
+1a02920 fff2a0f4
+1a30f48 fff2a0f4
+L5
+I0
+N0
+F0
+C" Layer_Color=16711935"
+C":AMPARAMS|DCode=10|XSize=90.55mil|YSize=70.87mil|CornerRadius=8.86mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=15|XSize=59.06mil|YSize=118.11mil|CornerRadius=14.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=210.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=18|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=20|XSize=98.55mil|YSize=78.87mil|CornerRadius=12.86mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=21|XSize=67.06mil|YSize=126.11mil|CornerRadius=18.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=210.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=23|XSize=63.12mil|YSize=47.37mil|CornerRadius=8.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+A21
+D1
+892573 fff3fc38
+8c80af fff5ec50
+8fdc04 fff7dc68
+933740 fff9cc80
+96927c fffbbc98
+A22
+1a6a60c fffe4184
+1a82cac fffe4184
+1a9b34c fffe4184
+1ab39eb fffe4184
+1acc08b fffe4184
+1ae472b fffe4184
+1afcdcb fffe4184
+1acc08b fff2cfc9
+1ae472b fff2cfc9
+1afcdcb fff2cfc9
+1b1546b fff2cfc9
+1b2db0a fff2cfc9
+1b461aa fff2cfc9
+1b5e84a fff2cfc9
+1b5e84a fffe4184
+1b76eea fffe4184
+1b76eea fff2cfc9
+1b461aa fffe4184
+1b2db0a fffe4184
+1b1546b fffe4184
+1ab39eb fff2cfc9
+1a9b34c fff2cfc9
+1a82cac fff2cfc9
+1a6a60c fff2cfc9
+A23
+1c257ec fff5bab4
+1c516fc fff5bab4
+A24
+1a02920 fff2a0f4
+1a30f48 fff2a0f4
+L7
+Z"dv_spectrum_col"
+I0
+N0
+F0
+T1
+S999
+D6
+1ab39d2 fff4d582 N N N N Y -1
+1abafe4 fffc516c N N N N Y -1
+1a98e30 fffc516c N N N N Y -1
+1bcbd84 fff5ec50 N N N N Y -1
+1c25838 fff36764 N N N N Y -1
+1c512b8 fff1fd3e N N N N Y -1
+1c797a4 fff5bab4 N N N N Y -1
+1cd04b4 fff3fc38 N N N N Y -1
+1cef4cc fff3fc38 N N N N Y -1
+1d0e4e4 fff3fc38 N N N N Y -1
+1d2d4fc fff45f70 N N N N Y -1
+1d369d0 fff83fa0 N N N N Y -1
+1d179b8 fff8713c N N N N Y -1
+1cf5804 fff8713c N N N N Y -1
+1cd3650 fff8713c N N N N Y -1
+1d6b52c fff58918 N N N N Y -1
+1da0088 fff525e0 N N N N Y -1
+1a57c64 fff2d290 N N N N Y -1
+19dbc04 fff3ca9c N N N N Y -1
+19b9a50 fff3ca9c N N N N Y -1
+1991564 fff3ca9c N N N N Y -1
+19756e8 fff3ca9c N N N N Y -1
+19186a0 fff3ca9c N N N N Y -1
+18f9688 fff3ca9c N N N N Y -1
+18da670 fff3ca9c N N N N Y -1
+18a5b14 fff45f70 N N N N Y -1
+18807c4 fff45f70 N N N N Y -1
+18807c4 fffc516c N N N N Y -1
+18a8cb0 fffc516c N N N N Y -1
+18da670 fffc1fd0 N N N N Y -1
+18205e0 fff85e62 N N N N Y -1
+19e3c02 fffb9fd2 N N N N Y -1
+1a16a98 fffce640 N N N N Y -1
+1636798 fff83fa0 N N N N Y -1
+144c950 fff83fa0 N N N N Y -1
+1265ca4 fff8713c N N N N Y -1
+107eff8 fff80e04 N N N N Y -1
+e97072 fff85e62 N N N N Y -1
+a89828 fff7aacc N N N N Y -1
+a2f97c fff7aacc N N N N Y -1
+9c69b6 fff45f70 N N N N Y -1
+T2
+89258c fff3fc38 N N N N Y -1
+8c80c8 fff5ec50 N N N N Y -1
+8fdc04 fff7dc68 N N N N Y -1
+933740 fff9cc80 N N N N Y -1
+96927c fffbbc98 N N N N Y -1
+L8
+I0
+N0
+F0
+C" Layer_Color=16711935"
+C":AMPARAMS|DCode=10|XSize=90.55mil|YSize=70.87mil|CornerRadius=8.86mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=15|XSize=59.06mil|YSize=118.11mil|CornerRadius=14.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=210.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=18|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=20|XSize=98.55mil|YSize=78.87mil|CornerRadius=12.86mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=21|XSize=67.06mil|YSize=126.11mil|CornerRadius=18.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=210.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=23|XSize=63.12mil|YSize=47.37mil|CornerRadius=8.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+A25
+D2
+0 319c 2faf082 319c
+2faf082 fff0b0dc 2faf082 319c
+0 fff0b0dc 2faf082 fff0b0dc
+0 fff0b0dc 0 319c
+$End
+$Dimensions
+0
+$End
+$Redlining
+$End
+$ConstructionLines
+0
+$End
+$NoteBalloons
+0
+$End
+$ExternalNetData
+$End
+$NCOrderLists
+$End
+$NetList
+$End

@@ -1,0 +1,9 @@
+[submodule "audio_spectrum-firmware/lib/CMSIS"]
+	path = audio_spectrum-firmware/lib/CMSIS
+	url = https://github.com/tuanpmt/CMSIS.git
+[submodule "audio_spectrum-firmware/lib/STM32F10x_StdPeriph_Driver"]
+	path = audio_spectrum-firmware/lib/STM32F10x_StdPeriph_Driver
+	url = https://github.com/tuanpmt/STM32F10x_StdPeriph_Driver.git
+[submodule "audio_spectrum-firmware/lib/STM32F10x_DSP_Lib"]
+	path = audio_spectrum-firmware/lib/STM32F10x_DSP_Lib
+	url = https://github.com/tuanpmt/STM32F10x_DSP_Lib.git

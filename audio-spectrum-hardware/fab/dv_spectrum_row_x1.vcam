@@ -1,0 +1,7788 @@
+$Header
+$Program	VisualCAM Service Release 2 (16.3.56)
+	Version	16.3
+	Created	Thu Mar 20 10:48:13 2014
+$End
+$Environment
+	SketchMode	No
+	OverlayMode	No
+	ShowErrors	No
+	ViewComposites	Yes
+	OrthoSnap	No
+	SnapAngle	45.0000
+	ActiveLayer	1
+	CurrentDcode	10
+	PreviousView	-1.185, -9.500, 24.807, 8.712
+	FilmBox	21.500, 15.750, yellow
+	DesignID		0x9cc1586
+	UniqID		0x31
+	NetID		0
+	Flags		0
+	NetCompareOk		No
+	GenAutoDrills		No
+	ImplicitMirrorBottom		No
+$End
+$Netlist
+	DrillLayer	14
+	WellBehaved	No
+	IncludeSinglePointNets	Yes
+	IgnoreSelectGroup	No
+	PreserveNetNames	No
+	GenByVersion	16.3
+	Clean		Yes
+	IsoPadsTagged	No
+$End
+$Views
+$End
+$TabViews
+$End
+$Layer	1
+	File		dv_spectrum_row.GTL
+	LyrName	dv_spectrum_row.GTL
+	Visibility	On
+	FlashColor	0xff00
+	DrawColor	0xae00
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.024, -0.774, 23.598, -0.014
+	ID		0x9cc158a
+	NetID		0
+	Virtual	0
+$End
+$Layer	2
+	File		dv_spectrum_row.GTS
+	LyrName	dv_spectrum_row.GTS
+	Visibility	On
+	FlashColor	0xffff00
+	DrawColor	0xc4c400
+	Type		Other
+	Polarity	Dark
+	Key		0
+	Extents	0.136, -0.724, 23.433, -0.056
+	ID		0x9cc158b
+	NetID		0
+	Virtual	0
+$End
+$Layer	4
+	File		dv_spectrum_row.GBL
+	LyrName	dv_spectrum_row.GBL
+	Visibility	On
+	FlashColor	0xff
+	DrawColor	0xae
+	Type		Bottom
+	Polarity	Dark
+	Key		0
+	Extents	0.024, -0.763, 23.598, -0.014
+	ID		0x9cc1587
+	NetID		0
+	Virtual	0
+$End
+$Layer	5
+	File		dv_spectrum_row.GBS
+	LyrName	dv_spectrum_row.GBS
+	Visibility	On
+	FlashColor	0x80ff
+	DrawColor	0x57ae
+	Type		Mask Bot
+	Polarity	Dark
+	Key		0
+	Extents	0.136, -0.724, 23.433, -0.056
+	ID		0x9cc1588
+	NetID		0
+	Virtual	0
+$End
+$Layer	7
+	File		dv_spectrum_row.TXT
+	LyrName	dv_spectrum_row.TXT
+	Visibility	On
+	FlashColor	0xff0000
+	DrawColor	0xae0000
+	Type		NC
+	Polarity	Dark
+	Key		0
+	Extents	0.174, -0.740, 23.388, -0.055
+	ID		0x9cc158c
+	NetID		0
+	Virtual	0
+$End
+$Layer	8
+	File		dv_spectrum_row.GKO
+	LyrName	dv_spectrum_row.GKO
+	Visibility	On
+	FlashColor	0xffff
+	DrawColor	0xaeae
+	Type		Border
+	Polarity	Dark
+	Key		0
+	Extents	-0.004, -0.791, 23.626, 0.004
+	ID		0x9cc1589
+	NetID		0
+	Virtual	0
+$End
+$LayerSets
+$End
+$ExportHPGL
+	OutFile	dv_spectrum_row_x1.plt
+	MediaSize	34.000, 22.000
+	Offset		0.000, 0.000
+	Scale		1.0000
+	Border	No 0
+	PenWidth	0.010
+	PenSpeed	60
+	$Pens
+		Layer 1	1	1
+		Layer 2	1	1
+		Layer 4	1	1
+		Layer 5	1	1
+		Layer 7	1	1
+		Layer 8	1	1
+	$End
+	Spread	No
+	$SpreadOffset
+	$End
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+$End
+$ExportPostScript
+	OutFile	dv_spectrum_row_x1.ps
+	MediaSize	8.000, 10.500
+	Offset		0.000, 0.000
+	Scale		1.0000
+	PadsOnly	No
+	Mode		Sketch
+	Rotate		No
+	GreyScale	No
+	Border	No
+$End
+$ImportHPGL
+	PlotSize	Large
+	Rotate		No
+	$PenSizes
+		1	0.0100
+		2	0.0110
+		3	0.0120
+		4	0.0130
+		5	0.0140
+		6	0.0150
+		7	0.0160
+		8	0.0170
+	$End
+$End
+$Text
+	Filename	dv_spectrum_row_x1.txt
+	Height		0.1000
+	Width		0.1000
+	LineSpace	1.0000
+	CharSpace	1.0000
+	Rotate		0
+	Slant		0
+	Mirror		No
+$End
+$ApReport
+	RepFile	dv_spectrum_row_x1.txt
+	Layer		1
+$End
+$Rotate
+	Degrees	0.00
+	Pivot		Center
+$End
+$Mirror
+	Direction	Horz
+	Pivot		Center
+$End
+$DcodeScale
+	Fixed		No
+	Scale		0.1000, 0.1000
+$End
+$Panelize
+	Panel 0 0 1 1 0.0000 0.0000 0.0000 0.0000 0.0000 0.0000 0 0.0000 0.0000 0.0000 0 0
+$End
+$Spread
+	AutoSpread		No
+	Rows			1
+	Cols			1
+	TabSize		0.0000, 0.0000
+	Layer			0
+	SortType		Col
+$End
+$Analysis
+	$Setup
+		HiliLayer		0
+		IgnoreSelGrp	No
+		WellBehaved		No
+		WindowMode		No
+		MaxErrors		100
+		$Pass
+			Name		"DEFAULT"
+			DrillLayer		0
+			Enabled		Yes
+		$End
+	$End
+	NextErrorId	1
+$End
+$HoleCharts
+$End
+$Snoman
+	RepFile		dv_spectrum_row_x1.sno
+	FromLayer		All
+	ToLayer		0
+	DCode		All
+	Pad2Pad		0.0060
+	Pad2Trace		0.0060
+	Offset			-0.0050
+	MinPercent		0.6000
+	MaxPercent		0.8000
+	WindowMode		No
+$End
+$Teardrop
+	RepFile		dv_spectrum_row_x1.txt
+	Layer		All
+	DCode		All
+	Pad2Trace		0.0060
+	Trace2Trace		0.0060
+	HostOffsetPercent			0.1500
+	TeeLength		0.5000
+	TeeWidth		0.5000
+	WindowMode		No
+	DeleteExisting		No
+$End
+$TestPoints
+	FlyingProbe	Yes
+	GridSize	0.1000
+	Points		Ends
+	DblSided		No
+	ThruBarrel		No
+	OffsetForDrill	No
+	Isolated	Exclude
+	356A	No
+	NetFile	untitled.nl
+	$TestSideInfo
+		TPActive	Yes
+		TPLayer	0
+		TPUseSolder	No
+		ProbeSpacing	0.0460
+		EdgeSpacing	0.0060
+		MaxFlash	0.0500
+		StaggerDir		L-U
+		UseMiddle	No
+		WindowMode	Yes
+		MapFile	untitled.mp
+		$PlateInfo
+			Enabled	Yes
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+	$End
+	$TestSideInfo
+		TPActive	Yes
+		TPLayer	0
+		TPUseSolder	No
+		ProbeSpacing	0.0460
+		EdgeSpacing	0.0060
+		MaxFlash	0.0500
+		StaggerDir		L-U
+		UseMiddle	No
+		WindowMode	Yes
+		MapFile	untitled.mp
+		$PlateInfo
+			Enabled	Yes
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+		$PlateInfo
+			Enabled	No
+			FxFile	-
+			Dist	0
+			Thick	0
+		$End
+	$End
+$End
+$Drill
+	OutFile	dv_spectrum_row_x1.drl
+	RepFile	dv_spectrum_row_x1.txt
+	Layer		1
+	PreDrill	0.250
+	WindowMode	No
+	NextFirstDrillSequence	998
+	NextLastDrillSequence	1000
+$End
+$Mill
+	Tool		3
+	ConvArcs	Yes
+	Compensate	Yes
+	SkipSlots	Yes
+	Mode		Auto
+	PlungeLength	0.1000
+	PlungeAngle	0
+	OverShoot	0.1000
+	DblPath	No
+	Plunge	red
+	Retract	red
+$End
+$FixSS
+	PadLayer	0
+	SilkLayer	0
+	WindowMode	No
+	Spacing	0.0100
+$End
+$PadRemoval
+	WindowMode	No
+	Layer		All
+	DCode		All
+$End
+$Highlights
+	Query		white
+	Select		white
+	DRC		white
+$End
+$EndHeader
+$NCToolTables
+	$NCToolTable
+		"dv_spectrum_row" Both 0.000000 0.000000 0.000000 0 0 0 N
+		T1 Drill Plated c376 0.000000 0.000000 0.000000 0 0 0 0 42 c376 0 -1 1 0 -1 "0xff" "A"
+		T2 Drill Plated 13d80 0.000000 0.000000 0.000000 0 0 0 0 7 13d80 0 -1 2 0 -1 "0xdf" "B"
+		T3 Drill Plated 15f3c 0.000000 0.000000 0.000000 0 0 0 0 100 15f3c 0 -1 3 0 -1 "0xae" "C"
+	$End
+$End
+$CustomApertureData
+ROUNDEDRECTD10 186a0 222e6 1 0
+6
+1e 1 124fe 0 11172 0 fffeee8e 0
+1e 1 186a0 0 e0a2 0 ffff1f5e 0
+14 1 61a2 ffff6d8e ffff1f5e 0
+14 1 61a2 ffff6d8e e0a2 0
+14 1 61a2 9272 e0a2 0
+14 1 61a2 9272 ffff1f5e 0
+ROUNDEDRECTD12 222e6 186a0 1 0
+6
+1e 1 124fe 11172 0 fffeee8e 0 0
+1e 1 186a0 e0a2 0 ffff1f5e 0 0
+14 1 61a2 ffff1f5e 9272 0
+14 1 61a2 e0a2 9272 0
+14 1 61a2 e0a2 ffff6d8e 0
+14 1 61a2 ffff1f5e ffff6d8e 0
+ROUNDEDRECTD15 3e030 25350 1 0
+6
+1e 1 25350 15b44 0 fffea4bc 0 0
+1e 1 129a8 1f018 0 fffe0fe8 0 0
+14 1 129a8 15b44 94d4 0
+14 1 129a8 15b44 ffff6b2c 0
+14 1 129a8 fffea4bc ffff6b2c 0
+14 1 129a8 fffea4bc 94d4 0
+ROUNDEDRECTD16 3e030 25350 1 0
+6
+1e 1 25350 1a5ae 0 fffe5a52 0 0
+1e 1 1be7c 1f018 0 fffe0fe8 0 0
+14 1 94d4 1a5ae df3e 0
+14 1 94d4 1a5ae ffff20c2 0
+14 1 94d4 fffe5a52 ffff20c2 0
+14 1 94d4 fffe5a52 df3e 0
+ROUNDEDRECTD17 493e0 249fc 1 0
+6
+1e 1 249fc 1b771 0 fffe488f 0 0
+1e 1 124fe 249f0 0 fffdb610 0 0
+14 1 124fe 1b771 9272 0
+14 1 124fe 1b771 ffff6d8e 0
+14 1 124fe fffe488f ffff6d8e 0
+14 1 124fe fffe488f 9272 0
+ROUNDEDRECTD19 1d600 27246 1 0
+6
+1e 1 124fe 0 13922 0 fffec6de 0
+1e 1 1c143 ffff1500 0 eb00 0 0
+14 1 b102 ffff6d8e ffff1f5e 0
+14 1 b102 ffff6d8e e0a2 0
+14 1 b102 9272 e0a2 0
+14 1 b102 9272 ffff1f5e 0
+ROUNDEDRECTD21 27246 1d600 1 0
+6
+1e 1 124fe 13922 0 fffec6de 0 0
+1e 1 1c143 0 eb00 0 ffff1500 0
+14 1 b102 ffff1f5e 9272 0
+14 1 b102 e0a2 9272 0
+14 1 b102 e0a2 ffff6d8e 0
+14 1 b102 ffff1f5e ffff6d8e 0
+ROUNDEDRECTD22 42f90 2a2b0 1 0
+6
+1e 1 2a2b0 15b44 0 fffea4bc 0 0
+1e 1 129a8 217c8 0 fffde838 0 0
+14 1 17908 15b44 94d4 0
+14 1 17908 15b44 ffff6b2c 0
+14 1 17908 fffea4bc ffff6b2c 0
+14 1 17908 fffea4bc 94d4 0
+ROUNDEDRECTD23 42f90 2a2b0 1 0
+6
+1e 1 2a2b0 1a5ae 0 fffe5a52 0 0
+1e 1 1be7c 217c8 0 fffde838 0 0
+14 1 e434 1a5ae df3e 0
+14 1 e434 1a5ae ffff20c2 0
+14 1 e434 fffe5a52 ffff20c2 0
+14 1 e434 fffe5a52 df3e 0
+ROUNDEDRECTD24 4e340 2995c 1 0
+6
+1e 1 2995c 1b771 0 fffe488f 0 0
+1e 1 124fe 271a0 0 fffd8e60 0 0
+14 1 1745e 1b771 9272 0
+14 1 1745e 1b771 ffff6d8e 0
+14 1 1745e fffe488f ffff6d8e 0
+14 1 1745e fffe488f 9272 0
+$End
+$ApertureData
+25
+# Dcode  Shape  Width  Height  Type  Rotation  Mirror  NegDrawMode Properties
+#
+D10 	ROUNDEDRECTD10	186a0	222e6	ThruHole	0	N	Transparent	186a0 222e6
+D11 	Rectangle	35b55	ea5b	SMT	0	N	Transparent	35b55 ea5b 1 0 0
+D12 	ROUNDEDRECTD12	222e6	186a0	ThruHole	0	N	Transparent	222e6 186a0
+D13 	Round	18ce0	18ce0	ThruHole	0	N	Transparent	18ce0
+D14 	Round	6338	6338	ThruHole	0	N	Transparent	6338
+D15 	ROUNDEDRECTD15	3e030	25350	ThruHole	0	N	Transparent	3e030 25350
+D16 	ROUNDEDRECTD16	3e030	25350	ThruHole	0	N	Transparent	3e030 25350
+D17 	ROUNDEDRECTD17	493e0	249fc	ThruHole	0	N	Transparent	493e0 249fc
+D18 	Round	186a0	186a0	ThruHole	0	N	Transparent	186a0
+D19 	ROUNDEDRECTD19	1d600	27246	ThruHole	0	N	Transparent	1d600 27246
+D20 	Rectangle	3aab5	139bb	SMT	0	N	Transparent	3aab5 139bb 1 0 0
+D21 	ROUNDEDRECTD21	27246	1d600	ThruHole	0	N	Transparent	27246 1d600
+D22 	ROUNDEDRECTD22	42f90	2a2b0	ThruHole	0	N	Transparent	42f90 2a2b0
+D23 	ROUNDEDRECTD23	42f90	2a2b0	ThruHole	0	N	Transparent	42f90 2a2b0
+D24 	ROUNDEDRECTD24	4e340	2995c	ThruHole	0	N	Transparent	4e340 2995c
+D25 	Round	4659	4659	ThruHole	0	N	Transparent	4659
+$End
+$StringTable
+7
+"$$UID"
+"$$UD"
+"$$EXNET_PADSIZE"
+"$$EXNET_LAYER"
+"$$HCHID"
+"$$HCUID"
+"$$HCTOOLNUMBER"
+$End
+$UserDefinedProperties
+$End
+$PanelData
+$End
+$FootPrintLibrary
+$End
+$Blocks
+$End
+$AssemblyAnalysis
+MaxErrors	100
+$End
+$LayerData
+L1
+I0
+N0
+F0
+C" Layer_Physical_Order=1"
+C" Layer_Color=255"
+C":AMPARAMS|DCode=10|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=270.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=12|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=180.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=15|XSize=60mil|YSize=100mil|CornerRadius=15mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=16|XSize=60mil|YSize=100mil|CornerRadius=7.5mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=17|XSize=59.06mil|YSize=118.11mil|CornerRadius=14.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+A0
+D4
+93 1 0
+21635ab ffea648e N
+2166e6c ffea4d0a N
+216ac55 ffea1d84 N
+2186132 ffea1d84 N
+2187cc7 ffea46ca N
+2187177 ffea6213 N
+2186de5 ffea7d5c N
+21ab2eb ffea7d5c N
+21aaf59 ffea6213 N
+21aa409 ffea46ca N
+21abf9e ffea1d84 N
+2401ce7 ffea1d84 N
+2405ad0 ffea4d0a N
+2409391 ffea648e N
+2409391 ffea962a N
+2405ad0 ffeaadae N
+24012af ffeae4f2 N
+23fdb6b ffeb2cfa N
+23fb8b1 ffeb80ea N
+23facc9 ffebdb02 N
+23facc9 ffecffe6 N
+23fb8b1 ffed59fe N
+23fdb6b ffedadee N
+24012af ffedf5f6 N
+2405ad0 ffee2d3a N
+2409391 ffee44be N
+2409391 ffee765a N
+2405ad0 ffee8dde N
+24012af ffeec522 N
+23fdb6b ffef0d2a N
+23fb8b1 ffef611a N
+23facc9 ffefbb32 N
+23facc9 fff0e016 N
+23fb8b1 fff13a2e N
+23fdb6b fff18e1e N
+24012af fff1d626 N
+2405ad0 fff20d6a N
+2409391 fff224ee N
+2409391 fff2568a N
+2405ad0 fff26e0e N
+24012af fff2a552 N
+23fdb6b fff2ed5a N
+23fb8b1 fff3414a N
+23facc9 fff39b62 N
+23facc9 fff4c046 N
+23fb49f fff4fbb5 N
+23f93e1 fff52103 N
+21a43cb fff52103 N
+21a33d2 fff4f215 N
+21a6274 fff4ce44 N
+21a91ae fff490c0 N
+21aaf59 fff4491d N
+21ab2eb fff42dd4 N
+2186de5 fff42dd4 N
+2187177 fff4491d N
+2188f22 fff490c0 N
+218be5c fff4ce44 N
+218ecfe fff4f215 N
+218dd05 fff52103 N
+2173541 fff52103 N
+2171483 fff4fbb5 N
+2171c5a fff4c046 N
+2171c5a fff39b62 N
+217108b fff3414a N
+216edb8 fff2ed5a N
+216b674 fff2a552 N
+2166e6c fff26e0e N
+21635ab fff2568a N
+21635ab fff224ee N
+2166e6c fff20d6a N
+216b674 fff1d626 N
+216edb8 fff18e1e N
+217108b fff13a2e N
+2171c5a fff0e016 N
+2171c5a ffefbb32 N
+217108b ffef611a N
+216edb8 ffef0d2a N
+216b674 ffeec522 N
+2166e6c ffee8dde N
+21635ab ffee765a N
+21635ab ffee44be N
+2166e6c ffee2d3a N
+216b674 ffedf5f6 N
+216edb8 ffedadee N
+217108b ffed59fe N
+2171c5a ffecffe6 N
+2171c5a ffebdb02 N
+217108b ffeb80ea N
+216edb8 ffeb2cfa N
+216b674 ffeae4f2 N
+2166e6c ffeaadae N
+21635ab ffea962a N
+21635ab ffea648e N
+86 1 0
+2592bca fff9cb69 N
+25dcc76 fff52abd N
+26e7692 fff52abd N
+26e928d fff56e4e N
+26ec9ea fff5b656 N
+26f11f3 fff5ed9a N
+26f65ca fff61054 N
+26fbfe1 fff61c3c N
+2732ec2 fff61c3c N
+27388d9 fff61054 N
+273dcb0 fff5ed9a N
+27424b9 fff5b656 N
+2745c16 fff56e4e N
+2747ed0 fff51a5e N
+2748ab8 fff4c046 N
+2748ab8 fff39b62 N
+2747ed0 fff3414a N
+2745c16 fff2ed5a N
+27424b9 fff2a552 N
+273dcb0 fff26e0e N
+273a3ef fff2568a N
+273a3ef fff224ee N
+273dcb0 fff20d6a N
+27424b9 fff1d626 N
+2745c16 fff18e1e N
+2747ed0 fff13a2e N
+2748ab8 fff0e016 N
+2748ab8 ffefbb32 N
+2747ed0 ffef611a N
+2745c16 ffef0d2a N
+27424b9 ffeec522 N
+273dcb0 ffee8dde N
+273a3ef ffee765a N
+273a3ef ffee44be N
+273dcb0 ffee2d3a N
+27424b9 ffedf5f6 N
+2745c16 ffedadee N
+2747ed0 ffed59fe N
+2748ab8 ffecffe6 N
+2748ab8 ffebdb02 N
+2747ed0 ffeb80ea N
+2745c16 ffeb2cfa N
+27424b9 ffeae4f2 N
+273dcb0 ffeaadae N
+273a3ef ffea962a N
+273a3ef ffea648e N
+273dcb0 ffea4d0a N
+2741a9a ffea1d84 N
+29d8b2b ffea1d84 N
+29dc915 ffea4d0a N
+29e01d6 ffea648e N
+29e01d6 ffea962a N
+29dc915 ffeaadae N
+29d810c ffeae4f2 N
+29d49af ffeb2cfa N
+29d26f5 ffeb80ea N
+29d1b27 ffebdb02 N
+29d1b27 ffecffe6 N
+29d26f5 ffed59fe N
+29d49af ffedadee N
+29d810c ffedf5f6 N
+29dc915 ffee2d3a N
+29e01d6 ffee44be N
+29e01d6 ffee765a N
+29dc915 ffee8dde N
+29d810c ffeec522 N
+29d49af ffef0d2a N
+29d26f5 ffef611a N
+29d1b27 ffefbb32 N
+29d1b27 fff0e016 N
+29d26f5 fff13a2e N
+29d49af fff18e1e N
+29d810c fff1d626 N
+29dc915 fff20d6a N
+29e01d6 fff224ee N
+29e01d6 fff2568a N
+29dc915 fff26e0e N
+29d810c fff2a552 N
+29d49af fff2ed5a N
+29d2dce fff330eb N
+29a0b6c fff330eb N
+299aaaf fff3442b N
+29958a1 fff37b09 N
+292da52 fff9f93f N
+2593ebe fff9f93f N
+2592bca fff9cb69 N
+27 1 0
+1f7aba1 fff60adf N
+1f7daa8 fff5fae6 N
+1f7fe60 fff62988 N
+1f83be4 fff658c2 N
+1f88387 fff6766d N
+1f89ed0 fff679ff N
+1f89ed0 fff5577c N
+1f90208 fff5577c N
+1f90208 fff679ff N
+1f91d51 fff6766d N
+1f9232c fff6740b N
+1f93ec1 fff69d38 N
+1f8e411 fff6f801 N
+1f8ad33 fff749f6 N
+1f899f3 fff7aacc N
+1f899f3 fffcb4a4 N
+1f8aa6c fffd0796 N
+1f87eaa fffd1ee7 N
+1f7e19a fffc81d7 N
+1f806b6 fffc5185 N
+1f82e4c fffbf1c6 N
+1f83be4 fffb8afc N
+1f82e4c fffb2432 N
+1f806b6 fffac473 N
+1f7c782 fffa7232 N
+1f7aba1 fffa5cc4 N
+1f7aba1 fff60adf N
+21 1 0
+2791a4 ffec18d2 N
+2791a4 ffe7fd4d N
+2f8d59 ffe7fd4d N
+2f9d52 ffe82c3b N
+2f6eb0 ffe8500c N
+2f4ca8 ffe87c4d N
+2f1dba ffe86c53 N
+2f1dba ffe849b3 N
+2d3e66 ffe849b3 N
+2d3e66 ffe92218 N
+2d0cca ffe92218 N
+2d0cca ffe953b4 N
+2afbf4 ffe953b4 N
+2afbf4 ffe9d693 N
+2a98bc ffe9d693 N
+2a98bc ffea1547 N
+2a3ed8 ffea1547 N
+29de1b ffea2887 N
+298c0d ffea5f65 N
+27bf7a ffec2bdf N
+2791a4 ffec18d2 N
+119 1 0
+20b3e2d fff72f2c N
+20b6492 fff70fb8 N
+20b9c88 fff71ad5 N
+2114324 fff71ad5 N
+21162b1 fff74121 N
+2115715 fff77b92 N
+2115715 fff7dc68 N
+216bb05 fff7dc68 N
+216bb05 fff77b92 N
+216af69 fff74121 N
+216cedd fff71ad5 N
+23ffa60 fff71ad5 N
+24019d3 fff74121 N
+2400e38 fff77b92 N
+2400e38 fff7dc68 N
+2428e93 fff7dc68 N
+2428e93 fff6810b N
+2421372 fff6810b N
+242007e fff65334 N
+2423776 fff61c3c N
+24477a0 fff61c3c N
+244d19e fff61054 N
+245258e fff5ed9a N
+2456d96 fff5b656 N
+245a4f4 fff56e4e N
+245c7ae fff51a5e N
+245d37c fff4c046 N
+245d37c fff39b62 N
+245c7ae fff3414a N
+245a4f4 fff2ed5a N
+2456d96 fff2a552 N
+245258e fff26e0e N
+244eccd fff2568a N
+244eccd fff224ee N
+245258e fff20d6a N
+2456d96 fff1d626 N
+245a4f4 fff18e1e N
+245c7ae fff13a2e N
+245d37c fff0e016 N
+245d37c ffefbb32 N
+245c7ae ffef611a N
+245a4f4 ffef0d2a N
+2456d96 ffeec522 N
+245258e ffee8dde N
+244eccd ffee765a N
+244eccd ffee44be N
+245258e ffee2d3a N
+2456d96 ffedf5f6 N
+245a4f4 ffedadee N
+245c7ae ffed59fe N
+245d37c ffecffe6 N
+245d37c ffebdb02 N
+245c7ae ffeb80ea N
+245a4f4 ffeb2cfa N
+2456d96 ffeae4f2 N
+245258e ffeaadae N
+244eccd ffea962a N
+244eccd ffea648e N
+245258e ffea4d0a N
+2456378 ffea1d84 N
+26ed409 ffea1d84 N
+26f11f3 ffea4d0a N
+26f4ab3 ffea648e N
+26f4ab3 ffea962a N
+26f11f3 ffeaadae N
+26ec9ea ffeae4f2 N
+26e928d ffeb2cfa N
+26e6fd3 ffeb80ea N
+26e63eb ffebdb02 N
+26e63eb ffecffe6 N
+26e6fd3 ffed59fe N
+26e928d ffedadee N
+26ec9ea ffedf5f6 N
+26f11f3 ffee2d3a N
+26f4ab3 ffee44be N
+26f4ab3 ffee765a N
+26f11f3 ffee8dde N
+26ec9ea ffeec522 N
+26e928d ffef0d2a N
+26e6fd3 ffef611a N
+26e63eb ffefbb32 N
+26e63eb fff0e016 N
+26e6fd3 fff13a2e N
+26e928d fff18e1e N
+26ec9ea fff1d626 N
+26f11f3 fff20d6a N
+26f4ab3 fff224ee N
+26f4ab3 fff2568a N
+26f11f3 fff26e0e N
+26ec9ea fff2a552 N
+26e928d fff2ed5a N
+26e7692 fff330eb N
+25d63b0 fff330eb N
+25d02f3 fff3442b N
+25cb0e5 fff37b09 N
+256f906 fff932cf N
+24571f4 fff932cf N
+2455aa3 fff9070e N
+2455f1a fff90068 N
+2457227 fff8a076 N
+2457227 fff83fa0 N
+2400e38 fff83fa0 N
+2400e38 fff8a076 N
+2402144 fff90068 N
+24025bb fff9070e N
+2400e51 fff932cf N
+216bad2 fff932cf N
+216a367 fff9070e N
+216a7f8 fff90068 N
+216bb05 fff8a076 N
+216bb05 fff83fa0 N
+2115715 fff83fa0 N
+2115715 fff8a076 N
+2116a22 fff90068 N
+2116e99 fff9070e N
+211572f fff932cf N
+20b800e fff932cf N
+20b3e2d fff8f0ee N
+20b3e2d fff72f2c N
+289 1 0
+11e2e6e fffc91b7 N
+11e3874 fffc84b8 N
+11e6070 fffc242e N
+11e6e21 fffbbc98 N
+11e6e21 fff8b4cd N
+11ffe2e fff8b4cd N
+11ffe2e fff71ad5 N
+127af79 fff71ad5 N
+127ceed fff74121 N
+127c351 fff77b92 N
+127c351 fff7dc68 N
+12d2740 fff7dc68 N
+12d2740 fff77b92 N
+12d1ba4 fff74121 N
+12d3b18 fff71ad5 N
+1551080 fff71ad5 N
+155713d fff70795 N
+155c34b fff6d0b7 N
+156b498 fff5df83 N
+156c70c fff5ed9a N
+1571afc fff61054 N
+15774fa fff61c3c N
+15ae3db fff61c3c N
+15b3df3 fff61054 N
+15b91ca fff5ed9a N
+15bd9eb fff5b656 N
+15c112f fff56e4e N
+15c33e9 fff51a5e N
+15c3fd1 fff4c046 N
+15c3fd1 fff39b62 N
+15c33e9 fff3414a N
+15c112f fff2ed5a N
+15bd9eb fff2a552 N
+15b91ca fff26e0e N
+15b5909 fff2568a N
+15b5909 fff224ee N
+15b91ca fff20d6a N
+15bd9eb fff1d626 N
+15c112f fff18e1e N
+15c33e9 fff13a2e N
+15c3fd1 fff0e016 N
+15c3fd1 ffefbb32 N
+15c33e9 ffef611a N
+15c112f ffef0d2a N
+15bd9eb ffeec522 N
+15b91ca ffee8dde N
+15b5909 ffee765a N
+15b5909 ffee44be N
+15b91ca ffee2d3a N
+15bd9eb ffedf5f6 N
+15c112f ffedadee N
+15c33e9 ffed59fe N
+15c3fd1 ffecffe6 N
+15c3fd1 ffebdb02 N
+15c33e9 ffeb80ea N
+15c112f ffeb2cfa N
+15bd9eb ffeae4f2 N
+15b91ca ffeaadae N
+15b5909 ffea962a N
+15b5909 ffea648e N
+15b91ca ffea4d0a N
+15bcfb3 ffea1d84 N
+1854045 ffea1d84 N
+1857e2e ffea4d0a N
+185b6ef ffea648e N
+185b6ef ffea962a N
+1857e2e ffeaadae N
+1853626 ffeae4f2 N
+184fec9 ffeb2cfa N
+184dc0f ffeb80ea N
+184d040 ffebdb02 N
+184d040 ffecffe6 N
+184dc0f ffed59fe N
+184fec9 ffedadee N
+1853626 ffedf5f6 N
+1857e2e ffee2d3a N
+185b6ef ffee44be N
+185b6ef ffee765a N
+1857e2e ffee8dde N
+1853626 ffeec522 N
+184fec9 ffef0d2a N
+184dc0f ffef611a N
+184d040 ffefbb32 N
+184d040 fff0e016 N
+184dc0f fff13a2e N
+184fec9 fff18e1e N
+1853626 fff1d626 N
+1857e2e fff20d6a N
+185b6ef fff224ee N
+185b6ef fff2568a N
+1857e2e fff26e0e N
+1853626 fff2a552 N
+184fec9 fff2ed5a N
+184dc0f fff3414a N
+184d040 fff39b62 N
+184d040 fff4c046 N
+184dc0f fff51a5e N
+184fec9 fff56e4e N
+1853626 fff5b656 N
+1857e2e fff5ed9a N
+185d21f fff61054 N
+1862c1c fff61c3c N
+1899afe fff61c3c N
+189f515 fff61054 N
+18a4905 fff5ed9a N
+18a910e fff5b656 N
+18ac851 fff56e4e N
+18ae44c fff52abd N
+1924d10 fff52abd N
+192adcd fff5177d N
+192ffdb fff4e09f N
+194eff3 fff2f087 N
+19526d1 fff29e79 N
+1953a11 fff23dbc N
+1953a11 ffe927a6 N
+1978e12 ffe6d3a5 N
+1b3e02f ffe6d3a5 N
+1b3f00f ffe702ac N
+1b3ed48 ffe704c2 N
+1b3b604 ffe74cca N
+1b39331 ffe7a0ba N
+1b38762 ffe7fad2 N
+1b38762 ffe91fb6 N
+1b39331 ffe979ce N
+1b3b604 ffe9cdbe N
+1b3ed48 ffea15c6 N
+1b43550 ffea4d0a N
+1b46e11 ffea648e N
+1b46e11 ffea962a N
+1b43550 ffeaadae N
+1b3ed48 ffeae4f2 N
+1b3b604 ffeb2cfa N
+1b39331 ffeb80ea N
+1b38762 ffebdb02 N
+1b38762 ffecffe6 N
+1b39331 ffed59fe N
+1b3b604 ffedadee N
+1b3ed48 ffedf5f6 N
+1b43550 ffee2d3a N
+1b46e11 ffee44be N
+1b46e11 ffee765a N
+1b43550 ffee8dde N
+1b3ed48 ffeec522 N
+1b3b604 ffef0d2a N
+1b39331 ffef611a N
+1b38762 ffefbb32 N
+1b38762 fff0e016 N
+1b39331 fff13a2e N
+1b3b604 fff18e1e N
+1b3ed48 fff1d626 N
+1b43550 fff20d6a N
+1b46e11 fff224ee N
+1b46e11 fff2568a N
+1b43550 fff26e0e N
+1b3ed48 fff2a552 N
+1b3b604 fff2ed5a N
+1b39331 fff3414a N
+1b38762 fff39b62 N
+1b38762 fff4c046 N
+1b39331 fff51a5e N
+1b3b604 fff56e4e N
+1b3ed48 fff5b656 N
+1b43550 fff5ed9a N
+1b48941 fff61054 N
+1b4e33f fff61c3c N
+1b85239 fff61c3c N
+1b8ac37 fff61054 N
+1b90027 fff5ed9a N
+1b94830 fff5b656 N
+1b97f74 fff56e4e N
+1b99b6e fff52abd N
+1ba6a34 fff52abd N
+1bacaf1 fff5177d N
+1bb1cff fff4e09f N
+1be0523 fff1f87b N
+1be3c01 fff1a66d N
+1be4f41 fff145b0 N
+1be4f41 ffe7cc62 N
+1be818e ffe79a15 N
+1e2259d ffe79a15 N
+1e2465b ffe7bf63 N
+1e23e84 ffe7fad2 N
+1e23e84 ffe91fb6 N
+1e24a6c ffe979ce N
+1e26d26 ffe9cdbe N
+1e2a46a ffea15c6 N
+1e2ec73 ffea4d0a N
+1e32533 ffea648e N
+1e32533 ffea962a N
+1e2ec73 ffeaadae N
+1e2a46a ffeae4f2 N
+1e26d26 ffeb2cfa N
+1e24a6c ffeb80ea N
+1e23e84 ffebdb02 N
+1e23e84 ffecffe6 N
+1e24a6c ffed59fe N
+1e26d26 ffedadee N
+1e2a46a ffedf5f6 N
+1e2ec73 ffee2d3a N
+1e32533 ffee44be N
+1e32533 ffee765a N
+1e2ec73 ffee8dde N
+1e2a46a ffeec522 N
+1e26d26 ffef0d2a N
+1e24a6c ffef611a N
+1e23e84 ffefbb32 N
+1e23e84 fff0e016 N
+1e24a6c fff13a2e N
+1e26d26 fff18e1e N
+1e2a46a fff1d626 N
+1e2ec73 fff20d6a N
+1e32533 fff224ee N
+1e32533 fff2568a N
+1e2ec73 fff26e0e N
+1e2a46a fff2a552 N
+1e26d26 fff2ed5a N
+1e24a6c fff3414a N
+1e23e84 fff39b62 N
+1e23e84 fff4c046 N
+1e24a6c fff51a5e N
+1e26d26 fff56e4e N
+1e2a46a fff5b656 N
+1e2ec73 fff5ed9a N
+1e34063 fff61054 N
+1e39a7a fff61c3c N
+1e7095b fff61c3c N
+1e76359 fff61054 N
+1e7b74a fff5ed9a N
+1e7ff52 fff5b656 N
+1e83696 fff56e4e N
+1e85291 fff52abd N
+1eb7160 fff52abd N
+1ebd21d fff5177d N
+1ec242b fff4e09f N
+1ee777b fff28d4f N
+1eeae59 fff23b5a N
+1eec199 fff1da84 N
+1eec199 ffeb79f8 N
+1eedd7a ffeb648a N
+1eef419 ffeb472c N
+1ef25b5 ffeb472c N
+1ef626e ffeb9626 N
+1efb4af ffebd540 N
+1f0146e ffebfcf0 N
+1f07b38 ffec0a88 N
+1f0e202 ffebfcf0 N
+1f141c1 ffebd540 N
+1f19402 ffeb9626 N
+1f1d31c ffeb43e5 N
+1f1dd22 ffeb2be3 N
+1f20dc0 ffeb2243 N
+1f2e22d ffebf697 N
+1f3343b ffec2d75 N
+1f394f8 ffec40b5 N
+1f5d522 ffec40b5 N
+1f5e385 ffec7022 N
+1f5ca51 ffec8119 N
+1f49d7c ffedadd5 N
+1f466b8 ffedffe2 N
+1f4535f ffee609f N
+1f4535f fffa0312 N
+1f42a32 fffa1e8e N
+1f3fbc2 fffa0b68 N
+1f394f8 fff9fdd0 N
+1f35beb fffa055a N
+1f3369d fff9e49c N
+1f3369d fff36072 N
+1f3841a fff324ea N
+1f3c334 fff2d2a9 N
+1f3eae4 fff272ea N
+1f3f87c fff20c20 N
+1f3eae4 fff1a556 N
+1f3c334 fff14597 N
+1f3841a fff0f356 N
+1f331d9 fff0b422 N
+1f2d21a fff08c8c N
+1f26b50 fff07ef4 N
+1f20486 fff08c8c N
+1f1a4c7 fff0b422 N
+1f15286 fff0f356 N
+1f11352 fff14597 N
+1f0ebbc fff1a556 N
+1f0de24 fff20c20 N
+1f0ebbc fff272ea N
+1f11352 fff2d2a9 N
+1f13ccb fff308a3 N
+1f13ccb fffcbe44 N
+11e4475 fffcbe44 N
+11e2e6e fffc91b7 N
+87 1 0
+e8d91 fff0cf52 N
+ebb67 fff0bc5e N
+eff91 fff1006f N
+f1dee fff114c6 N
+f22e4 fff13a2e N
+f459e fff18e1e N
+f7cfb fff1d626 N
+fc503 fff20d6a N
+ffdc4 fff224ee N
+ffdc4 fff2568a N
+fc503 fff26e0e N
+f7cfb fff2a552 N
+f459e fff2ed5a N
+f22e4 fff3414a N
+f1715 fff39b62 N
+f1715 fff4c046 N
+f22e4 fff51a5e N
+f459e fff56e4e N
+f7cfb fff5b656 N
+fc503 fff5ed9a N
+1018da fff61054 N
+1072f1 fff61c3c N
+13e1d3 fff61c3c N
+143bea fff61054 N
+148fc1 fff5ed9a N
+14d7e3 fff5b656 N
+150f26 fff56e4e N
+1531e0 fff51a5e N
+153dc8 fff4c046 N
+153dc8 fff39b62 N
+1531e0 fff3414a N
+150f26 fff2ed5a N
+14d7e3 fff2a552 N
+148fc1 fff26e0e N
+145700 fff2568a N
+145700 fff224ee N
+148fc1 fff20d6a N
+14d7e3 fff1d626 N
+150f26 fff18e1e N
+1531e0 fff13a2e N
+153dc8 fff0e016 N
+153dc8 ffefbb32 N
+1531e0 ffef611a N
+150f26 ffef0d2a N
+14d7e3 ffeec522 N
+148fc1 ffee8dde N
+145700 ffee765a N
+145700 ffee44be N
+148fc1 ffee2d3a N
+14cbc8 ffedff31 N
+22a96e ffedff31 N
+22a96e fff3324f N
+21244b fff3324f N
+2104d8 fff30c03 N
+210fdb fff2d48c N
+210fdb fff1af8e N
+20fc9b fff14f1d N
+20c609 fff0fd42 N
+2092a4 fff0db07 N
+2092a4 fff061e2 N
+209f25 fff04f21 N
+20aaa7 fff01562 N
+20aaa7 ffefb48c N
+1dbb91 ffefb48c N
+1dbb91 fff01562 N
+1dc713 fff04f21 N
+1dd394 fff061e2 N
+1dd394 fff0db07 N
+1da02f fff0fd42 N
+1d699d fff14f1d N
+1d565d fff1af8e N
+1d565d fff2d48c N
+1d699d fff334fd N
+1da02f fff386be N
+1da2c3 fff38888 N
+1da2c3 fff3ca9c N
+1db074 fff43232 N
+1dd870 fff492bc N
+1e180a fff4e5ae N
+1e9ae8 fff56873 N
+1e9ae8 fffa2fb8 N
+1ea880 fffa974e N
+1ed07c fffaf7d8 N
+1ebb41 fffb22e7 N
+e8e42 fffb22e7 N
+e8d91 fffb2236 N
+e8d91 fff0cf52 N
+81 1 0
+2f5eb21 ffea1eb4 N
+2f60702 ffea0946 N
+2f6461c ffe9b705 N
+2f66dcc ffe95746 N
+2f67b64 ffe8f07c N
+2f66dcc ffe889b2 N
+2f6461c ffe829f3 N
+2f6338f ffe811a4 N
+2f66a3a ffe7e792 N
+2f6a96e ffe79551 N
+2f6d085 ffe736dd N
+2fa946e ffe736dd N
+2fab004 ffe76023 N
+2fa953a ffe7a0ba N
+2fa896b ffe7fad2 N
+2fa896b ffe91fb6 N
+2fa953a ffe979ce N
+2fab80d ffe9cdbe N
+2faef51 ffea15c6 N
+2fb3759 ffea4d0a N
+2fb701a ffea648e N
+2fb701a ffea962a N
+2fb3759 ffeaadae N
+2faef51 ffeae4f2 N
+2fab80d ffeb2cfa N
+2fa953a ffeb80ea N
+2fa896b ffebdb02 N
+2fa896b ffecffe6 N
+2fa953a ffed59fe N
+2fab80d ffedadee N
+2faef51 ffedf5f6 N
+2fb3759 ffee2d3a N
+2fb701a ffee44be N
+2fb701a ffee765a N
+2fb3759 ffee8dde N
+2faef51 ffeec522 N
+2fab80d ffef0d2a N
+2fa953a ffef611a N
+2fa896b ffefbb32 N
+2fa896b fff0e016 N
+2fa953a fff13a2e N
+2fab80d fff18e1e N
+2faef51 fff1d626 N
+2fb3759 fff20d6a N
+2fb701a fff224ee N
+2fb701a fff2568a N
+2fb3759 fff26e0e N
+2faef51 fff2a552 N
+2fab80d fff2ed5a N
+2fa9c12 fff330eb N
+2f8bb5b fff330eb N
+2f8ab62 fff301fd N
+2f8da04 fff2de2c N
+2f9093e fff2a0a8 N
+2f926e9 fff25905 N
+2f92a7b fff23dbc N
+2f807f8 fff23dbc N
+2f807f8 fff20c20 N
+2f7d65c fff20c20 N
+2f7d65c fff0e99d N
+2f7bb13 fff0ed2f N
+2f77370 fff10ada N
+2f735ec fff13a14 N
+2f706b2 fff17798 N
+2f6e907 fff1bf3b N
+2f6e196 fff1f7b0 N
+2f6b2a8 fff207a9 N
+2f5eb21 fff14022 N
+2f5eb21 ffebc593 N
+2f61a0f ffebb5b3 N
+2f63de0 ffebe43c N
+2f67b64 ffec1376 N
+2f6c307 ffec3121 N
+2f6de50 ffec34b3 N
+2f6de50 ffe9efad N
+2f6c307 ffe9f33f N
+2f67b64 ffea10ea N
+2f63de0 ffea4024 N
+2f61a0f ffea6ec6 N
+2f5eb21 ffea5ecd N
+2f5eb21 ffea1eb4 N
+86 1 0
+2950d16 fffa91d9 N
+29a7432 fff52abd N
+29d2dce fff52abd N
+29d49af fff56e4e N
+29d810c fff5b656 N
+29dc915 fff5ed9a N
+29e1cec fff61054 N
+29e7703 fff61c3c N
+2a1e5e4 fff61c3c N
+2a23ffb fff61054 N
+2a293d2 fff5ed9a N
+2a2dbf4 fff5b656 N
+2a31338 fff56e4e N
+2a335f2 fff51a5e N
+2a341da fff4c046 N
+2a341da fff39b62 N
+2a335f2 fff3414a N
+2a31338 fff2ed5a N
+2a2dbf4 fff2a552 N
+2a293d2 fff26e0e N
+2a25b12 fff2568a N
+2a25b12 fff224ee N
+2a293d2 fff20d6a N
+2a2dbf4 fff1d626 N
+2a31338 fff18e1e N
+2a335f2 fff13a2e N
+2a341da fff0e016 N
+2a341da ffefbb32 N
+2a335f2 ffef611a N
+2a31338 ffef0d2a N
+2a2dbf4 ffeec522 N
+2a293d2 ffee8dde N
+2a25b12 ffee765a N
+2a25b12 ffee44be N
+2a293d2 ffee2d3a N
+2a2dbf4 ffedf5f6 N
+2a31338 ffedadee N
+2a335f2 ffed59fe N
+2a341da ffecffe6 N
+2a341da ffebdb02 N
+2a335f2 ffeb80ea N
+2a31338 ffeb2cfa N
+2a2dbf4 ffeae4f2 N
+2a293d2 ffeaadae N
+2a25b12 ffea962a N
+2a25b12 ffea648e N
+2a293d2 ffea4d0a N
+2a2d1bc ffea1d84 N
+2cc424d ffea1d84 N
+2cc8037 ffea4d0a N
+2ccb8f8 ffea648e N
+2ccb8f8 ffea962a N
+2cc8037 ffeaadae N
+2cc382f ffeae4f2 N
+2cc00eb ffeb2cfa N
+2cbde17 ffeb80ea N
+2cbd249 ffebdb02 N
+2cbd249 ffecffe6 N
+2cbde17 ffed59fe N
+2cc00eb ffedadee N
+2cc382f ffedf5f6 N
+2cc8037 ffee2d3a N
+2ccb8f8 ffee44be N
+2ccb8f8 ffee765a N
+2cc8037 ffee8dde N
+2cc382f ffeec522 N
+2cc00eb ffef0d2a N
+2cbde17 ffef611a N
+2cbd249 ffefbb32 N
+2cbd249 fff0e016 N
+2cbde17 fff13a2e N
+2cc00eb fff18e1e N
+2cc382f fff1d626 N
+2cc8037 fff20d6a N
+2ccb8f8 fff224ee N
+2ccb8f8 fff2568a N
+2cc8037 fff26e0e N
+2cc382f fff2a552 N
+2cc00eb fff2ed5a N
+2cbe4f0 fff330eb N
+2c7f8d8 fff330eb N
+2c79802 fff3442b N
+2c7460d fff37b09 N
+2c0014e fffabfaf N
+295200a fffabfaf N
+2950d16 fffa91d9 N
+18 1 0
+2f80f2 ffea38b3 N
+2fac34 ffea235e N
+2ff3d7 ffea4109 N
+300f20 ffea449b N
+300f20 ffe92218 N
+307258 ffe92218 N
+307258 ffea449b N
+308da1 ffea4109 N
+30d544 ffea235e N
+30d5dc ffea22f9 N
+31024f ffea38e6 N
+31024f fff0dde8 N
+30e66e fff0f356 N
+30a73a fff14597 N
+307fa4 fff1a556 N
+307931 fff1d5a7 N
+2f80f2 fff1d5a7 N
+2f80f2 ffea38b3 N
+99 1 0
+f4c404 ffea2b1b N
+f4d19b ffea1d84 N
+f91ade ffea1d84 N
+f958c8 ffea4d0a N
+f99188 ffea648e N
+f99188 ffea962a N
+f958c8 ffeaadae N
+f910a6 ffeae4f2 N
+f8d962 ffeb2cfa N
+f8b6a8 ffeb80ea N
+f8aac0 ffebdb02 N
+f8aac0 ffecffe6 N
+f8b6a8 ffed59fe N
+f8d962 ffedadee N
+f910a6 ffedf5f6 N
+f958c8 ffee2d3a N
+f99188 ffee44be N
+f99188 ffee765a N
+f958c8 ffee8dde N
+f910a6 ffeec522 N
+f8d962 ffef0d2a N
+f8b6a8 ffef611a N
+f8aac0 ffefbb32 N
+f8aac0 fff0e016 N
+f8b6a8 fff13a2e N
+f8d962 fff18e1e N
+f910a6 fff1d626 N
+f958c8 fff20d6a N
+f99188 fff224ee N
+f99188 fff2568a N
+f958c8 fff26e0e N
+f910a6 fff2a552 N
+f8d962 fff2ed5a N
+f8b6a8 fff3414a N
+f8aac0 fff39b62 N
+f8aac0 fff4c046 N
+f8b6a8 fff51a5e N
+f8d962 fff56e4e N
+f910a6 fff5b656 N
+f958c8 fff5ed9a N
+f9ac9f fff61054 N
+fa06b6 fff61c3c N
+fd7597 fff61c3c N
+fdcfae fff61054 N
+fe2385 fff5ed9a N
+fe6b8e fff5b656 N
+fea2eb fff56e4e N
+febecc fff52abd N
+1002f98 fff52abd N
+1009055 fff5177d N
+100e263 fff4e09f N
+1017737 fff44bcb N
+101ae15 fff3f9bd N
+101c155 fff39900 N
+101c155 ffe6ae0a N
+102253e ffe64a20 N
+116e1a5 ffe64a20 N
+1179d77 ffe705f2 N
+1179d77 ffe91023 N
+115cc6e ffe91023 N
+115cc6e ffe9e888 N
+1159ad2 ffe9e888 N
+1159ad2 ffea1a24 N
+11389e2 ffea1a24 N
+11389e2 ffea9d03 N
+11326aa ffea9d03 N
+11326aa ffeadbb7 N
+112987c ffeadbb7 N
+11237a6 ffeaeef7 N
+111e5b1 ffeb25d5 N
+11150dd ffebbaa9 N
+11119ff ffec0c9e N
+11106bf ffec6d74 N
+11106bf ffec9a80 N
+110eade ffecafee N
+110abc4 ffed022f N
+1107b0c ffecee0a N
+110878d ffecd229 N
+110930f ffec986a N
+110930f ffec3794 N
+10da3f9 ffec3794 N
+10da3f9 ffec986a N
+10daf7b ffecd229 N
+10dbbfc ffece4ea N
+10dbbfc ffed5e0f N
+10d8897 ffed804a N
+10d5205 ffedd225 N
+10d3ec5 ffee3296 N
+10d3ec5 ffef5794 N
+10d5205 ffefb805 N
+10d8897 fff009c6 N
+10dda72 fff04072 N
+10e3ae2 fff053b1 N
+10e70dc fff053b1 N
+10e7bdf fff05e9b N
+10e7bdf fffa2c58 N
+f5666f fffa2c58 N
+f4c404 fff989ed N
+f4c404 ffea2b1b N
+688 1 0
+11dbabe ffe2977b N
+11dcdb1 ffe269a4 N
+2192f92 ffe269a4 N
+219394b ffe29a5b N
+218fbe0 ffe2b3c2 N
+218be5c ffe2e2fc N
+2188f22 ffe32080 N
+2187177 ffe36823 N
+2186de5 ffe3836c N
+21ab2eb ffe3836c N
+21aaf59 ffe36823 N
+21a91ae ffe32080 N
+21a6274 ffe2e2fc N
+21a24f0 ffe2b3c2 N
+219e785 ffe29a5b N
+219f13e ffe269a4 N
+39298ce ffe269a4 N
+39298ce ffff11e0 N
+308fdaf ffff11e0 N
+308eabb fffee409 N
+309ff0e fffdcfb6 N
+30a3ea8 fffd7cc4 N
+30a66a4 fffd1c3a N
+30a743c fffcb4a4 N
+30a743c fffa92f0 N
+30a66a4 fffa2b5a N
+30a3ea8 fff9cad0 N
+309ff0e fff977de N
+309ac1c fff93844 N
+3094b92 fff91048 N
+308e3fc fff902b0 N
+3087c66 fff91048 N
+3081bdc fff93844 N
+307c8ea fff977de N
+3078950 fff9cad0 N
+3076154 fffa2b5a N
+30753bc fffa92f0 N
+30753bc fffc0ed9 N
+306b151 fffcb12b N
+2eff557 fffcb12b N
+2efa872 fffc6446 N
+2efa859 fffc6446 N
+2ef0737 fffbc30b N
+2ef0737 fff7bcc1 N
+2efeb06 fff7bcc1 N
+2efeb06 ffedcd95 N
+2f1d478 ffedcd95 N
+2f23535 ffedba55 N
+2f28743 ffed8377 N
+2f37f4f ffec8b6b N
+2f3b62d ffec395d N
+2f3bfe6 ffec0840 N
+2f3f14f ffec0d1d N
+2f3f14f fff1a8e8 N
+2f4048f fff209be N
+2f43b6d fff25bb3 N
+2f6c059 fff4e09f N
+2f71267 fff5177d N
+2f77324 fff52abd N
+2fa9c12 fff52abd N
+2fab80d fff56e4e N
+2faef51 fff5b656 N
+2fb3759 fff5ed9a N
+2fb8b4a fff61054 N
+2fbe547 fff61c3c N
+2ff5442 fff61c3c N
+2ffae40 fff61054 N
+3000230 fff5ed9a N
+3004a39 fff5b656 N
+300817c fff56e4e N
+300a436 fff51a5e N
+300b01e fff4c046 N
+300b01e fff39b62 N
+300a436 fff3414a N
+300817c fff2ed5a N
+3004a39 fff2a552 N
+3000230 fff26e0e N
+2ffc96f fff2568a N
+2ffc96f fff224ee N
+3000230 fff20d6a N
+3004a39 fff1d626 N
+300817c fff18e1e N
+300a436 fff13a2e N
+300b01e fff0e016 N
+300b01e ffefbb32 N
+300a436 ffef611a N
+300817c ffef0d2a N
+3004a39 ffeec522 N
+3000230 ffee8dde N
+2ffc96f ffee765a N
+2ffc96f ffee44be N
+3000230 ffee2d3a N
+3004a39 ffedf5f6 N
+300817c ffedadee N
+300a436 ffed59fe N
+300b01e ffecffe6 N
+300b01e ffebdb02 N
+300a436 ffeb80ea N
+300817c ffeb2cfa N
+3004a39 ffeae4f2 N
+3000230 ffeaadae N
+2ffc96f ffea962a N
+2ffc96f ffea648e N
+2fffd07 ffea4f20 N
+30753bc ffea4f20 N
+30753bc fff23dbc N
+3076154 fff2a552 N
+3078950 fff305dc N
+307c8ea fff358ce N
+3081bdc fff39868 N
+3087c66 fff3c064 N
+308e3fc fff3cdfc N
+3094b92 fff3c064 N
+309ac1c fff39868 N
+309ff0e fff358ce N
+30a3ea8 fff305dc N
+30a66a4 fff2a552 N
+30a743c fff23dbc N
+30a743c ffe953b4 N
+30a66a4 ffe8ec1e N
+30a3ea8 ffe88b94 N
+309ff0e ffe838a2 N
+3096a3a ffe7a3ce N
+3091977 ffe765e4 N
+309262a ffe74063 N
+3092a22 ffe736dd N
+32307b2 ffe736dd N
+3236b9b ffe79ac6 N
+3236b9b fff2a0f4 N
+3237edb fff301b1 N
+323b5b9 fff353bf N
+3260909 fff5a70f N
+3265b17 fff5dded N
+326bbd4 fff5f12d N
+329f71d fff5f12d N
+32a426c fff61054 N
+32a9c6a fff61c3c N
+32e0b64 fff61c3c N
+32e6562 fff61054 N
+32eb952 fff5ed9a N
+32f015b fff5b656 N
+32f389f fff56e4e N
+32f5b72 fff51a5e N
+32f6741 fff4c046 N
+32f6741 fff39b62 N
+32f5b72 fff3414a N
+32f389f fff2ed5a N
+32f015b fff2a552 N
+32eb952 fff26e0e N
+32e8092 fff2568a N
+32e8092 fff224ee N
+32eb952 fff20d6a N
+32f015b fff1d626 N
+32f389f fff18e1e N
+32f5b72 fff13a2e N
+32f6741 fff0e016 N
+32f6741 ffefbb32 N
+32f5b72 ffef611a N
+32f389f ffef0d2a N
+32f015b ffeec522 N
+32eb952 ffee8dde N
+32e8092 ffee765a N
+32e8092 ffee44be N
+32eb952 ffee2d3a N
+32f015b ffedf5f6 N
+32f389f ffedadee N
+32f5b72 ffed59fe N
+32f6741 ffecffe6 N
+32f6741 ffebdb02 N
+32f5b72 ffeb80ea N
+32f389f ffeb2cfa N
+32f015b ffeae4f2 N
+32eb952 ffeaadae N
+32e8092 ffea962a N
+32e8092 ffea648e N
+32eb952 ffea4d0a N
+32f015b ffea15c6 N
+32f389f ffe9cdbe N
+32f5b72 ffe979ce N
+32f6741 ffe91fb6 N
+32f6741 ffe7fad2 N
+32f5b72 ffe7a0ba N
+32f389f ffe74cca N
+32f015b ffe704c2 N
+32eb952 ffe6cd7e N
+32e6562 ffe6aac4 N
+32e2282 ffe6a1ef N
+32e25af ffe6706d N
+34dbad2 ffe6706d N
+3502f5f ffe8e4fa N
+3502f5f fff3fc38 N
+350429f fff45d0e N
+350797d fff4af03 N
+352cccd fff70253 N
+3531edb fff73931 N
+3537f98 fff74c71 N
+3583b5a fff74c71 N
+3585ace fff772d6 N
+358591e fff77b92 N
+358591e fff7dc68 N
+35dbd0d fff7dc68 N
+35dbd0d fff77b92 N
+35dbb44 fff772d6 N
+35ddad1 fff74c71 N
+3680a30 fff74c71 N
+3686aed fff73931 N
+368bcfb fff70253 N
+36a94aa fff52abd N
+386c179 fff52abd N
+386dd74 fff56e4e N
+38714b7 fff5b656 N
+3875cd9 fff5ed9a N
+387b0b0 fff61054 N
+3880ac7 fff61c3c N
+38b79a9 fff61c3c N
+38bd3c0 fff61054 N
+38c2797 fff5ed9a N
+38c6fb9 fff5b656 N
+38ca6fc fff56e4e N
+38cc9b6 fff51a5e N
+38cd585 fff4c046 N
+38cd585 fff39b62 N
+38cc9b6 fff3414a N
+38ca6fc fff2ed5a N
+38c6fb9 fff2a552 N
+38c2797 fff26e0e N
+38beed6 fff2568a N
+38beed6 fff224ee N
+38c2797 fff20d6a N
+38c6fb9 fff1d626 N
+38ca6fc fff18e1e N
+38cc9b6 fff13a2e N
+38cd585 fff0e016 N
+38cd585 ffefbb32 N
+38cc9b6 ffef611a N
+38ca6fc ffef0d2a N
+38c6fb9 ffeec522 N
+38c2797 ffee8dde N
+38beed6 ffee765a N
+38beed6 ffee44be N
+38c2797 ffee2d3a N
+38c6fb9 ffedf5f6 N
+38ca6fc ffedadee N
+38cc9b6 ffed59fe N
+38cd585 ffecffe6 N
+38cd585 ffebdb02 N
+38cc9b6 ffeb80ea N
+38ca6fc ffeb2cfa N
+38c6fb9 ffeae4f2 N
+38c2797 ffeaadae N
+38beed6 ffea962a N
+38beed6 ffea648e N
+38c2797 ffea4d0a N
+38c6fb9 ffea15c6 N
+38ca6fc ffe9cdbe N
+38cc9b6 ffe979ce N
+38cd585 ffe91fb6 N
+38cd585 ffe7fad2 N
+38cc9b6 ffe7a0ba N
+38ca6fc ffe74cca N
+38c6fb9 ffe704c2 N
+38c2797 ffe6cd7e N
+38bd3c0 ffe6aac4 N
+38b79a9 ffe69edc N
+3880ac7 ffe69edc N
+387b0b0 ffe6aac4 N
+3875cd9 ffe6cd7e N
+3871ef0 ffe6fd04 N
+35dae5e ffe6fd04 N
+35d7075 ffe6cd7e N
+35d1c84 ffe6aac4 N
+35cc286 ffe69edc N
+35953a5 ffe69edc N
+358f98e ffe6aac4 N
+358a59e ffe6cd7e N
+3585d95 ffe704c2 N
+3582651 ffe74cca N
+3580397 ffe7a0ba N
+357f7af ffe7fad2 N
+357f7af ffe91fb6 N
+3580397 ffe979ce N
+3582651 ffe9cdbe N
+3585d95 ffea15c6 N
+358a59e ffea4d0a N
+358de78 ffea648e N
+358de78 ffea962a N
+358a59e ffeaadae N
+3585d95 ffeae4f2 N
+3582651 ffeb2cfa N
+3580397 ffeb80ea N
+357f7af ffebdb02 N
+357f7af ffecffe6 N
+3580397 ffed59fe N
+3582651 ffedadee N
+3585d95 ffedf5f6 N
+358a59e ffee2d3a N
+358de78 ffee44be N
+358de78 ffee765a N
+358a59e ffee8dde N
+3585d95 ffeec522 N
+3582651 ffef0d2a N
+3580397 ffef611a N
+357f7af ffefbb32 N
+357f7af fff0e016 N
+3580397 fff13a2e N
+3582651 fff18e1e N
+3585d95 fff1d626 N
+358a59e fff20d6a N
+358de78 fff224ee N
+358de78 fff2568a N
+358a59e fff26e0e N
+3585d95 fff2a552 N
+3582651 fff2ed5a N
+3580a57 fff330eb N
+353e85e fff330eb N
+352efa1 fff2382e N
+352efa1 ffe82a0c N
+352dc61 ffe7c936 N
+352a583 ffe77741 N
+34f288b ffe3fa49 N
+34ed67d ffe3c36b N
+34e75c0 ffe3b02b N
+2f32fbc ffe3b02b N
+2f2ceff ffe3c36b N
+2f27cf1 ffe3fa49 N
+2f15349 ffe523f1 N
+2f11c6b ffe575e6 N
+2f1092b ffe5d6bc N
+2f1092b ffe8eaee N
+2f03d60 ffe9b6b9 N
+2efeb06 ffe9b6b9 N
+2efeb06 ffe7b4df N
+2eee973 ffe7b4df N
+2eed993 ffe785d7 N
+2eedb76 ffe7845a N
+2ef1aaa ffe73219 N
+2ef4240 ffe6d25a N
+2ef4fd8 ffe66b90 N
+2ef4240 ffe604c6 N
+2ef1aaa ffe5a507 N
+2eedb76 ffe552c6 N
+2ee8935 ffe51392 N
+2ee2976 ffe4ebfc N
+2edc2ac ffe4de64 N
+2ed5be2 ffe4ebfc N
+2ecfc23 ffe51392 N
+2eca9e2 ffe552c6 N
+2ec90c8 ffe5736b N
+2ec395e ffe54f34 N
+2ebd294 ffe5419c N
+2eb6bca ffe54f34 N
+2eb0c0b ffe576ca N
+2eab9ca ffe5b5fe N
+2eaa45c ffe5d1df N
+2ea7750 ffe5d1df N
+2ea1693 ffe5e51f N
+2e9c485 ffe61bfd N
+2e92fb1 ffe6b0d1 N
+2e8f8d3 ffe702c6 N
+2e8e593 ffe7639c N
+2e8e593 ffe9e3ab N
+2e7fbd1 ffe9e3ab N
+2e7fbd1 ffe9a4f7 N
+2e79899 ffe9a4f7 N
+2e79899 ffe92218 N
+2e587aa ffe92218 N
+2e587aa ffe8f07c N
+2e5560e ffe8f07c N
+2e5560e ffe81817 N
+2e376ba ffe81817 N
+2e35a0e ffe821d0 N
+2e35760 ffe81e70 N
+2e319dc ffe7ef36 N
+2e2d239 ffe7d18b N
+2e2b6f0 ffe7cdf9 N
+2e2b6f0 ffea12ff N
+2e2d239 ffea0f6d N
+2e2ea3c ffea0581 N
+2e31382 ffea20fd N
+2e31382 ffed306b N
+2e07693 ffed306b N
+2e06994 ffed1d12 N
+2e03648 ffecfad7 N
+2e03648 ffec81b2 N
+2e042c9 ffec6ef1 N
+2e04e4b ffec3532 N
+2e04e4b ffebd45c N
+2dd5f35 ffebd45c N
+2dd5f35 ffec3532 N
+2dd6ab7 ffec6ef1 N
+2dd7738 ffec81b2 N
+2dd7738 ffecfad7 N
+2dd43ec ffed1d12 N
+2dd0d41 ffed6eed N
+2dcfa01 ffedcf5e N
+2dcfa01 ffeef45c N
+2dd0d41 ffef54cd N
+2dd43ec ffefa68e N
+2dd4667 ffefa858 N
+2dd4667 fff20c20 N
+2dd5418 fff273b6 N
+2dd7c14 fff2d440 N
+2ddbbae fff32732 N
+2de0ea0 fff366cc N
+2de6f2a fff38ec8 N
+2ded6c0 fff39c60 N
+2df3e56 fff38ec8 N
+2df9ee0 fff366cc N
+2dff1d2 fff32732 N
+2e0316c fff2d440 N
+2e05968 fff273b6 N
+2e06719 fff20c20 N
+2e06719 fff05104 N
+2e31382 fff05104 N
+2e31382 fff3dc91 N
+2e376ba fff3dc91 N
+2e376ba fff45f70 N
+2e587aa fff45f70 N
+2e587aa fff4c2a8 N
+2e376ba fff4c2a8 N
+2e376ba fff54587 N
+2e31382 fff54587 N
+2e31382 fff7bcc1 N
+2e7fbd1 fff7bcc1 N
+2e7fbd1 fff54587 N
+2e79899 fff54587 N
+2e79899 fff4a9c1 N
+2e7c1c6 fff48e2b N
+2e8206e fff4b55c N
+2e88738 fff4c2f4 N
+2e8c045 fff4bb6a N
+2e8e593 fff4dc28 N
+2e8e593 fff9a666 N
+2e6d43e fffbb7bb N
+2c2156a fffbb7bb N
+2c20276 fffb89e5 N
+2c8619e fff52abd N
+2cbe4f0 fff52abd N
+2cc00eb fff56e4e N
+2cc382f fff5b656 N
+2cc8037 fff5ed9a N
+2ccd427 fff61054 N
+2cd2e25 fff61c3c N
+2d09d06 fff61c3c N
+2d0f71e fff61054 N
+2d14b0e fff5ed9a N
+2d19316 fff5b656 N
+2d1ca5a fff56e4e N
+2d1ed14 fff51a5e N
+2d1f8fc fff4c046 N
+2d1f8fc fff39b62 N
+2d1ed14 fff3414a N
+2d1ca5a fff2ed5a N
+2d19316 fff2a552 N
+2d14b0e fff26e0e N
+2d11234 fff2568a N
+2d11234 fff224ee N
+2d14b0e fff20d6a N
+2d19316 fff1d626 N
+2d1ca5a fff18e1e N
+2d1ed14 fff13a2e N
+2d1f8fc fff0e016 N
+2d1f8fc ffefbb32 N
+2d1ed14 ffef611a N
+2d1ca5a ffef0d2a N
+2d19316 ffeec522 N
+2d14b0e ffee8dde N
+2d11234 ffee765a N
+2d11234 ffee44be N
+2d14b0e ffee2d3a N
+2d19316 ffedf5f6 N
+2d1ca5a ffedadee N
+2d1ed14 ffed59fe N
+2d1f8fc ffecffe6 N
+2d1f8fc ffebdb02 N
+2d1ed14 ffeb80ea N
+2d1ca5a ffeb2cfa N
+2d19316 ffeae4f2 N
+2d14b0e ffeaadae N
+2d11234 ffea962a N
+2d11234 ffea648e N
+2d14b0e ffea4d0a N
+2d188de ffea1d84 N
+2d5546b ffea1d84 N
+2d5546b fff1da84 N
+2d55c8e fff21821 N
+2d55798 fff23dbc N
+2d56530 fff2a486 N
+2d58ce0 fff30445 N
+2d5cbfa fff35686 N
+2d61e3b fff395a0 N
+2d67dfa fff3bd50 N
+2d6e4c4 fff3cae8 N
+2d74b8e fff3bd50 N
+2d7ab4d fff395a0 N
+2d7fd8e fff35686 N
+2d83cc2 fff30445 N
+2d86458 fff2a486 N
+2d871f0 fff23dbc N
+2d86cfa fff21821 N
+2d8751d fff1da84 N
+2d8751d ffe8bee0 N
+2d8676c ffe8574a N
+2d83f70 ffe7f6c0 N
+2d7ffd6 ffe7a3ce N
+2d7ce3a ffe77232 N
+2d77b48 ffe73298 N
+2d71abe ffe70a9c N
+2d6b328 ffe6fd04 N
+2d188de ffe6fd04 N
+2d14b0e ffe6cd7e N
+2d0f71e ffe6aac4 N
+2d09d06 ffe69edc N
+2cd2e25 ffe69edc N
+2ccd427 ffe6aac4 N
+2cc8037 ffe6cd7e N
+2cc424d ffe6fd04 N
+2a2d1bc ffe6fd04 N
+2a293d2 ffe6cd7e N
+2a23ffb ffe6aac4 N
+2a1e5e4 ffe69edc N
+29e7703 ffe69edc N
+29e1cec ffe6aac4 N
+29dc915 ffe6cd7e N
+29d8b2b ffe6fd04 N
+2741a9a ffe6fd04 N
+273dcb0 ffe6cd7e N
+27388d9 ffe6aac4 N
+2732ec2 ffe69edc N
+26fbfe1 ffe69edc N
+26f65ca ffe6aac4 N
+26f11f3 ffe6cd7e N
+26ed409 ffe6fd04 N
+2456378 ffe6fd04 N
+245258e ffe6cd7e N
+244d19e ffe6aac4 N
+24477a0 ffe69edc N
+24108bf ffe69edc N
+240aea7 ffe6aac4 N
+2405ad0 ffe6cd7e N
+2401ce7 ffe6fd04 N
+216ac55 ffe6fd04 N
+2166e6c ffe6cd7e N
+2161a7b ffe6aac4 N
+215c07e ffe69edc N
+212519c ffe69edc N
+211f785 ffe6aac4 N
+211a395 ffe6cd7e N
+21165c5 ffe6fd04 N
+210541f ffe6fd04 N
+20f0aea ffe5b3b6 N
+20eb7f8 ffe5741c N
+20e576e ffe54c20 N
+20defd8 ffe53e88 N
+202b0b7 ffe53e88 N
+2024908 ffe54c20 N
+201e897 ffe5741c N
+20195a5 ffe5b3b6 N
+1ffd677 ffe772e4 N
+1ff96dd ffe7c5d6 N
+1ff6ee1 ffe82660 N
+1ff6130 ffe88df6 N
+1ff6130 ffed93bc N
+1fe7885 ffed93bc N
+1fe7885 ffea082f N
+1fe1534 ffea082f N
+1fe1534 ffe98550 N
+1f9f36e ffe98550 N
+1f9f36e ffea082f N
+1f99036 ffea082f N
+1f99036 ffea46e3 N
+1f3fdbe ffea46e3 N
+1eedab3 ffe523f1 N
+1ee88a5 ffe4ed13 N
+1ee27e8 ffe4d9d3 N
+197254c ffe4d9d3 N
+196c476 ffe4ed13 N
+1967281 ffe523f1 N
+1938a5d ffe80c15 N
+193537f ffe85e23 N
+193403f ffe8bee0 N
+193403f fff1d4f6 N
+191e44a fff330eb N
+18ae44c fff330eb N
+18ac851 fff2ed5a N
+18a910e fff2a552 N
+18a4905 fff26e0e N
+18a102b fff2568a N
+18a102b fff224ee N
+18a4905 fff20d6a N
+18a910e fff1d626 N
+18ac851 fff18e1e N
+18aeb0b fff13a2e N
+18af6f3 fff0e016 N
+18af6f3 ffefbb32 N
+18aeb0b ffef611a N
+18ac851 ffef0d2a N
+18a910e ffeec522 N
+18a4905 ffee8dde N
+18a102b ffee765a N
+18a102b ffee44be N
+18a4905 ffee2d3a N
+18a910e ffedf5f6 N
+18ac851 ffedadee N
+18aeb0b ffed59fe N
+18af6f3 ffecffe6 N
+18af6f3 ffebdb02 N
+18aeb0b ffeb80ea N
+18ac851 ffeb2cfa N
+18a910e ffeae4f2 N
+18a4905 ffeaadae N
+18a102b ffea962a N
+18a102b ffea648e N
+18a4905 ffea4d0a N
+18a910e ffea15c6 N
+18ac851 ffe9cdbe N
+18aeb0b ffe979ce N
+18af6f3 ffe91fb6 N
+18af6f3 ffe7fad2 N
+18aeb0b ffe7a0ba N
+18ac851 ffe74cca N
+18a910e ffe704c2 N
+18a4905 ffe6cd7e N
+189f515 ffe6aac4 N
+1899afe ffe69edc N
+1862c1c ffe69edc N
+185d21f ffe6aac4 N
+1857e2e ffe6cd7e N
+1854045 ffe6fd04 N
+15bcfb3 ffe6fd04 N
+15b91ca ffe6cd7e N
+15b3df3 ffe6aac4 N
+15ae3db ffe69edc N
+15774fa ffe69edc N
+1571afc ffe6aac4 N
+156c70c ffe6cd7e N
+1568922 ffe6fd04 N
+12d1891 ffe6fd04 N
+12cdaa7 ffe6cd7e N
+12c86d0 ffe6aac4 N
+12c2cb9 ffe69edc N
+128bdd8 ffe69edc N
+12863c1 ffe6aac4 N
+1280fea ffe6cd7e N
+127c7e1 ffe704c2 N
+1279084 ffe74cca N
+1276dca ffe7a0ba N
+12761fc ffe7fad2 N
+12761fc ffe91fb6 N
+1276dca ffe979ce N
+1279084 ffe9cdbe N
+127c7e1 ffea15c6 N
+1280fea ffea4d0a N
+12848ab ffea648e N
+12848ab ffea962a N
+1280fea ffeaadae N
+127c7e1 ffeae4f2 N
+1279084 ffeb2cfa N
+1276dca ffeb80ea N
+12761fc ffebdb02 N
+12761fc ffecffe6 N
+1276dca ffed59fe N
+1279084 ffedadee N
+127c7e1 ffedf5f6 N
+1280fea ffee2d3a N
+12848ab ffee44be N
+12848ab ffee765a N
+1280fea ffee8dde N
+127c7e1 ffeec522 N
+1279084 ffef0d2a N
+1276dca ffef611a N
+12761fc ffefbb32 N
+12761fc fff0e016 N
+1276dca fff13a2e N
+1279084 fff18e1e N
+127c7e1 fff1d626 N
+1280fea fff20d6a N
+12848ab fff224ee N
+12848ab fff2568a N
+1280fea fff26e0e N
+127d3e3 fff29c17 N
+11ffe2e fff29c17 N
+11ffe2e ffe8aceb N
+11e86ef ffe8aceb N
+11e86ef ffe3cc72 N
+11e73af ffe36bb5 N
+11e3ceb ffe319a8 N
+11dbabe ffe2977b N
+702 1 0
+ee20 ffe269a4 N
+482a22 ffe269a4 N
+483d16 ffe2977b N
+463a3d ffe49a6d N
+46035f ffe4ec7b N
+45f01f ffe54d38 N
+45f01f fff2cd02 N
+458c36 fff330eb N
+43e243 fff330eb N
+43c649 fff2ed5a N
+438f05 fff2a552 N
+4346e3 fff26e0e N
+430e22 fff2568a N
+430e22 fff224ee N
+4346e3 fff20d6a N
+438f05 fff1d626 N
+43c649 fff18e1e N
+43e903 fff13a2e N
+43f4eb fff0e016 N
+43f4eb ffefbb32 N
+43e903 ffef611a N
+43c649 ffef0d2a N
+438f05 ffeec522 N
+4346e3 ffee8dde N
+430e22 ffee765a N
+430e22 ffee44be N
+4346e3 ffee2d3a N
+438f05 ffedf5f6 N
+43c649 ffedadee N
+43e903 ffed59fe N
+43f4eb ffecffe6 N
+43f4eb ffebdb02 N
+43e903 ffeb80ea N
+43c649 ffeb2cfa N
+438f05 ffeae4f2 N
+4346e3 ffeaadae N
+430e22 ffea962a N
+430e22 ffea648e N
+4346e3 ffea4d0a N
+438f05 ffea15c6 N
+43c649 ffe9cdbe N
+43e903 ffe979ce N
+43f4eb ffe91fb6 N
+43f4eb ffe7fad2 N
+43e903 ffe7a0ba N
+43c649 ffe74cca N
+438f05 ffe704c2 N
+4346e3 ffe6cd7e N
+42f30c ffe6aac4 N
+4298f5 ffe69edc N
+3f2a14 ffe69edc N
+3ed016 ffe6aac4 N
+3e7c25 ffe6cd7e N
+3e3e3c ffe6fd04 N
+3ab7a4 ffe6fd04 N
+3a500e ffe70a9c N
+39ef84 ffe73298 N
+399c92 ffe77232 N
+37de16 ffe930ae N
+379e7c ffe983a0 N
+377680 ffe9e42a N
+3768cf ffea4bc0 N
+3768cf fffc8308 N
+377680 fffcea9e N
+379e7c fffd4b28 N
+37de16 fffd9e1a N
+383108 fffdddb4 N
+389192 fffe05b0 N
+38f928 fffe1348 N
+3960be fffe05b0 N
+39c148 fffdddb4 N
+3a143a fffd9e1a N
+3a53d4 fffd4b28 N
+3a7bd0 fffcea9e N
+3a8968 fffc8308 N
+3a8968 ffeaf18b N
+3b5d6f ffea1d84 N
+3e3e3c ffea1d84 N
+3e7c25 ffea4d0a N
+3eb4e6 ffea648e N
+3eb4e6 ffea962a N
+3e7c25 ffeaadae N
+3e341d ffeae4f2 N
+3dfcd9 ffeb2cfa N
+3dda06 ffeb80ea N
+3dce37 ffebdb02 N
+3dce37 ffecffe6 N
+3dda06 ffed59fe N
+3dfcd9 ffedadee N
+3e341d ffedf5f6 N
+3e7c25 ffee2d3a N
+3eb4e6 ffee44be N
+3eb4e6 ffee765a N
+3e7c25 ffee8dde N
+3e341d ffeec522 N
+3dfcd9 ffef0d2a N
+3dda06 ffef611a N
+3dce37 ffefbb32 N
+3dce37 fff0e016 N
+3dda06 fff13a2e N
+3dfcd9 fff18e1e N
+3e341d fff1d626 N
+3e7c25 fff20d6a N
+3eb4e6 fff224ee N
+3eb4e6 fff2568a N
+3e7c25 fff26e0e N
+3e341d fff2a552 N
+3dfcd9 fff2ed5a N
+3dda06 fff3414a N
+3dce37 fff39b62 N
+3dce37 fff4c046 N
+3dda06 fff51a5e N
+3dfcd9 fff56e4e N
+3e341d fff5b656 N
+3e7c25 fff5ed9a N
+3ed016 fff61054 N
+3f2a14 fff61c3c N
+4298f5 fff61c3c N
+42f30c fff61054 N
+4346e3 fff5ed9a N
+438f05 fff5b656 N
+43c649 fff56e4e N
+43e243 fff52abd N
+45f4fc fff52abd N
+4655b9 fff5177d N
+46a7c7 fff4e09f N
+479fd3 fff3e893 N
+47d6b1 fff3969e N
+47e9f1 fff335c8 N
+47e9f1 ffe5b5fe N
+4a6f8e ffe33060 N
+7458c6 ffe33060 N
+746bba ffe35e37 N
+732f9d ffe49a6d N
+72f8bf ffe4ec7b N
+72e57f ffe54d38 N
+72e57f fff2382e N
+727548 fff2a865 N
+724627 fff2a552 N
+71fe1f fff26e0e N
+71c55e fff2568a N
+71c55e fff224ee N
+71fe1f fff20d6a N
+724627 fff1d626 N
+727d6b fff18e1e N
+72a025 fff13a2e N
+72ac0d fff0e016 N
+72ac0d ffefbb32 N
+72a025 ffef611a N
+727d6b ffef0d2a N
+724627 ffeec522 N
+71fe1f ffee8dde N
+71c55e ffee765a N
+71c55e ffee44be N
+71fe1f ffee2d3a N
+724627 ffedf5f6 N
+727d6b ffedadee N
+72a025 ffed59fe N
+72ac0d ffecffe6 N
+72ac0d ffebdb02 N
+72a025 ffeb80ea N
+727d6b ffeb2cfa N
+724627 ffeae4f2 N
+71fe1f ffeaadae N
+71c55e ffea962a N
+71c55e ffea648e N
+71fe1f ffea4d0a N
+724627 ffea15c6 N
+727d6b ffe9cdbe N
+72a025 ffe979ce N
+72ac0d ffe91fb6 N
+72ac0d ffe7fad2 N
+72a025 ffe7a0ba N
+727d6b ffe74cca N
+724627 ffe704c2 N
+71fe1f ffe6cd7e N
+71aa2e ffe6aac4 N
+715030 ffe69edc N
+6de136 ffe69edc N
+6d8738 ffe6aac4 N
+6d3348 ffe6cd7e N
+6ceb3f ffe704c2 N
+6cb3fb ffe74cca N
+6c9128 ffe7a0ba N
+6c8559 ffe7fad2 N
+6c8559 ffe91fb6 N
+6c9128 ffe979ce N
+6cb3fb ffe9cdbe N
+6ceb3f ffea15c6 N
+6d3348 ffea4d0a N
+6d6c08 ffea648e N
+6d6c08 ffea962a N
+6d3348 ffeaadae N
+6ceb3f ffeae4f2 N
+6cb3fb ffeb2cfa N
+6c9128 ffeb80ea N
+6c8559 ffebdb02 N
+6c8559 ffecffe6 N
+6c9128 ffed59fe N
+6cb3fb ffedadee N
+6ceb3f ffedf5f6 N
+6d3348 ffee2d3a N
+6d6c08 ffee44be N
+6d6c08 ffee765a N
+6d3348 ffee8dde N
+6ceb3f ffeec522 N
+6cb3fb ffef0d2a N
+6c9128 ffef611a N
+6c8559 ffefbb32 N
+6c8559 fff0e016 N
+6c9128 fff13a2e N
+6cb3fb fff18e1e N
+6ceb3f fff1d626 N
+6d3348 fff20d6a N
+6d6c08 fff224ee N
+6d6c08 fff2568a N
+6d3348 fff26e0e N
+6ceb3f fff2a552 N
+6cb3fb fff2ed5a N
+6c9128 fff3414a N
+6c8559 fff39b62 N
+6c8559 fff4c046 N
+6c9128 fff51a5e N
+6cb3fb fff56e4e N
+6ceb3f fff5b656 N
+6d3348 fff5ed9a N
+6d8738 fff61054 N
+6de136 fff61c3c N
+715030 fff61c3c N
+71aa2e fff61054 N
+71fe1f fff5ed9a N
+724627 fff5b656 N
+727d6b fff56e4e N
+729f73 fff51c0d N
+72b645 fff5177d N
+730853 fff4e09f N
+749533 fff353bf N
+74cc11 fff301b1 N
+74df51 fff2a0f4 N
+74df51 ffe5b5fe N
+769e7e ffe3f6d0 N
+a18ca8 ffe3f6d0 N
+a1ac1c ffe41d36 N
+a1995b ffe47b78 N
+a1995b fff3303a N
+a198aa fff330eb N
+a15088 fff330eb N
+a1348d fff2ed5a N
+a0fd49 fff2a552 N
+a0b541 fff26e0e N
+a07c80 fff2568a N
+a07c80 fff224ee N
+a0b541 fff20d6a N
+a0fd49 fff1d626 N
+a1348d fff18e1e N
+a15760 fff13a2e N
+a1632f fff0e016 N
+a1632f ffefbb32 N
+a15760 ffef611a N
+a1348d ffef0d2a N
+a0fd49 ffeec522 N
+a0b541 ffee8dde N
+a07c80 ffee765a N
+a07c80 ffee44be N
+a0b541 ffee2d3a N
+a0fd49 ffedf5f6 N
+a1348d ffedadee N
+a15760 ffed59fe N
+a1632f ffecffe6 N
+a1632f ffebdb02 N
+a15760 ffeb80ea N
+a1348d ffeb2cfa N
+a0fd49 ffeae4f2 N
+a0b541 ffeaadae N
+a07c80 ffea962a N
+a07c80 ffea648e N
+a0b541 ffea4d0a N
+a0fd49 ffea15c6 N
+a1348d ffe9cdbe N
+a15760 ffe979ce N
+a1632f ffe91fb6 N
+a1632f ffe7fad2 N
+a15760 ffe7a0ba N
+a1348d ffe74cca N
+a0fd49 ffe704c2 N
+a0b541 ffe6cd7e N
+a06150 ffe6aac4 N
+a00753 ffe69edc N
+9c9858 ffe69edc N
+9c3e5a ffe6aac4 N
+9bea6a ffe6cd7e N
+9ba261 ffe704c2 N
+9b6b1e ffe74cca N
+9b4864 ffe7a0ba N
+9b3c7c ffe7fad2 N
+9b3c7c ffe91fb6 N
+9b4864 ffe979ce N
+9b6b1e ffe9cdbe N
+9ba261 ffea15c6 N
+9bea6a ffea4d0a N
+9c232b ffea648e N
+9c232b ffea962a N
+9bea6a ffeaadae N
+9ba261 ffeae4f2 N
+9b6b1e ffeb2cfa N
+9b4864 ffeb80ea N
+9b3c7c ffebdb02 N
+9b3c7c ffecffe6 N
+9b4864 ffed59fe N
+9b6b1e ffedadee N
+9ba261 ffedf5f6 N
+9bea6a ffee2d3a N
+9c232b ffee44be N
+9c232b ffee765a N
+9bea6a ffee8dde N
+9ba261 ffeec522 N
+9b6b1e ffef0d2a N
+9b4864 ffef611a N
+9b3c7c ffefbb32 N
+9b3c7c fff0e016 N
+9b4864 fff13a2e N
+9b6b1e fff18e1e N
+9ba261 fff1d626 N
+9bea6a fff20d6a N
+9c232b fff224ee N
+9c232b fff2568a N
+9bea6a fff26e0e N
+9ba261 fff2a552 N
+9b6b1e fff2ed5a N
+9b4864 fff3414a N
+9b3c7c fff39b62 N
+9b3c7c fff4c046 N
+9b4864 fff51a5e N
+9b6b1e fff56e4e N
+9ba261 fff5b656 N
+9bea6a fff5ed9a N
+9c3e5a fff61054 N
+9c9858 fff61c3c N
+a00753 fff61c3c N
+a06150 fff61054 N
+a0b541 fff5ed9a N
+a0fd49 fff5b656 N
+a1348d fff56e4e N
+a15088 fff52abd N
+a20170 fff52abd N
+a2622d fff5177d N
+a2b43b fff4e09f N
+a3490f fff44bcb N
+a37fed fff3f9bd N
+a3932d fff39900 N
+a3932d ffe4e43e N
+a3ba2b ffe4bd40 N
+d223b6 ffe4bd40 N
+d236aa ffe4eb17 N
+d18f61 ffe59279 N
+d15883 ffe5e487 N
+d14543 ffe64544 N
+d14543 fff10e86 N
+cfb10c fff2a2bd N
+cf6c63 fff26e0e N
+cf33a2 fff2568a N
+cf33a2 fff224ee N
+cf6c63 fff20d6a N
+cfb46b fff1d626 N
+cfebaf fff18e1e N
+d00e83 fff13a2e N
+d01a51 fff0e016 N
+d01a51 ffefbb32 N
+d00e83 ffef611a N
+cfebaf ffef0d2a N
+cfb46b ffeec522 N
+cf6c63 ffee8dde N
+cf33a2 ffee765a N
+cf33a2 ffee44be N
+cf6c63 ffee2d3a N
+cfb46b ffedf5f6 N
+cfebaf ffedadee N
+d00e83 ffed59fe N
+d01a51 ffecffe6 N
+d01a51 ffebdb02 N
+d00e83 ffeb80ea N
+cfebaf ffeb2cfa N
+cfb46b ffeae4f2 N
+cf6c63 ffeaadae N
+cf33a2 ffea962a N
+cf33a2 ffea648e N
+cf6c63 ffea4d0a N
+cfb46b ffea15c6 N
+cfebaf ffe9cdbe N
+d00e83 ffe979ce N
+d01a51 ffe91fb6 N
+d01a51 ffe7fad2 N
+d00e83 ffe7a0ba N
+cfebaf ffe74cca N
+cfb46b ffe704c2 N
+cf6c63 ffe6cd7e N
+cf1873 ffe6aac4 N
+cebe75 ffe69edc N
+cb4f94 ffe69edc N
+caf57c ffe6aac4 N
+caa18c ffe6cd7e N
+ca5984 ffe704c2 N
+ca2240 ffe74cca N
+c9ff86 ffe7a0ba N
+c9f39e ffe7fad2 N
+c9f39e ffe91fb6 N
+c9ff86 ffe979ce N
+ca2240 ffe9cdbe N
+ca5984 ffea15c6 N
+caa18c ffea4d0a N
+cada66 ffea648e N
+cada66 ffea962a N
+caa18c ffeaadae N
+ca5984 ffeae4f2 N
+ca2240 ffeb2cfa N
+c9ff86 ffeb80ea N
+c9f39e ffebdb02 N
+c9f39e ffecffe6 N
+c9ff86 ffed59fe N
+ca2240 ffedadee N
+ca5984 ffedf5f6 N
+caa18c ffee2d3a N
+cada66 ffee44be N
+cada66 ffee765a N
+caa18c ffee8dde N
+ca5984 ffeec522 N
+ca2240 ffef0d2a N
+c9ff86 ffef611a N
+c9f39e ffefbb32 N
+c9f39e fff0e016 N
+c9ff86 fff13a2e N
+ca2240 fff18e1e N
+ca5984 fff1d626 N
+caa18c fff20d6a N
+cada66 fff224ee N
+cada66 fff2568a N
+caa18c fff26e0e N
+ca5984 fff2a552 N
+ca2240 fff2ed5a N
+c9ff86 fff3414a N
+c9f39e fff39b62 N
+c9f39e fff4c046 N
+c9ff86 fff51a5e N
+ca2240 fff56e4e N
+ca5984 fff5b656 N
+caa18c fff5ed9a N
+caf57c fff61054 N
+cb4f94 fff61c3c N
+cebe75 fff61c3c N
+cf1873 fff61054 N
+cf6c63 fff5ed9a N
+cfb46b fff5b656 N
+cfebaf fff56e4e N
+d00e83 fff51a5e N
+d0122e fff4fe49 N
+d03e6f fff4e09f N
+d2f4f7 fff22a17 N
+d32bd5 fff1d809 N
+d33f15 fff1774c N
+d33f15 ffe6ae0a N
+d4696e ffe583b0 N
+ffe6de ffe583b0 N
+fffe2f ffe5af72 N
+ffdac3 ffe5e487 N
+ffc783 ffe64544 N
+ffc783 fff3303a N
+ffc6d2 fff330eb N
+febecc fff330eb N
+fea2eb fff2ed5a N
+fe6b8e fff2a552 N
+fe2385 fff26e0e N
+fdeac4 fff2568a N
+fdeac4 fff224ee N
+fe2385 fff20d6a N
+fe6b8e fff1d626 N
+fea2eb fff18e1e N
+fec5a5 fff13a2e N
+fed173 fff0e016 N
+fed173 ffefbb32 N
+fec5a5 ffef611a N
+fea2eb ffef0d2a N
+fe6b8e ffeec522 N
+fe2385 ffee8dde N
+fdeac4 ffee765a N
+fdeac4 ffee44be N
+fe2385 ffee2d3a N
+fe6b8e ffedf5f6 N
+fea2eb ffedadee N
+fec5a5 ffed59fe N
+fed173 ffecffe6 N
+fed173 ffebdb02 N
+fec5a5 ffeb80ea N
+fea2eb ffeb2cfa N
+fe6b8e ffeae4f2 N
+fe2385 ffeaadae N
+fdeac4 ffea962a N
+fdeac4 ffea648e N
+fe2385 ffea4d0a N
+fe6b8e ffea15c6 N
+fea2eb ffe9cdbe N
+fec5a5 ffe979ce N
+fed173 ffe91fb6 N
+fed173 ffe7fad2 N
+fec5a5 ffe7a0ba N
+fea2eb ffe74cca N
+fe6b8e ffe704c2 N
+fe2385 ffe6cd7e N
+fdcfae ffe6aac4 N
+fd7597 ffe69edc N
+fa06b6 ffe69edc N
+f9ac9f ffe6aac4 N
+f958c8 ffe6cd7e N
+f91ade ffe6fd04 N
+f42bd0 ffe6fd04 N
+f3c43a ffe70a9c N
+f363b0 ffe73298 N
+f310be ffe77232 N
+f218b2 ffe86a3e N
+f1d918 ffe8bd30 N
+f1b11c ffe91dba N
+f1a36b ffe98550 N
+f1a36b fffa2fb8 N
+f1b11c fffa974e N
+f1d918 fffaf7d8 N
+f218b2 fffb4aca N
+f3a592 fffcd7aa N
+f3f884 fffd1744 N
+f4590e fffd3f40 N
+f4c0a4 fffd4cd8 N
+10fb058 fffd4cd8 N
+11017ee fffd3f40 N
+1107878 fffd1744 N
+110cb6a fffcd7aa N
+1112731 fffc7be3 N
+11166cb fffc28f1 N
+1118ec7 fffbc867 N
+1119c78 fffb60d1 N
+1119c78 fff6730d N
+111c8eb fff65d20 N
+11203f4 fff68a5e N
+1124b97 fff6a809 N
+11266e0 fff6ab9b N
+11266e0 fff58918 N
+112ca18 fff58918 N
+112ca18 fff6ab9b N
+112e561 fff6a809 N
+112fd64 fff69e1d N
+11326aa fff6b999 N
+11326aa fff8b4cd N
+1149de9 fff8b4cd N
+1149de9 fffd320e N
+114b129 fffd92cb N
+114e7ed fffde4d8 N
+115e71e fffee409 N
+115d42b ffff11e0 N
+322da7 ffff11e0 N
+321656 fffee61f N
+322271 fffed3dd N
+3235b1 fffe7320 N
+3235b1 fff3920e N
+326602 fff38bb4 N
+32c5c1 fff3641e N
+331802 fff324ea N
+33571c fff2d2a9 N
+337ecc fff272ea N
+338c64 fff20c20 N
+337ecc fff1a556 N
+33571c fff14597 N
+331802 fff0f356 N
+32fc21 fff0dde8 N
+32fc21 ffe88d44 N
+32e8e1 ffe82c87 N
+32b203 ffe7da79 N
+312523 ffe64d99 N
+30d32e ffe616bb N
+307258 ffe6037b N
+269044 ffe6037b N
+262f6e ffe616bb N
+25dd79 ffe64d99 N
+246ab1 ffe7c048 N
+245132 ffe7e67b N
+22a96e ffe7e67b N
+22a96e ffe9b6b9 N
+154553 ffe9b6b9 N
+1529be ffe98d8c N
+1531e0 ffe979ce N
+153dc8 ffe91fb6 N
+153dc8 ffe7fad2 N
+1531e0 ffe7a0ba N
+150f26 ffe74cca N
+14d7e3 ffe704c2 N
+148fc1 ffe6cd7e N
+143bea ffe6aac4 N
+13e1d3 ffe69edc N
+1072f1 ffe69edc N
+1018da ffe6aac4 N
+fc503 ffe6cd7e N
+f7cfb ffe704c2 N
+f459e ffe74cca N
+f22e4 ffe7a0ba N
+f1715 ffe7fad2 N
+f1715 ffe91fb6 N
+f22e4 ffe979ce N
+f459e ffe9cdbe N
+f456b ffe9cf08 N
+eface ffea00d7 N
+e0785 ffeaf439 N
+df9a1 ffeb08f6 N
+dc838 ffeb0dd2 N
+b29b3 ffe86f4d N
+ad7a5 ffe8386f N
+a76e8 ffe8252f N
+a0534 ffe8252f N
+9e7bc ffe7de25 N
+9b012 ffe7959e N
+9678b ffe75df4 N
+9131c ffe73aee N
+8b86c ffe72f06 N
+601e4 ffe72f06 N
+5a734 ffe73aee N
+552c5 ffe75df4 N
+50a3e ffe7959e N
+4d294 ffe7de25 N
+4af8e ffe83294 N
+4a3a6 ffe88d44 N
+4a3a6 ffe9b6ec N
+4af8e ffea119c N
+4d294 ffea660b N
+50a3e ffeaae92 N
+552c5 ffeae63c N
+580e8 ffeaf962 N
+580e8 ffeb2afe N
+552c5 ffeb3e24 N
+50a3e ffeb75ce N
+4d294 ffebbe55 N
+4af8e ffec12c4 N
+4a3a6 ffec6d74 N
+4a3a6 ffed971c N
+4af8e ffedf1cc N
+4d294 ffee463b N
+50a3e ffee8ec2 N
+552c5 ffeec66c N
+580e8 ffeed992 N
+580e8 ffef0b2e N
+552c5 ffef1e54 N
+50a3e ffef55fe N
+4d294 ffef9e85 N
+4af8e ffeff2f4 N
+4a3a6 fff04da4 N
+4a3a6 fff1774c N
+4af8e fff1d1fc N
+4d294 fff2266b N
+50a3e fff26ef2 N
+552c5 fff2a69c N
+580e8 fff2b9c2 N
+580e8 fff2eb5e N
+552c5 fff2fe84 N
+50a3e fff3362e N
+4d294 fff37eb5 N
+4af8e fff3d324 N
+4a3a6 fff42dd4 N
+4a3a6 fff5577c N
+4af8e fff5b22c N
+4d294 fff6069b N
+50a3e fff64f22 N
+552c5 fff686cc N
+580e8 fff699f2 N
+580e8 fff6cb8e N
+552c5 fff6deb4 N
+50a3e fff7165e N
+4d294 fff75ee5 N
+4af8e fff7b354 N
+4a3a6 fff80e04 N
+4a3a6 fff937ac N
+4af8e fff9925c N
+4d294 fff9e6cb N
+50a3e fffa2f52 N
+552c5 fffa66fc N
+580e8 fffa7a22 N
+580e8 fffaabbe N
+552c5 fffabee4 N
+50a3e fffaf68e N
+4d294 fffb3f15 N
+4af8e fffb9384 N
+4a3a6 fffbee34 N
+4a3a6 fffd17dc N
+4af8e fffd728c N
+4d294 fffdc6fb N
+50a3e fffe0f82 N
+552c5 fffe472c N
+5a734 fffe6a32 N
+601e4 fffe761a N
+8b86c fffe761a N
+9131c fffe6a32 N
+9557c fffe4e9d N
+97dc5 fffe643e N
+98209 fffe699a N
+98d3f fffea241 N
+9ba97 fffee61f N
+9a32c ffff11e0 N
+ee20 ffff11e0 N
+ee20 ffe269a4 N
+F128
+9 1 0
+219c204 fff2d9b5 N
+219dd4d fff2dd47 N
+21a24f0 fff2faf2 N
+21a6274 fff32a2c N
+21a91ae fff367b0 N
+21aaf59 fff3af53 N
+21ab2eb fff3ca9c N
+219c204 fff3ca9c N
+219c204 fff2d9b5 N
+9 1 0
+1853195 fff77b92 N
+18544a2 fff71ba0 N
+1857b01 fff6ca5d N
+185cc44 fff69417 N
+1862c1c fff6810b N
+187b1f1 fff6810b N
+187b1f1 fff7dc68 N
+1853195 fff7dc68 N
+1853195 fff77b92 N
+9 1 0
+1567a73 fff77b92 N
+1568d80 fff71ba0 N
+156c3df fff6ca5d N
+1571522 fff69417 N
+15774fa fff6810b N
+158facf fff6810b N
+158facf fff7dc68 N
+1567a73 fff7dc68 N
+1567a73 fff77b92 N
+9 1 0
+1595e07 fff7dc68 N
+1595e07 fff6810b N
+15ae3db fff6810b N
+15b43cd fff69417 N
+15b9510 fff6ca5d N
+15bcb56 fff71ba0 N
+15bde62 fff77b92 N
+15bde62 fff7dc68 N
+1595e07 fff7dc68 N
+9 1 0
+2186de5 fff3ca9c N
+2187177 fff3af53 N
+2188f22 fff367b0 N
+218be5c fff32a2c N
+218fbe0 fff2faf2 N
+2194383 fff2dd47 N
+2195ecc fff2d9b5 N
+2195ecc fff3ca9c N
+2186de5 fff3ca9c N
+9 1 0
+1f64b8 ffef5154 N
+1f64b8 ffee597b N
+2013be ffee597b N
+204d7c ffee64fd N
+207e67 ffee85bb N
+209f25 ffeeb6a5 N
+20aaa7 ffeef064 N
+20aaa7 ffef5154 N
+1f64b8 ffef5154 N
+9 1 0
+1dbb91 ffeef064 N
+1dc713 ffeeb6a5 N
+1de7d1 ffee85bb N
+1e18bc ffee64fd N
+1e527a ffee597b N
+1f0180 ffee597b N
+1f0180 ffef5154 N
+1dbb91 ffef5154 N
+1dbb91 ffeef064 N
+9 1 0
+2f83994 fff0e99d N
+2f854dd fff0ed2f N
+2f89c80 fff10ada N
+2f8da04 fff13a14 N
+2f9093e fff17798 N
+2f926e9 fff1bf3b N
+2f92a7b fff1da84 N
+2f83994 fff1da84 N
+2f83994 fff0e99d N
+9 1 0
+1881529 fff7dc68 N
+1881529 fff6810b N
+1899afe fff6810b N
+189faef fff69417 N
+18a4c32 fff6ca5d N
+18a8278 fff71ba0 N
+18a9585 fff77b92 N
+18a9585 fff7dc68 N
+1881529 fff7dc68 N
+9 1 0
+fbefc2 fff7dc68 N
+fbefc2 fff6810b N
+fd7597 fff6810b N
+fdd56f fff69417 N
+fe26b2 fff6ca5d N
+fe5d11 fff71ba0 N
+fe701e fff77b92 N
+fe701e fff7dc68 N
+fbefc2 fff7dc68 N
+9 1 0
+9b9dd1 fff77b92 N
+9bb0f7 fff71ba0 N
+9be73d fff6ca5d N
+9c3880 fff69417 N
+9c9858 fff6810b N
+9e1e46 fff6810b N
+9e1e46 fff7dc68 N
+9b9dd1 fff7dc68 N
+9b9dd1 fff77b92 N
+9 1 0
+6fca42 fff7dc68 N
+6fca42 fff6810b N
+715030 fff6810b N
+71b009 fff69417 N
+72014b fff6ca5d N
+723791 fff71ba0 N
+724a9e fff77b92 N
+724a9e fff7dc68 N
+6fca42 fff7dc68 N
+9 1 0
+9e8165 fff7dc68 N
+9e8165 fff6810b N
+a00753 fff6810b N
+a0672b fff69417 N
+a0b86e fff6ca5d N
+a0eeb3 fff71ba0 N
+a101da fff77b92 N
+a101da fff7dc68 N
+9e8165 fff7dc68 N
+9 1 0
+cd38a0 fff7dc68 N
+cd38a0 fff6810b N
+cebe75 fff6810b N
+cf1e4d fff69417 N
+cf6f90 fff6ca5d N
+cfa5ef fff71ba0 N
+cfb8fc fff77b92 N
+cfb8fc fff7dc68 N
+cd38a0 fff7dc68 N
+9 1 0
+ca550d fff77b92 N
+ca6819 fff71ba0 N
+ca9e5f fff6ca5d N
+caefa2 fff69417 N
+cb4f94 fff6810b N
+ccd568 fff6810b N
+ccd568 fff7dc68 N
+ca550d fff7dc68 N
+ca550d fff77b92 N
+9 1 0
+6ce6af fff77b92 N
+6cf9bc fff71ba0 N
+6d301b fff6ca5d N
+6d815d fff69417 N
+6de136 fff6810b N
+6f670a fff6810b N
+6f670a fff7dc68 N
+6ce6af fff7dc68 N
+6ce6af fff77b92 N
+9 1 0
+f786a fff77b92 N
+f8b77 fff71ba0 N
+fc1d6 fff6ca5d N
+101319 fff69417 N
+1072f1 fff6810b N
+11f8c6 fff6810b N
+11f8c6 fff7dc68 N
+f786a fff7dc68 N
+f786a fff77b92 N
+9 1 0
+f90c2f fff77b92 N
+f91f3c fff71ba0 N
+f95581 fff6ca5d N
+f9a6c4 fff69417 N
+fa06b6 fff6810b N
+fb8c8a fff6810b N
+fb8c8a fff7dc68 N
+f90c2f fff7dc68 N
+f90c2f fff77b92 N
+9 1 0
+125bfe fff7dc68 N
+125bfe fff6810b N
+13e1d3 fff6810b N
+1441ab fff69417 N
+149307 fff6ca5d N
+14c94d fff71ba0 N
+14dc5a fff77b92 N
+14dc5a fff7dc68 N
+125bfe fff7dc68 N
+9 1 0
+411320 fff7dc68 N
+411320 fff6810b N
+4298f5 fff6810b N
+42f8e7 fff69417 N
+434a29 fff6ca5d N
+43806f fff71ba0 N
+43937c fff77b92 N
+43937c fff7dc68 N
+411320 fff7dc68 N
+9 1 0
+3e2f8d fff77b92 N
+3e4299 fff71ba0 N
+3e78f9 fff6ca5d N
+3eca3b fff69417 N
+3f2a14 fff6810b N
+40afe8 fff6810b N
+40afe8 fff7dc68 N
+3e2f8d fff7dc68 N
+3e2f8d fff77b92 N
+42 1 0
+1025100 fff5ec50 N
+1025e98 fff58586 N
+102862e fff525c7 N
+102c562 fff4d386 N
+102e143 fff4be18 N
+102e143 ffeead1f N
+102c1d0 ffee611e N
+102b438 ffedfa54 N
+102c1d0 ffed938a N
+102e980 ffed33cb N
+103289a ffece18a N
+1037adb ffeca270 N
+103da9a ffec7ac0 N
+1044164 ffec6d28 N
+104a82e ffec7ac0 N
+10507ed ffeca270 N
+1055a2e ffece18a N
+1059948 ffed33cb N
+105c0f8 ffed938a N
+105ce90 ffedfa54 N
+105c0f8 ffee611e N
+1059948 ffeec0dd N
+1055a2e ffef131e N
+10507ed ffef5252 N
+104db15 ffef64e0 N
+104db15 fff4be18 N
+104f6f6 fff4d386 N
+105362a fff525c7 N
+1055dc0 fff58586 N
+1056b58 fff5ec50 N
+1055dc0 fff6531a N
+105362a fff6b2d9 N
+104f6f6 fff7051a N
+104a4b5 fff74434 N
+10444f6 fff76be4 N
+103de2c fff7797c N
+1037762 fff76be4 N
+10317a3 fff74434 N
+102c562 fff7051a N
+102862e fff6b2d9 N
+1025e98 fff6531a N
+1025100 fff5ec50 N
+9 1 0
+354a94 ffe7ff95 N
+3565dd ffe80327 N
+35ad80 ffe820d2 N
+35eb04 ffe8500c N
+361a3e ffe88d90 N
+3637e9 ffe8d533 N
+363b7b ffe8f07c N
+354a94 ffe8f07c N
+354a94 ffe7ff95 N
+9 1 0
+33f675 ffe8f07c N
+33fa07 ffe8d533 N
+3417b2 ffe88d90 N
+3446ec ffe8500c N
+348470 ffe820d2 N
+34cc13 ffe80327 N
+34e75c ffe7ff95 N
+34e75c ffe8f07c N
+33f675 ffe8f07c N
+9 1 0
+2e162d1 ffe8bee0 N
+2e16663 ffe8a397 N
+2e1840e ffe85bf4 N
+2e1b348 ffe81e70 N
+2e1f0cc ffe7ef36 N
+2e2386f ffe7d18b N
+2e253b8 ffe7cdf9 N
+2e253b8 ffe8bee0 N
+2e162d1 ffe8bee0 N
+5 1 0
+1f9f36e ffe92218 N
+1f9f36e ffe87b4f N
+1fbd2c2 ffe87b4f N
+1fbd2c2 ffe92218 N
+1f9f36e ffe92218 N
+5 1 0
+2afbf4 ffe8f07c N
+2afbf4 ffe849b3 N
+2cdb2e ffe849b3 N
+2cdb2e ffe8f07c N
+2afbf4 ffe8f07c N
+5 1 0
+2e5b946 ffe8bee0 N
+2e5b946 ffe81817 N
+2e79899 ffe81817 N
+2e79899 ffe8bee0 N
+2e5b946 ffe8bee0 N
+9 1 0
+2187177 ffe401ed N
+2186de5 ffe3e6a4 N
+2195ecc ffe3e6a4 N
+2195ecc ffe4d78b N
+2194383 ffe4d3f9 N
+218fbe0 ffe4b64e N
+218be5c ffe48714 N
+2188f22 ffe44990 N
+2187177 ffe401ed N
+9 1 0
+78ec4 ffe5104c N
+78ec4 ffe3b1a8 N
+902d6 ffe3b1a8 N
+9469a ffe3bf0d N
+9800d ffe3e573 N
+9a673 ffe41ee6 N
+9b3d8 ffe462aa N
+9b3d8 ffe5104c N
+78ec4 ffe5104c N
+9 1 0
+50678 ffe462aa N
+513f7 ffe41ee6 N
+53a43 ffe3e573 N
+573b6 ffe3bf0d N
+5b77a ffe3b1a8 N
+72b8c ffe3b1a8 N
+72b8c ffe5104c N
+50678 ffe5104c N
+50678 ffe462aa N
+9 1 0
+78ec4 ffe6d228 N
+78ec4 ffe57384 N
+9b3d8 ffe57384 N
+9b3d8 ffe62126 N
+9a673 ffe664ea N
+9800d ffe69e5d N
+9469a ffe6c4c3 N
+902d6 ffe6d228 N
+78ec4 ffe6d228 N
+9 1 0
+50678 ffe62126 N
+50678 ffe57384 N
+72b8c ffe57384 N
+72b8c ffe6d228 N
+5b77a ffe6d228 N
+573b6 ffe6c4c3 N
+53a43 ffe69e5d N
+513f7 ffe664ea N
+50678 ffe62126 N
+9 1 0
+219c204 ffe4d78b N
+219c204 ffe3e6a4 N
+21ab2eb ffe3e6a4 N
+21aaf59 ffe401ed N
+21a91ae ffe44990 N
+21a6274 ffe48714 N
+21a24f0 ffe4b64e N
+219dd4d ffe4d3f9 N
+219c204 ffe4d78b N
+5 1 0
+1fc35fa ffe92218 N
+1fc35fa ffe87b4f N
+1fe1534 ffe87b4f N
+1fe1534 ffe92218 N
+1fc35fa ffe92218 N
+9 1 0
+10f4d20 ffebd45c N
+10f4d20 ffeadc83 N
+10ffc26 ffeadc83 N
+11035e4 ffeae805 N
+11066e8 ffeb08aa N
+110878d ffeb39ad N
+110930f ffeb736c N
+110930f ffebd45c N
+10f4d20 ffebd45c N
+9 1 0
+10da3f9 ffeb736c N
+10daf7b ffeb39ad N
+10dd039 ffeb08aa N
+10e0124 ffeae805 N
+10e3ae2 ffeadc83 N
+10ee9e8 ffeadc83 N
+10ee9e8 ffebd45c N
+10da3f9 ffebd45c N
+10da3f9 ffeb736c N
+9 1 0
+2df085c ffeb7124 N
+2df085c ffea794b N
+2dfb762 ffea794b N
+2dff120 ffea84cd N
+2e0220b ffeaa58b N
+2e042c9 ffead675 N
+2e04e4b ffeb1034 N
+2e04e4b ffeb7124 N
+2df085c ffeb7124 N
+9 1 0
+2f74188 ffec34b3 N
+2f74188 ffeb43cc N
+2f8326f ffeb43cc N
+2f82edd ffeb5f15 N
+2f81132 ffeba6b8 N
+2f7e1f8 ffebe43c N
+2f7a474 ffec1376 N
+2f75cd1 ffec3121 N
+2f74188 ffec34b3 N
+9 1 0
+219c204 ffebd17b N
+219c204 ffeae094 N
+21ab2eb ffeae094 N
+21aaf59 ffeafbdd N
+21a91ae ffeb4380 N
+21a6274 ffeb8104 N
+21a24f0 ffebb03e N
+219dd4d ffebcde9 N
+219c204 ffebd17b N
+9 1 0
+2187177 ffeafbdd N
+2186de5 ffeae094 N
+2195ecc ffeae094 N
+2195ecc ffebd17b N
+2194383 ffebcde9 N
+218fbe0 ffebb03e N
+218be5c ffeb8104 N
+2188f22 ffeb4380 N
+2187177 ffeafbdd N
+9 1 0
+33fa07 ffe96efd N
+33f675 ffe953b4 N
+34e75c ffe953b4 N
+34e75c ffea449b N
+34cc13 ffea4109 N
+348470 ffea235e N
+3446ec ffe9f424 N
+3417b2 ffe9b6a0 N
+33fa07 ffe96efd N
+9 1 0
+2e16663 ffe93d61 N
+2e162d1 ffe92218 N
+2e253b8 ffe92218 N
+2e253b8 ffea12ff N
+2e2386f ffea0f6d N
+2e1f0cc ffe9f1c2 N
+2e1b348 ffe9c288 N
+2e1840e ffe98504 N
+2e16663 ffe93d61 N
+5 1 0
+11389e2 ffe9b6ec N
+11389e2 ffe91023 N
+1156936 ffe91023 N
+1156936 ffe9b6ec N
+11389e2 ffe9b6ec N
+9 1 0
+2dd5f35 ffeb1034 N
+2dd6ab7 ffead675 N
+2dd8b75 ffeaa58b N
+2ddbc60 ffea84cd N
+2ddf61e ffea794b N
+2dea524 ffea794b N
+2dea524 ffeb7124 N
+2dd5f35 ffeb7124 N
+2dd5f35 ffeb1034 N
+9 1 0
+2f74188 ffe9efad N
+2f75cd1 ffe9f33f N
+2f7a474 ffea10ea N
+2f7e1f8 ffea4024 N
+2f81132 ffea7da8 N
+2f82edd ffeac54b N
+2f8326f ffeae094 N
+2f74188 ffeae094 N
+2f74188 ffe9efad N
+9 1 0
+354a94 ffea449b N
+354a94 ffe953b4 N
+363b7b ffe953b4 N
+3637e9 ffe96efd N
+361a3e ffe9b6a0 N
+35eb04 ffe9f424 N
+35ad80 ffea235e N
+3565dd ffea4109 N
+354a94 ffea449b N
+9 1 0
+1881529 fff99afd N
+1881529 fff83fa0 N
+18a9585 fff83fa0 N
+18a9585 fff8a076 N
+18a8278 fff90068 N
+18a4c32 fff951ab N
+189faef fff987f1 N
+1899afe fff99afd N
+1881529 fff99afd N
+9 1 0
+1853195 fff8a076 N
+1853195 fff83fa0 N
+187b1f1 fff83fa0 N
+187b1f1 fff99afd N
+1862c1c fff99afd N
+185cc44 fff987f1 N
+1857b01 fff951ab N
+18544a2 fff90068 N
+1853195 fff8a076 N
+9 1 0
+1595e07 fff99afd N
+1595e07 fff83fa0 N
+15bde62 fff83fa0 N
+15bde62 fff8a076 N
+15bcb56 fff90068 N
+15b9510 fff951ab N
+15b43cd fff987f1 N
+15ae3db fff99afd N
+1595e07 fff99afd N
+9 1 0
+1b3e8b8 fff8a076 N
+1b3e8b8 fff83fa0 N
+1b66913 fff83fa0 N
+1b66913 fff99afd N
+1b4e33f fff99afd N
+1b48366 fff987f1 N
+1b43224 fff951ab N
+1b3fbde fff90068 N
+1b3e8b8 fff8a076 N
+9 1 0
+1e58387 fff99afd N
+1e58387 fff83fa0 N
+1e803e2 fff83fa0 N
+1e803e2 fff8a076 N
+1e7f0bc fff90068 N
+1e7ba76 fff951ab N
+1e76934 fff987f1 N
+1e7095b fff99afd N
+1e58387 fff99afd N
+9 1 0
+1e29ff3 fff8a076 N
+1e29ff3 fff83fa0 N
+1e5204f fff83fa0 N
+1e5204f fff99afd N
+1e39a7a fff99afd N
+1e33a88 fff987f1 N
+1e2e946 fff951ab N
+1e2b300 fff90068 N
+1e29ff3 fff8a076 N
+9 1 0
+1b6cc4b fff99afd N
+1b6cc4b fff83fa0 N
+1b94ca7 fff83fa0 N
+1b94ca7 fff8a076 N
+1b9399a fff90068 N
+1b90354 fff951ab N
+1b8b212 fff987f1 N
+1b85239 fff99afd N
+1b6cc4b fff99afd N
+9 1 0
+f90c2f fff8a076 N
+f90c2f fff83fa0 N
+fb8c8a fff83fa0 N
+fb8c8a fff99afd N
+fa06b6 fff99afd N
+f9a6c4 fff987f1 N
+f95581 fff951ab N
+f91f3c fff90068 N
+f90c2f fff8a076 N
+9 1 0
+cd38a0 fff99afd N
+cd38a0 fff83fa0 N
+cfb8fc fff83fa0 N
+cfb8fc fff8a076 N
+cfa5ef fff90068 N
+cf6f90 fff951ab N
+cf1e4d fff987f1 N
+cebe75 fff99afd N
+cd38a0 fff99afd N
+9 1 0
+ca550d fff8a076 N
+ca550d fff83fa0 N
+ccd568 fff83fa0 N
+ccd568 fff99afd N
+cb4f94 fff99afd N
+caefa2 fff987f1 N
+ca9e5f fff951ab N
+ca6819 fff90068 N
+ca550d fff8a076 N
+9 1 0
+fbefc2 fff99afd N
+fbefc2 fff83fa0 N
+fe701e fff83fa0 N
+fe701e fff8a076 N
+fe5d11 fff90068 N
+fe26b2 fff951ab N
+fdd56f fff987f1 N
+fd7597 fff99afd N
+fbefc2 fff99afd N
+9 1 0
+1567a73 fff8a076 N
+1567a73 fff83fa0 N
+158facf fff83fa0 N
+158facf fff99afd N
+15774fa fff99afd N
+1571522 fff987f1 N
+156c3df fff951ab N
+1568d80 fff90068 N
+1567a73 fff8a076 N
+9 1 0
+12aa6e5 fff99afd N
+12aa6e5 fff83fa0 N
+12d2740 fff83fa0 N
+12d2740 fff8a076 N
+12d1433 fff90068 N
+12cddee fff951ab N
+12c8c92 fff987f1 N
+12c2cb9 fff99afd N
+12aa6e5 fff99afd N
+9 1 0
+127c351 fff8a076 N
+127c351 fff83fa0 N
+12a43ad fff83fa0 N
+12a43ad fff99afd N
+128bdd8 fff99afd N
+1285e00 fff987f1 N
+1280cbd fff951ab N
+127d65e fff90068 N
+127c351 fff8a076 N
+9 1 0
+32c8590 fff99afd N
+32c8590 fff83fa0 N
+32f05eb fff83fa0 N
+32f05eb fff8a076 N
+32ef2c5 fff90068 N
+32ebc7f fff951ab N
+32e6b3d fff987f1 N
+32e0b64 fff99afd N
+32c8590 fff99afd N
+9 1 0
+329a1fc fff8a076 N
+329a1fc fff83fa0 N
+32c2258 fff83fa0 N
+32c2258 fff99afd N
+32a9c6a fff99afd N
+32a3c91 fff987f1 N
+329eb4f fff951ab N
+329b509 fff90068 N
+329a1fc fff8a076 N
+9 1 0
+2fdce54 fff99afd N
+2fdce54 fff83fa0 N
+3004ec9 fff83fa0 N
+3004ec9 fff8a076 N
+3003ba3 fff90068 N
+300055d fff951ab N
+2ffb41a fff987f1 N
+2ff5442 fff99afd N
+2fdce54 fff99afd N
+9 1 0
+358591e fff8a076 N
+358591e fff83fa0 N
+35ad97a fff83fa0 N
+35ad97a fff99afd N
+35953a5 fff99afd N
+358f3b3 fff987f1 N
+358a271 fff951ab N
+3586c2b fff90068 N
+358591e fff8a076 N
+9 1 0
+389f3d4 fff99afd N
+389f3d4 fff83fa0 N
+38c7430 fff83fa0 N
+38c7430 fff8a076 N
+38c6123 fff90068 N
+38c2ac4 fff951ab N
+38bd981 fff987f1 N
+38b79a9 fff99afd N
+389f3d4 fff99afd N
+9 1 0
+3871040 fff8a076 N
+3871040 fff83fa0 N
+389909c fff83fa0 N
+389909c fff99afd N
+3880ac7 fff99afd N
+387aaef fff987f1 N
+3875993 fff951ab N
+387234d fff90068 N
+3871040 fff8a076 N
+9 1 0
+35b3cb2 fff99afd N
+35b3cb2 fff83fa0 N
+35dbd0d fff83fa0 N
+35dbd0d fff8a076 N
+35daa01 fff90068 N
+35d73a1 fff951ab N
+35d225f fff987f1 N
+35cc286 fff99afd N
+35b3cb2 fff99afd N
+9 1 0
+29d7c7c fff8a076 N
+29d7c7c fff83fa0 N
+29ffcd8 fff83fa0 N
+29ffcd8 fff99afd N
+29e7703 fff99afd N
+29e172b fff987f1 N
+29dc5e8 fff951ab N
+29d8f89 fff90068 N
+29d7c7c fff8a076 N
+9 1 0
+271a8ed fff99afd N
+271a8ed fff83fa0 N
+2742949 fff83fa0 N
+2742949 fff8a076 N
+274163c fff90068 N
+273dff6 fff951ab N
+2738e9a fff987f1 N
+2732ec2 fff99afd N
+271a8ed fff99afd N
+9 1 0
+26ec55a fff8a076 N
+26ec55a fff83fa0 N
+27145b5 fff83fa0 N
+27145b5 fff99afd N
+26fbfe1 fff99afd N
+26f6008 fff987f1 N
+26f0eac fff951ab N
+26ed867 fff90068 N
+26ec55a fff8a076 N
+9 1 0
+2a06010 fff99afd N
+2a06010 fff83fa0 N
+2a2e06b fff83fa0 N
+2a2e06b fff8a076 N
+2a2cd5e fff90068 N
+2a29719 fff951ab N
+2a245d6 fff987f1 N
+2a1e5e4 fff99afd N
+2a06010 fff99afd N
+9 1 0
+2faeac0 fff8a076 N
+2faeac0 fff83fa0 N
+2fd6b1c fff83fa0 N
+2fd6b1c fff99afd N
+2fbe547 fff99afd N
+2fb856f fff987f1 N
+2fb342c fff951ab N
+2fafde7 fff90068 N
+2faeac0 fff8a076 N
+9 1 0
+2cf1732 fff99afd N
+2cf1732 fff83fa0 N
+2d1978d fff83fa0 N
+2d1978d fff8a076 N
+2d18481 fff90068 N
+2d14e3b fff951ab N
+2d0fcf8 fff987f1 N
+2d09d06 fff99afd N
+2cf1732 fff99afd N
+9 1 0
+2cc339e fff8a076 N
+2cc339e fff83fa0 N
+2ceb3fa fff83fa0 N
+2ceb3fa fff99afd N
+2cd2e25 fff99afd N
+2ccce4d fff987f1 N
+2cc7d0a fff951ab N
+2cc46ab fff90068 N
+2cc339e fff8a076 N
+9 1 0
+9e8165 fff99afd N
+9e8165 fff83fa0 N
+a101da fff83fa0 N
+a101da fff8a076 N
+a0eeb3 fff90068 N
+a0b86e fff951ab N
+a0672b fff987f1 N
+a00753 fff99afd N
+9e8165 fff99afd N
+9 1 0
+2cc339e fff77b92 N
+2cc46ab fff71ba0 N
+2cc7d0a fff6ca5d N
+2ccce4d fff69417 N
+2cd2e25 fff6810b N
+2ceb3fa fff6810b N
+2ceb3fa fff7dc68 N
+2cc339e fff7dc68 N
+2cc339e fff77b92 N
+9 1 0
+2a06010 fff7dc68 N
+2a06010 fff6810b N
+2a1e5e4 fff6810b N
+2a245d6 fff69417 N
+2a29719 fff6ca5d N
+2a2cd5e fff71ba0 N
+2a2e06b fff77b92 N
+2a2e06b fff7dc68 N
+2a06010 fff7dc68 N
+9 1 0
+29d7c7c fff77b92 N
+29d8f89 fff71ba0 N
+29dc5e8 fff6ca5d N
+29e172b fff69417 N
+29e7703 fff6810b N
+29ffcd8 fff6810b N
+29ffcd8 fff7dc68 N
+29d7c7c fff7dc68 N
+29d7c7c fff77b92 N
+9 1 0
+2cf1732 fff7dc68 N
+2cf1732 fff6810b N
+2d09d06 fff6810b N
+2d0fcf8 fff69417 N
+2d14e3b fff6ca5d N
+2d18481 fff71ba0 N
+2d1978d fff77b92 N
+2d1978d fff7dc68 N
+2cf1732 fff7dc68 N
+9 1 0
+329a1fc fff77b92 N
+329b509 fff71ba0 N
+329eb4f fff6ca5d N
+32a3c91 fff69417 N
+32a9c6a fff6810b N
+32c2258 fff6810b N
+32c2258 fff7dc68 N
+329a1fc fff7dc68 N
+329a1fc fff77b92 N
+9 1 0
+2fdce54 fff7dc68 N
+2fdce54 fff6810b N
+2ff5442 fff6810b N
+2ffb41a fff69417 N
+300055d fff6ca5d N
+3003ba3 fff71ba0 N
+3004ec9 fff77b92 N
+3004ec9 fff7dc68 N
+2fdce54 fff7dc68 N
+9 1 0
+2faeac0 fff77b92 N
+2fafde7 fff71ba0 N
+2fb342c fff6ca5d N
+2fb856f fff69417 N
+2fbe547 fff6810b N
+2fd6b1c fff6810b N
+2fd6b1c fff7dc68 N
+2faeac0 fff7dc68 N
+2faeac0 fff77b92 N
+9 1 0
+1e29ff3 fff77b92 N
+1e2b300 fff71ba0 N
+1e2e946 fff6ca5d N
+1e33a88 fff69417 N
+1e39a7a fff6810b N
+1e5204f fff6810b N
+1e5204f fff7dc68 N
+1e29ff3 fff7dc68 N
+1e29ff3 fff77b92 N
+9 1 0
+1b6cc4b fff7dc68 N
+1b6cc4b fff6810b N
+1b85239 fff6810b N
+1b8b212 fff69417 N
+1b90354 fff6ca5d N
+1b9399a fff71ba0 N
+1b94ca7 fff77b92 N
+1b94ca7 fff7dc68 N
+1b6cc4b fff7dc68 N
+9 1 0
+1b3e8b8 fff77b92 N
+1b3fbde fff71ba0 N
+1b43224 fff6ca5d N
+1b48366 fff69417 N
+1b4e33f fff6810b N
+1b66913 fff6810b N
+1b66913 fff7dc68 N
+1b3e8b8 fff7dc68 N
+1b3e8b8 fff77b92 N
+9 1 0
+1e58387 fff7dc68 N
+1e58387 fff6810b N
+1e7095b fff6810b N
+1e76934 fff69417 N
+1e7ba76 fff6ca5d N
+1e7f0bc fff71ba0 N
+1e803e2 fff77b92 N
+1e803e2 fff7dc68 N
+1e58387 fff7dc68 N
+9 1 0
+271a8ed fff7dc68 N
+271a8ed fff6810b N
+2732ec2 fff6810b N
+2738e9a fff69417 N
+273dff6 fff6ca5d N
+274163c fff71ba0 N
+2742949 fff77b92 N
+2742949 fff7dc68 N
+271a8ed fff7dc68 N
+9 1 0
+26ec55a fff77b92 N
+26ed867 fff71ba0 N
+26f0eac fff6ca5d N
+26f6008 fff69417 N
+26fbfe1 fff6810b N
+27145b5 fff6810b N
+27145b5 fff7dc68 N
+26ec55a fff7dc68 N
+26ec55a fff77b92 N
+9 1 0
+242f1cb fff7dc68 N
+242f1cb fff6810b N
+24477a0 fff6810b N
+244d778 fff69417 N
+24528bb fff6ca5d N
+2455f1a fff71ba0 N
+2457227 fff77b92 N
+2457227 fff7dc68 N
+242f1cb fff7dc68 N
+9 1 0
+3e2f8d fff8a076 N
+3e2f8d fff83fa0 N
+40afe8 fff83fa0 N
+40afe8 fff99afd N
+3f2a14 fff99afd N
+3eca3b fff987f1 N
+3e78f9 fff951ab N
+3e4299 fff90068 N
+3e2f8d fff8a076 N
+9 1 0
+354a94 fff93087 N
+354a94 fff83fa0 N
+363b7b fff83fa0 N
+3637e9 fff85ae9 N
+361a3e fff8a28c N
+35eb04 fff8e010 N
+35ad80 fff90f4a N
+3565dd fff92cf5 N
+354a94 fff93087 N
+9 1 0
+33fa07 fff85ae9 N
+33f675 fff83fa0 N
+34e75c fff83fa0 N
+34e75c fff93087 N
+34cc13 fff92cf5 N
+348470 fff90f4a N
+3446ec fff8e010 N
+3417b2 fff8a28c N
+33fa07 fff85ae9 N
+9 1 0
+411320 fff99afd N
+411320 fff83fa0 N
+43937c fff83fa0 N
+43937c fff8a076 N
+43806f fff90068 N
+434a29 fff951ab N
+42f8e7 fff987f1 N
+4298f5 fff99afd N
+411320 fff99afd N
+9 1 0
+9b9dd1 fff8a076 N
+9b9dd1 fff83fa0 N
+9e1e46 fff83fa0 N
+9e1e46 fff99afd N
+9c9858 fff99afd N
+9c3880 fff987f1 N
+9be73d fff951ab N
+9bb0f7 fff90068 N
+9b9dd1 fff8a076 N
+9 1 0
+6fca42 fff99afd N
+6fca42 fff83fa0 N
+724a9e fff83fa0 N
+724a9e fff8a076 N
+723791 fff90068 N
+72014b fff951ab N
+71b009 fff987f1 N
+715030 fff99afd N
+6fca42 fff99afd N
+9 1 0
+6ce6af fff8a076 N
+6ce6af fff83fa0 N
+6f670a fff83fa0 N
+6f670a fff99afd N
+6de136 fff99afd N
+6d815d fff987f1 N
+6d301b fff951ab N
+6cf9bc fff90068 N
+6ce6af fff8a076 N
+9 1 0
+389f3d4 fff7dc68 N
+389f3d4 fff6810b N
+38b79a9 fff6810b N
+38bd981 fff69417 N
+38c2ac4 fff6ca5d N
+38c6123 fff71ba0 N
+38c7430 fff77b92 N
+38c7430 fff7dc68 N
+389f3d4 fff7dc68 N
+9 1 0
+3871040 fff77b92 N
+387234d fff71ba0 N
+3875993 fff6ca5d N
+387aaef fff69417 N
+3880ac7 fff6810b N
+389909c fff6810b N
+389909c fff7dc68 N
+3871040 fff7dc68 N
+3871040 fff77b92 N
+9 1 0
+32c8590 fff7dc68 N
+32c8590 fff6810b N
+32e0b64 fff6810b N
+32e6b3d fff69417 N
+32ebc7f fff6ca5d N
+32ef2c5 fff71ba0 N
+32f05eb fff77b92 N
+32f05eb fff7dc68 N
+32c8590 fff7dc68 N
+9 1 0
+33f675 fff7dc68 N
+33fa07 fff7c11f N
+3417b2 fff7797c N
+3446ec fff73bf8 N
+348470 fff70cbe N
+34cc13 fff6ef13 N
+34e75c fff6eb81 N
+34e75c fff7dc68 N
+33f675 fff7dc68 N
+9 1 0
+125bfe fff99afd N
+125bfe fff83fa0 N
+14dc5a fff83fa0 N
+14dc5a fff8a076 N
+14c94d fff90068 N
+149307 fff951ab N
+1441ab fff987f1 N
+13e1d3 fff99afd N
+125bfe fff99afd N
+9 1 0
+f786a fff8a076 N
+f786a fff83fa0 N
+11f8c6 fff83fa0 N
+11f8c6 fff99afd N
+1072f1 fff99afd N
+101319 fff987f1 N
+fc1d6 fff951ab N
+f8b77 fff90068 N
+f786a fff8a076 N
+9 1 0
+354a94 fff6eb81 N
+3565dd fff6ef13 N
+35ad80 fff70cbe N
+35eb04 fff73bf8 N
+361a3e fff7797c N
+3637e9 fff7c11f N
+363b7b fff7dc68 N
+354a94 fff7dc68 N
+354a94 fff6eb81 N
+A10
+D1
+F0
+1fe9c70 fffa2fb8
+2015b80 fffa2fb8
+A11
+251d96 fff6b2c0
+251d96 fff4c2a8
+251d96 fff2d290
+251d96 fff0e278
+251d96 ffeef260
+251d96 ffed0248
+251d96 ffeb1230
+251d96 ffe92218
+2d0cca fff6b2c0
+2d0cca fff4c2a8
+2d0cca fff2d290
+2d0cca fff0e278
+2d0cca ffeef260
+2d0cca ffed0248
+2d0cca ffeb1230
+2d0cca ffe92218
+1159ad2 fff77930
+1159ad2 fff58918
+1159ad2 fff39900
+1159ad2 fff1a8e8
+1159ad2 ffefb8d0
+1159ad2 ffedc8b8
+1159ad2 ffebd8a0
+1159ad2 ffe9e888
+11d8a06 fff77930
+11d8a06 fff58918
+11d8a06 fff39900
+11d8a06 fff1a8e8
+11d8a06 ffefb8d0
+11d8a06 ffedc8b8
+11d8a06 ffebd8a0
+11d8a06 ffe9e888
+2e587aa fff68124
+2e587aa fff4910c
+2e587aa fff2a0f4
+2e587aa fff0b0dc
+2e587aa ffeec0c4
+2e587aa ffecd0ac
+2e587aa ffeae094
+2e587aa ffe8f07c
+2ed76de fff68124
+2ed76de fff4910c
+2ed76de fff2a0f4
+2ed76de fff0b0dc
+2ed76de ffeec0c4
+2ed76de ffecd0ac
+2ed76de ffeae094
+2ed76de ffe8f07c
+1fc045e fff6e45c
+1fc045e fff4f444
+1fc045e fff3042c
+1fc045e fff11414
+1fc045e ffef23fc
+1fc045e ffed33e4
+1fc045e ffeb43cc
+1fc045e ffe953b4
+203f392 fff6e45c
+203f392 fff4f444
+203f392 fff3042c
+203f392 fff11414
+203f392 ffef23fc
+203f392 ffed33e4
+203f392 ffeb43cc
+203f392 ffe953b4
+A12
+2ded6c0 ffee61d0
+2ded6c0 ffeba2c0
+1f331c ffef82f0
+1f331c fff24200
+10f1b84 ffeec508
+10f1b84 ffec05f8
+A13
+D2
+3518f8 ffe92218 3518f8 fff80e04
+3518f8 ffe4ad14 3518f8 ffe92218
+75d28 ffe541e8 91ba4 ffe3836c
+91ba4 ffe3836c 33ef50 ffe3836c
+33ef50 ffe3836c 3518f8 ffe4ad14
+32c53f4 fff80e04 35b0b16 fff80e04
+35b0b16 fff80e04 389c238 fff80e04
+35b0b16 ffe88d44 389c238 ffe88d44
+307571c fffe4184 308e3fc fffcb4a4
+308e3fc fffa92f0 308e3fc fffcb4a4
+2fd9cd1 fff80e04 32c53f4 fff80e04
+308e3fc ffe953b4 308e3fc fff23dbc
+3084f28 ffe8bee0 308e3fc ffe953b4
+2fdce54 ffe8bee0 3084f28 ffe8bee0
+2fd9cd1 ffe88d44 2fdce54 ffe8bee0
+2da61bc fff26f58 2dc8370 fff4910c
+2da61bc ffec9f10 2da61bc fff26f58
+2da61bc ffec9f10 2db5e0c ffeba2c0
+2db5e0c ffeba2c0 2ded6c0 ffeba2c0
+2dc8370 fff4910c 2e587aa fff4910c
+2ded6c0 ffea4bc0 2ded6c0 ffeba2c0
+2ded6c0 ffea4bc0 2e03204 ffe8f07c
+2df35b4 ffeec0c4 2e587aa ffeec0c4
+2ded6c0 ffee61d0 2df35b4 ffeec0c4
+2ded6c0 ffee61d0 2ded6c0 fff20c20
+2ef4f8c fffe4184 307571c fffe4184
+2ed76de fff68124 2ed76de fffc68d6
+2e03204 ffe8f07c 2e28554 ffe8f07c
+2e28554 ffe8f07c 2e587aa ffe8f07c
+2f70fec ffeb1230 2f70fec fff11414
+2f70fec fff11414 2f807f8 fff20c20
+2da61bc fff26f58 2da61bc fff77930
+2d9cce8 fff80e04 2da61bc fff77930
+2cee596 fff80e04 2d9cce8 fff80e04
+2cee596 ffe88d44 2d6b328 ffe88d44
+2d6b328 ffe88d44 2d6e4c4 ffe8bee0
+2ed76de fffc68d6 2ee8d60 fffd7f58
+2ee8d60 fffd7f58 2ef4f8c fffe4184
+2d6e4c4 ffe8bee0 2d6e4c4 fff1da84
+242c02f ffe88d44 2717751 ffe88d44
+2717751 ffe88d44 2a02e74 ffe88d44
+2a02e74 ffe88d44 2cee596 ffe88d44
+2015b80 fffa2fb8 20378f0 fffa2fb8
+20378f0 fffa2fb8 203f392 fff9b516
+203f392 fff6e45c 203f392 fff9b516
+1fc045e ffef23fc 1ffca5c ffef23fc
+200f189 fff61b71 201ba74 fff6e45c
+201ba74 fff6e45c 203f392 fff6e45c
+200f189 ffe88df6 202b0b7 ffe6cec8
+202b0b7 ffe6cec8 20defd8 ffe6cec8
+20defd8 ffe6cec8 20fae54 ffe88d44
+20fae54 ffe88d44 214090d ffe88d44
+200f189 ffe88df6 200f189 fff04b29
+200f189 fff04b29 200f189 fff61b71
+1ffca5c ffef23fc 200f189 fff04b29
+1f809fc ffef23fc 1fc045e ffef23fc
+1f7a6c4 ffeec0c4 1f809fc ffef23fc
+1eb3fc4 ffe953b4 1eb3fc4 ffee2bf0
+1ea7954 ffe88d44 1eb3fc4 ffe953b4
+1e551eb ffe88d44 1ea7954 ffe88d44
+1fd13d4 fffa2fb8 1fe9c70 fffa2fb8
+1f933a4 fff4f444 1fc045e fff4f444
+1f8d06c fff5577c 1f933a4 fff4f444
+1fc045e ffe5ee26 1fc045e ffe953b4
+1fc045e ffe5ee26 1fe3d7c ffe3b508
+1fe3d7c ffe3b508 2199068 ffe3b508
+214090d ffe88d44 21d3efc ffe88d44
+21d3efc ffe88d44 242c02f ffe88d44
+2199068 ffeaaef8 2199068 fff3fc38
+12a7549 ffe88d44 1592c6b ffe88d44
+1592c6b ffe88d44 16e41b8 ffe88d44
+16e41b8 ffe88d44 187e38d ffe88d44
+10f1b84 ffeaaef8 10f1b84 ffec05f8
+10f1b84 ffeaaef8 10fe1f4 ffe9e888
+10fe1f4 ffe9e888 1159ad2 ffe9e888
+11cddc8 fff80e04 11cddc8 fffbbc98
+1135eec ffefb8d0 1159ad2 ffefb8d0
+10f1b84 ffeec835 1100c1f ffefb8d0
+1100c1f ffefb8d0 1123544 ffefb8d0
+1123544 ffefb8d0 1135eec ffefb8d0
+112987c fff58918 1159ad2 fff58918
+103de2c ffe9e888 10fe1f4 ffe9e888
+102514c ffeb7568 103de2c ffe9e888
+102514c ffeb7568 102514c fff3fc38
+fe3f80 fff80e04 102514c fff3fc38
+fbbe26 fff80e04 fe3f80 fff80e04
+f333c4 fffa2fb8 f4c0a4 fffbbc98
+f333c4 ffe98550 f333c4 fffa2fb8
+f333c4 ffe98550 f42bd0 ffe88d44
+f42bd0 ffe88d44 fbbe26 ffe88d44
+202b28 fff4c2a8 251d96 fff4c2a8
+1f331c fff3ca9c 202b28 fff4c2a8
+1f331c fff24200 1f331c fff3ca9c
+1998b4 ffef82f0 1f331c ffef82f0
+189c64 fff07f40 1998b4 ffef82f0
+189c64 fff07f40 189c64 fff68124
+170f84 fff80e04 189c64 fff68124
+122a62 fff80e04 170f84 fff80e04
+2d0cca ffe92218 3040bc ffe92218
+202b28 fff4c2a8 202b28 fffa2fb8
+38f928 ffea4bc0 38f928 fffc8308
+38f928 ffea4bc0 3ab7a4 ffe88d44
+3ab7a4 ffe88d44 40e184 ffe88d44
+1100c1f ffefb8d0 1100c1f fffb60d1
+f4c0a4 fffbbc98 10fb058 fffbbc98
+10fb058 fffbbc98 1100c1f fffb60d1
+A14
+117b0d0 ffff480c 1f41b50 ffff480c
+1159ad2 fffd320e 117b0d0 ffff480c
+1189a60 fffe819c 1f2f1a8 fffe819c
+1183728 fffe1e64 1189a60 fffe819c
+1183728 fff3ca9c 1183728 fffe1e64
+11a2740 fffdbb2c 1f1f99c fffdbb2c
+118fd98 fffc9184 11a2740 fffdbb2c
+118fd98 fff3042c 118fd98 fffc9184
+94d40 fff8a2d8 a76e8 fff9cc80
+a76e8 fffe4184 b6ef4 ffff3990
+7c060 fff8a2d8 94d40 fff8a2d8
+a76e8 fff9cc80 a76e8 fffe4184
+b3d58 fffdef5d bc11b fffe7320
+b3d58 fff715f8 b3d58 fffdef5d
+7c060 fff4c2a8 8ea08 fff4c2a8
+8ea08 fff4c2a8 b3d58 fff715f8
+a13b0 fff0e278 c03c8 fff2d290
+c03c8 fffd17dc c989c fffdacb0
+c03c8 fff2d290 c03c8 fffd17dc
+7c060 fff0e278 a13b0 fff0e278
+cca38 fffbee34 dc244 fffce640
+cca38 ffef23fc cca38 fffbee34
+aa884 ffed0248 cca38 ffef23fc
+7c060 ffed0248 aa884 ffed0248
+7c060 ffe92218 a76e8 ffe92218
+a76e8 ffe92218 d90a8 ffec3bd8
+d90a8 fffb8afc e257c fffc1fd0
+d90a8 ffec3bd8 d90a8 fffb8afc
+307258 ffff3990 3138c8 fffe7320
+30a3f4 fff2d290 3138c8 fff36764
+2d0cca fff2d290 30a3f4 fff2d290
+b6ef4 ffff3990 307258 ffff3990
+2b3af5 fff0e278 2d0cca fff0e278
+2aa210 fff17b5d 2b3af5 fff0e278
+297868 fffe7320 2aa210 fffd4978
+bc11b fffe7320 297868 fffe7320
+2aa210 fff17b5d 2aa210 fffd4978
+292641 fffdacb0 29dba0 fffcf751
+29dba0 ffef8734 2a7074 ffeef260
+2a7074 ffeef260 2d0cca ffeef260
+c989c fffdacb0 292641 fffdacb0
+29dba0 ffef8734 29dba0 fffcf751
+2ad3ac ffed0248 2d0cca ffed0248
+28d400 fffce640 291530 fffca510
+291530 ffeec0c4 291530 fffca510
+dc244 fffce640 28d400 fffce640
+291530 ffeec0c4 2ad3ac ffed0248
+27eb88 fffc1fd0 284ec0 fffbbc98
+284ec0 ffed0248 284ec0 fffbbc98
+284ec0 ffed0248 2a3ed8 ffeb1230
+2a3ed8 ffeb1230 2d0cca ffeb1230
+e257c fffc1fd0 27eb88 fffc1fd0
+12bf36 ffed0248 251d96 ffed0248
+122a62 ffec6d74 12bf36 ffed0248
+24bf07 ffeab3a2 251d96 ffeb1230
+eba50 ffeba704 fadb2 ffeab3a2
+eba50 ffeba704 eba50 ffef5598
+eba50 ffef5598 fb25c fff04da4
+fb25c fff04da4 122a62 fff04da4
+fadb2 ffeab3a2 24bf07 ffeab3a2
+2e587aa ffecd0ac 2ea1418 ffecd0ac
+2ea1418 ffecd0ac 2eaa8ec ffed6580
+2eaa8ec ffed6580 2eaa8ec fffa6154
+2e78f2c fffd7b14 2eaa8ec fffa6154
+2e587aa fff0b0dc 2e8559c fff0b0dc
+2e8559c fff0b0dc 2e9e27c fff23dbc
+2e9e27c fff23dbc 2e9e27c fffa0f2d
+2e73d05 fffcb4a4 2e9e27c fffa0f2d
+2e94da8 fffe4184 2eb0c24 fffc8308
+2e587aa fff2a0f4 2e7f264 fff2a0f4
+1159ad2 fff77930 1159ad2 fffd320e
+1159ad2 fff39900 118058c fff39900
+118058c fff39900 1183728 fff3ca9c
+1159ad2 fff1a8e8 117a254 fff1a8e8
+117a254 fff1a8e8 118fd98 fff3042c
+1fe3d7c fff11414 1ff03ec fff1da84
+1fc045e fff11414 1fe3d7c fff11414
+2ed76de ffeae094 2eda3d1 ffeab3a2
+2eda3d1 ffeab3a2 2f0a626 ffeab3a2
+2f20614 ffe5d6bc 2f20614 ffe953b4
+2f20614 ffe5d6bc 2f32fbc ffe4ad14
+2f32fbc ffe4ad14 34e75c0 ffe4ad14
+34e75c0 ffe4ad14 351f2b8 ffe82a0c
+351f2b8 ffe82a0c 351f2b8 fff2a0f4
+2f0a626 ffeab3a2 2f20614 ffe953b4
+351f2b8 fff2a0f4 3537f98 fff42dd4
+3537f98 fff42dd4 35b0b16 fff42dd4
+2f1d478 ffecd0ac 2f2cc84 ffebd8a0
+2ed76de ffecd0ac 2f1d478 ffecd0ac
+2f2cc84 ffe953b4 2f2cc84 ffe9e888
+2f2cc84 ffe9e888 2f2cc84 ffebd8a0
+2f2cc84 ffe69d2c 2f2cc84 ffe9e888
+2f2cc84 ffe69d2c 2f3f62c ffe57384
+34e2399 ffe57384 3512c48 ffe87c33
+3512c48 ffe87c33 3512c48 fff3fc38
+3512c48 fff3fc38 3537f98 fff64f88
+2f4ee38 fff1a8e8 2f77324 fff42dd4
+2f77324 fff42dd4 2fd9cd1 fff42dd4
+32b8d84 fff4f444 32c53f4 fff42dd4
+326bbd4 fff4f444 32b8d84 fff4f444
+3246884 fff2a0f4 326bbd4 fff4f444
+2ed76de ffe6b75e 2ed76de ffe8f07c
+36a2be4 fff42dd4 389c238 fff42dd4
+3680a30 fff64f88 36a2be4 fff42dd4
+3537f98 fff64f88 3680a30 fff64f88
+3246884 ffe73200 3246884 fff2a0f4
+2f3f62c ffe57384 2f70fec ffe57384
+2f70fec ffe57384 34e2399 ffe57384
+2f55170 ffe6cec8 2f5e644 ffe639f4
+2f5e644 ffe639f4 3237078 ffe639f4
+3237078 ffe639f4 3246884 ffe73200
+2e97f44 ffeae094 2e9e27c ffea7d5c
+2e9e27c ffe7639c 2e9e27c ffea7d5c
+2ea7750 ffe6cec8 2ebd294 ffe6cec8
+2e9e27c ffe7639c 2ea7750 ffe6cec8
+2e587aa ffeae094 2e97f44 ffeae094
+2f4ee38 ffe8f07c 2f4ee38 ffed971c
+2f4ee38 ffed971c 2f4ee38 fff1a8e8
+240d017 fff61dec 242c02f fff42dd4
+25761cc fffa2fb8 25d63b0 fff42dd4
+25d63b0 fff42dd4 2717751 fff42dd4
+20ac507 fffaf628 2934318 fffaf628
+2934318 fffaf628 29a0b6c fff42dd4
+29a0b6c fff42dd4 2a02e74 fff42dd4
+2c06a14 fffbbc98 2c7f8d8 fff42dd4
+2c7f8d8 fff42dd4 2cee596 fff42dd4
+20a72e0 fffbbc98 2c06a14 fffbbc98
+208b464 fff9fe1c 20a72e0 fffbbc98
+208b464 fff58918 208b464 fff9fe1c
+203f392 fff4f444 2081f90 fff4f444
+2081f90 fff4f444 208b464 fff58918
+2097ad4 fff9abf5 20ac507 fffaf628
+2097ad4 fff39900 2097ad4 fff9abf5
+20a4144 fff959b4 20b1748 fffa2fb8
+20a4144 fff1da84 20a4144 fff959b4
+20b1748 fffa2fb8 25761cc fffa2fb8
+20b9c88 fff61dec 240d017 fff61dec
+20b07b4 fff58918 20b9c88 fff61dec
+20b07b4 fff04da4 20b07b4 fff58918
+209de0c ffef23fc 20b07b4 fff04da4
+203f392 ffef23fc 209de0c ffef23fc
+203f392 fff11414 2081f90 fff11414
+2097ad4 fff11414 20a4144 fff1da84
+2081f90 fff11414 2097ad4 fff11414
+203f392 fff3042c 208e600 fff3042c
+208e600 fff3042c 2097ad4 fff39900
+203f392 ffed33e4 20a4144 ffed33e4
+20a4144 ffed33e4 20bce24 ffeec0c4
+20bce24 ffeec0c4 20bce24 fff335c8
+20bce24 fff335c8 20cc630 fff42dd4
+20cc630 fff42dd4 214090d fff42dd4
+1f394f8 ffeb43cc 1fc045e ffeb43cc
+1ee27e8 ffe5d6bc 1f394f8 ffeb43cc
+197254c ffe5d6bc 1ee27e8 ffe5d6bc
+1943d28 ffe8bee0 197254c ffe5d6bc
+1943d28 ffe8bee0 1943d28 fff23dbc
+1924d10 fff42dd4 1943d28 fff23dbc
+187e38d fff42dd4 1924d10 fff42dd4
+1b69aaf fff42dd4 1ba6a34 fff42dd4
+1ba6a34 fff42dd4 1bd5258 fff145b0
+1bd5258 ffe7639c 1bd5258 fff145b0
+1bd5258 ffe7639c 1be18c8 ffe69d2c
+1be18c8 ffe69d2c 1edd5c1 ffe69d2c
+1edd5c1 ffe69d2c 1f07b38 ffe942a3
+1f07b38 ffe942a3 1f07b38 ffea7d5c
+203f392 ffe953b4 206c44c ffe953b4
+206c44c ffe953b4 206f5e8 ffe92218
+1edc4b0 ffea4bc0 1edc4b0 fff1da84
+1e551eb fff42dd4 1eb7160 fff42dd4
+1f239b4 fff23dbc 1f239b4 fffd7b14
+1f1f99c fffdbb2c 1f239b4 fffd7b14
+1f2f1a8 fffe819c 1f394f8 fffdde4c
+1f394f8 fffb8afc 1f394f8 fffdde4c
+1f55047 ffee609f 1f67d1c ffed33e4
+1f55047 ffee609f 1f55047 fffe12fb
+1f41b50 ffff480c 1f55047 fffe12fb
+1f67d1c ffed33e4 1fc045e ffed33e4
+1eb7160 fff42dd4 1edc4b0 fff1da84
+1ff03ec fff1da84 1ff03ec fff24037
+1ff03ec fff24037 1ff9645 fff2d290
+1fb86f4 fffe4184 2e94da8 fffe4184
+1f6aeb8 fffcb4a4 1f83b98 fffe4184
+1f6aeb8 fff36764 1f6aeb8 fffcb4a4
+1f6aeb8 fff36764 1f711f0 fff3042c
+1f83b98 fffe4184 1fb86f4 fffe4184
+1f711f0 fff3042c 1fc045e fff3042c
+1fba126 fff36764 1fc045e fff3042c
+46ed08 ffe54d38 46ed08 fff335c8
+45f4fc fff42dd4 46ed08 fff335c8
+40e184 fff42dd4 45f4fc fff42dd4
+6f98a6 fff42dd4 725588 fff42dd4
+725588 fff42dd4 73e268 fff2a0f4
+46ed08 ffe54d38 4a06c8 ffe23378
+4a06c8 ffe23378 11bf10c ffe23378
+11bf10c ffe23378 11d8a06 ffe3cc72
+11d8a06 ffe3cc72 11d8a06 ffe9e888
+11b50e8 ffebd8a0 11d8a06 ffebd8a0
+11aedb0 ffeb7568 11b50e8 ffebd8a0
+11aedb0 ffe3f1f4 11aedb0 ffeb7568
+119f5a4 ffe2f9e8 11aedb0 ffe3f1f4
+7635b8 ffe2f9e8 119f5a4 ffe2f9e8
+73e268 ffe54d38 7635b8 ffe2f9e8
+73e268 ffe54d38 73e268 fff2a0f4
+9e4fc9 fff42dd4 a20170 fff42dd4
+a20170 fff42dd4 a29644 fff39900
+a29644 ffe47b78 a29644 fff39900
+a29644 ffe47b78 a35164 ffe3c058
+a35164 ffe3c058 119a37d ffe3c058
+119a37d ffe3c058 11a2740 ffe44434
+11a2740 ffed6580 11a8a78 ffedc8b8
+11a8a78 ffedc8b8 11d8a06 ffedc8b8
+11a2740 ffe44434 11a2740 ffed6580
+11abc14 ffefb8d0 11d8a06 ffefb8d0
+11960d0 ffee5d8c 11abc14 ffefb8d0
+11960d0 ffe4965b 11960d0 ffee5d8c
+119513c ffe486c8 11960d0 ffe4965b
+d400a8 ffe486c8 119513c ffe486c8
+d2422c ffe64544 d400a8 ffe486c8
+d2422c ffe64544 d2422c fff1774c
+cf8ba4 fff42dd4 d2422c fff1774c
+cd0704 fff42dd4 cf8ba4 fff42dd4
+fbbe26 fff42dd4 1002f98 fff42dd4
+1002f98 fff42dd4 100c46c fff39900
+100c46c ffe64544 101bc78 ffe54d38
+101bc78 ffe54d38 1174a6c ffe54d38
+1174a6c ffe54d38 1189a60 ffe69d2c
+1189a60 ffe69d2c 1189a60 fff01c08
+1189a60 fff01c08 11a2740 fff1a8e8
+11a2740 fff1a8e8 11d8a06 fff1a8e8
+100c46c ffe64544 100c46c fff39900
+11d8a06 fff58918 11e1eda fff61dec
+11e1eda fff61dec 1551080 fff61dec
+1551080 fff61dec 1570098 fff42dd4
+1570098 fff42dd4 1592c6b fff42dd4
+103de2c ffee5d8c 103de2c fff5ec50
+1123544 fff1a8e8 1159ad2 fff1a8e8
+31ff38 ffe88d44 31ff38 fff20c20
+307258 ffe70064 31ff38 ffe88d44
+269044 ffe70064 307258 ffe70064
+251d96 ffe87312 269044 ffe70064
+251d96 ffe87312 251d96 ffe92218
+3138c8 fff36764 3138c8 fffb8afc
+3138c8 fffb8afc 3138c8 fffe7320
+11d8a06 fff39900 129e075 fff39900
+129e075 fff39900 12a7549 fff42dd4
+1fa5d4c fff6e45c 1fc045e fff6e45c
+1f996dc fff7aacc 1fa5d4c fff6e45c
+1f996dc fffcb4a4 1fa5d4c fffd7b14
+1f996dc fff7aacc 1f996dc fffcb4a4
+1fa5d4c fffd7b14 2e78f2c fffd7b14
+1fed250 fff80e04 1ff9645 fff74a0f
+1faf220 fff80e04 1fed250 fff80e04
+1fa5d4c fff8a2d8 1faf220 fff80e04
+1fa5d4c fff8a2d8 1fa5d4c fffc627d
+1fa5d4c fffc627d 1faaf73 fffcb4a4
+1ff9645 fff2d290 1ff9645 fff74a0f
+1faaf73 fffcb4a4 2e73d05 fffcb4a4
+112fbb4 ffebd8a0 1159ad2 ffebd8a0
+112987c ffebd8a0 1159ad2 ffebd8a0
+11203a8 ffec6d74 112987c ffebd8a0
+11203a8 ffec6d74 11203a8 ffedc8b8
+203f392 ffeb43cc 207bc58 ffeb43cc
+207bc58 ffeb43cc 208512c ffeaaef8
+A15
+D1
+75d28 ffed0248
+75d28 ffe92218
+75d28 fff0e278
+75d28 fff4c2a8
+75d28 fff8a2d8
+75d28 fffc8308
+A16
+75d28 ffe541e8
+A17
+122a62 ffe88d44
+122a62 ffec6d74
+122a62 fff04da4
+122a62 fff42dd4
+122a62 fff80e04
+40e184 fff80e04
+40e184 fff42dd4
+40e184 fff04da4
+40e184 ffec6d74
+40e184 ffe88d44
+6f98a6 ffe88d44
+6f98a6 ffec6d74
+6f98a6 fff04da4
+6f98a6 fff42dd4
+6f98a6 fff80e04
+9e4fc9 fff80e04
+9e4fc9 fff42dd4
+9e4fc9 fff04da4
+9e4fc9 ffec6d74
+9e4fc9 ffe88d44
+cd0704 ffe88d44
+cd0704 ffec6d74
+cd0704 fff04da4
+cd0704 fff42dd4
+cd0704 fff80e04
+fbbe26 fff80e04
+fbbe26 fff42dd4
+fbbe26 fff04da4
+fbbe26 ffec6d74
+fbbe26 ffe88d44
+12a7549 ffe88d44
+12a7549 ffec6d74
+12a7549 fff04da4
+12a7549 fff42dd4
+12a7549 fff80e04
+1592c6b fff80e04
+1592c6b fff42dd4
+1592c6b fff04da4
+1592c6b ffec6d74
+1592c6b ffe88d44
+187e38d ffe88d44
+187e38d ffec6d74
+187e38d fff04da4
+187e38d fff42dd4
+187e38d fff80e04
+1b69aaf fff80e04
+1b69aaf fff42dd4
+1b69aaf fff04da4
+1b69aaf ffec6d74
+1b69aaf ffe88d44
+1e551eb ffe88d44
+1e551eb ffec6d74
+1e551eb fff04da4
+1e551eb fff42dd4
+1e551eb fff80e04
+214090d fff80e04
+214090d fff42dd4
+214090d fff04da4
+214090d ffec6d74
+214090d ffe88d44
+242c02f ffe88d44
+242c02f ffec6d74
+242c02f fff04da4
+242c02f fff42dd4
+242c02f fff80e04
+2717751 fff80e04
+2717751 fff42dd4
+2717751 fff04da4
+2717751 ffec6d74
+2717751 ffe88d44
+2a02e74 ffe88d44
+2a02e74 ffec6d74
+2a02e74 fff04da4
+2a02e74 fff42dd4
+2a02e74 fff80e04
+2cee596 fff80e04
+2cee596 fff42dd4
+2cee596 fff04da4
+2cee596 ffec6d74
+2cee596 ffe88d44
+2fd9cd1 ffe88d44
+2fd9cd1 ffec6d74
+2fd9cd1 fff04da4
+2fd9cd1 fff42dd4
+2fd9cd1 fff80e04
+32c53f4 fff80e04
+32c53f4 fff42dd4
+32c53f4 fff04da4
+32c53f4 ffec6d74
+32c53f4 ffe88d44
+35b0b16 ffe88d44
+35b0b16 ffec6d74
+35b0b16 fff04da4
+35b0b16 fff42dd4
+35b0b16 fff80e04
+389c238 fff80e04
+389c238 fff42dd4
+389c238 fff04da4
+389c238 ffec6d74
+389c238 ffe88d44
+A18
+11cddc8 fffbbc98
+2eb0c24 fffc8308
+2e88738 fff335c8
+1f394f8 fffb8afc
+1f6aeb8 fffb8afc
+1f26b50 fff20c20
+1ff03ec fff1da84
+2f4ee38 ffe8f07c
+2edc2ac ffe66b90
+2f55170 ffe6cec8
+308e3fc fffa92f0
+308e3fc fff23dbc
+2ded6c0 fff20c20
+2ee8d60 fffd7f58
+2ebd294 ffe6cec8
+2e28554 ffe8f07c
+2f70fec ffeb1230
+2f807f8 fff20c20
+2d6e4c4 fff23dbc
+1f07b38 ffea7d5c
+206f5e8 ffe92218
+208512c ffeaaef8
+1edc4b0 ffea4bc0
+1f7a6c4 ffeec0c4
+1eb3fc4 ffee2bf0
+1fd13d4 fffa2fb8
+1f8d06c fff5577c
+2199068 ffe3b508
+2199068 ffeaaef8
+2199068 fff3fc38
+103de2c fff5ec50
+10fb058 fffbbc98
+112987c fff58918
+1123544 fff1a8e8
+31ff38 fff20c20
+3040bc ffe92218
+202b28 fffa2fb8
+38f928 fffc8308
+3518f8 ffe92218
+3518f8 fff80e04
+11203a8 ffedc8b8
+1044164 ffedfa54
+L2
+I0
+N0
+F0
+C" Layer_Color=8388736"
+C":AMPARAMS|DCode=10|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=270.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=12|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=180.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=15|XSize=60mil|YSize=100mil|CornerRadius=15mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=16|XSize=60mil|YSize=100mil|CornerRadius=7.5mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=17|XSize=59.06mil|YSize=118.11mil|CornerRadius=14.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=19|XSize=63.12mil|YSize=47.37mil|CornerRadius=8.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=270.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=21|XSize=63.12mil|YSize=47.37mil|CornerRadius=8.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=180.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=22|XSize=68mil|YSize=108mil|CornerRadius=19mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=23|XSize=68mil|YSize=108mil|CornerRadius=11.5mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=24|XSize=67.06mil|YSize=126.11mil|CornerRadius=18.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+A19
+D1
+1fe9c70 fffa2fb8
+2015b80 fffa2fb8
+A20
+251d96 fff6b2c0
+251d96 fff4c2a8
+251d96 fff2d290
+251d96 fff0e278
+251d96 ffeef260
+251d96 ffed0248
+251d96 ffeb1230
+251d96 ffe92218
+2d0cca fff6b2c0
+2d0cca fff4c2a8
+2d0cca fff2d290
+2d0cca fff0e278
+2d0cca ffeef260
+2d0cca ffed0248
+2d0cca ffeb1230
+2d0cca ffe92218
+1159ad2 fff77930
+1159ad2 fff58918
+1159ad2 fff39900
+1159ad2 fff1a8e8
+1159ad2 ffefb8d0
+1159ad2 ffedc8b8
+1159ad2 ffebd8a0
+1159ad2 ffe9e888
+11d8a06 fff77930
+11d8a06 fff58918
+11d8a06 fff39900
+11d8a06 fff1a8e8
+11d8a06 ffefb8d0
+11d8a06 ffedc8b8
+11d8a06 ffebd8a0
+11d8a06 ffe9e888
+2e587aa fff68124
+2e587aa fff4910c
+2e587aa fff2a0f4
+2e587aa fff0b0dc
+2e587aa ffeec0c4
+2e587aa ffecd0ac
+2e587aa ffeae094
+2e587aa ffe8f07c
+2ed76de fff68124
+2ed76de fff4910c
+2ed76de fff2a0f4
+2ed76de fff0b0dc
+2ed76de ffeec0c4
+2ed76de ffecd0ac
+2ed76de ffeae094
+2ed76de ffe8f07c
+1fc045e fff6e45c
+1fc045e fff4f444
+1fc045e fff3042c
+1fc045e fff11414
+1fc045e ffef23fc
+1fc045e ffed33e4
+1fc045e ffeb43cc
+1fc045e ffe953b4
+203f392 fff6e45c
+203f392 fff4f444
+203f392 fff3042c
+203f392 fff11414
+203f392 ffef23fc
+203f392 ffed33e4
+203f392 ffeb43cc
+203f392 ffe953b4
+A21
+2ded6c0 ffee61d0
+2ded6c0 ffeba2c0
+1f331c ffef82f0
+1f331c fff24200
+10f1b84 ffeec508
+10f1b84 ffec05f8
+A22
+75d28 ffed0248
+75d28 ffe92218
+75d28 fff0e278
+75d28 fff4c2a8
+75d28 fff8a2d8
+75d28 fffc8308
+A23
+75d28 ffe541e8
+A24
+122a62 ffe88d44
+122a62 ffec6d74
+122a62 fff04da4
+122a62 fff42dd4
+122a62 fff80e04
+40e184 fff80e04
+40e184 fff42dd4
+40e184 fff04da4
+40e184 ffec6d74
+40e184 ffe88d44
+6f98a6 ffe88d44
+6f98a6 ffec6d74
+6f98a6 fff04da4
+6f98a6 fff42dd4
+6f98a6 fff80e04
+9e4fc9 fff80e04
+9e4fc9 fff42dd4
+9e4fc9 fff04da4
+9e4fc9 ffec6d74
+9e4fc9 ffe88d44
+cd0704 ffe88d44
+cd0704 ffec6d74
+cd0704 fff04da4
+cd0704 fff42dd4
+cd0704 fff80e04
+fbbe26 fff80e04
+fbbe26 fff42dd4
+fbbe26 fff04da4
+fbbe26 ffec6d74
+fbbe26 ffe88d44
+12a7549 ffe88d44
+12a7549 ffec6d74
+12a7549 fff04da4
+12a7549 fff42dd4
+12a7549 fff80e04
+1592c6b fff80e04
+1592c6b fff42dd4
+1592c6b fff04da4
+1592c6b ffec6d74
+1592c6b ffe88d44
+187e38d ffe88d44
+187e38d ffec6d74
+187e38d fff04da4
+187e38d fff42dd4
+187e38d fff80e04
+1b69aaf fff80e04
+1b69aaf fff42dd4
+1b69aaf fff04da4
+1b69aaf ffec6d74
+1b69aaf ffe88d44
+1e551eb ffe88d44
+1e551eb ffec6d74
+1e551eb fff04da4
+1e551eb fff42dd4
+1e551eb fff80e04
+214090d fff80e04
+214090d fff42dd4
+214090d fff04da4
+214090d ffec6d74
+214090d ffe88d44
+242c02f ffe88d44
+242c02f ffec6d74
+242c02f fff04da4
+242c02f fff42dd4
+242c02f fff80e04
+2717751 fff80e04
+2717751 fff42dd4
+2717751 fff04da4
+2717751 ffec6d74
+2717751 ffe88d44
+2a02e74 ffe88d44
+2a02e74 ffec6d74
+2a02e74 fff04da4
+2a02e74 fff42dd4
+2a02e74 fff80e04
+2cee596 fff80e04
+2cee596 fff42dd4
+2cee596 fff04da4
+2cee596 ffec6d74
+2cee596 ffe88d44
+2fd9cd1 ffe88d44
+2fd9cd1 ffec6d74
+2fd9cd1 fff04da4
+2fd9cd1 fff42dd4
+2fd9cd1 fff80e04
+32c53f4 fff80e04
+32c53f4 fff42dd4
+32c53f4 fff04da4
+32c53f4 ffec6d74
+32c53f4 ffe88d44
+35b0b16 ffe88d44
+35b0b16 ffec6d74
+35b0b16 fff04da4
+35b0b16 fff42dd4
+35b0b16 fff80e04
+389c238 fff80e04
+389c238 fff42dd4
+389c238 fff04da4
+389c238 ffec6d74
+389c238 ffe88d44
+L4
+I0
+N0
+F0
+C" Layer_Physical_Order=2"
+C" Layer_Color=16711680"
+C":AMPARAMS|DCode=10|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=270.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=12|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=180.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=15|XSize=60mil|YSize=100mil|CornerRadius=15mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=16|XSize=60mil|YSize=100mil|CornerRadius=7.5mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=17|XSize=59.06mil|YSize=118.11mil|CornerRadius=14.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+A0
+D4
+55 1 0
+1e77e89 ffee44be N
+1e7b74a ffee2d3a N
+1e7ff52 ffedf5f6 N
+1e83696 ffedadee N
+1e85291 ffed6a5d N
+1ea28f6 ffed6a5d N
+1ea3ee3 ffed96d0 N
+1ea3e7e ffed9768 N
+1ea20d3 ffeddf0b N
+1ea1d41 ffedfa54 N
+1ec6247 ffedfa54 N
+1ec5eb5 ffeddf0b N
+1ec410a ffed9768 N
+1ec40a5 ffed96d0 N
+1ec5692 ffed6a5d N
+1f783d7 ffed6a5d N
+1f783f1 ffed6c26 N
+1f7c997 ffed6c26 N
+1f7c9b1 ffed6a5d N
+211084e ffed6a5d N
+2112449 ffedadee N
+2115b8c ffedf5f6 N
+211a395 ffee2d3a N
+211dc6f ffee44be N
+211dc6f ffee765a N
+211a395 ffee8dde N
+2115b8c ffeec522 N
+2112449 ffef0d2a N
+211084e ffef50bb N
+1f8d693 ffef50bb N
+1f8bafe ffef2775 N
+1f8c5b5 ffef0da9 N
+1f8c947 ffeef260 N
+1f68441 ffeef260 N
+1f687d3 ffef0da9 N
+1f6928a ffef2775 N
+1f676f5 ffef50bb N
+1ebf327 ffef50bb N
+1ebe32e ffef21cd N
+1ec11d0 ffeefdfc N
+1ec410a ffeec078 N
+1ec5eb5 ffee78d5 N
+1ec6247 ffee5d8c N
+1ea1d41 ffee5d8c N
+1ea20d3 ffee78d5 N
+1ea3e7e ffeec078 N
+1ea6db8 ffeefdfc N
+1ea9c5a ffef21cd N
+1ea8c61 ffef50bb N
+1e85291 ffef50bb N
+1e83696 ffef0d2a N
+1e7ff52 ffeec522 N
+1e7b74a ffee8dde N
+1e77e89 ffee765a N
+1e77e89 ffee44be N
+1029 1 0
+ee20 ffe269a4 N
+821b5 ffe269a4 N
+834a9 ffe2977b N
+77cb5 ffe34f6e N
+5b77a ffe34f6e N
+5703d ffe358db N
+52ddc ffe37457 N
+4f4e9 ffe3a019 N
+4c927 ffe3d90c N
+4adab ffe41b6d N
+4a43e ffe462aa N
+4a43e ffe62126 N
+4adab ffe66863 N
+4c927 ffe6aac4 N
+4f4e9 ffe6e3b7 N
+52ddc ffe70f79 N
+56324 ffe72580 N
+56324 ffe7571c N
+552c5 ffe75df4 N
+50a3e ffe7959e N
+4d294 ffe7de25 N
+4af8e ffe83294 N
+4a3a6 ffe88d44 N
+4a3a6 ffe9b6ec N
+4af8e ffea119c N
+4d294 ffea660b N
+50a3e ffeaae92 N
+552c5 ffeae63c N
+580e8 ffeaf962 N
+580e8 ffeb2afe N
+552c5 ffeb3e24 N
+50a3e ffeb75ce N
+4d294 ffebbe55 N
+4af8e ffec12c4 N
+4a3a6 ffec6d74 N
+4a3a6 ffed971c N
+4af8e ffedf1cc N
+4d294 ffee463b N
+50a3e ffee8ec2 N
+552c5 ffeec66c N
+580e8 ffeed992 N
+580e8 ffef0b2e N
+552c5 ffef1e54 N
+50a3e ffef55fe N
+4d294 ffef9e85 N
+4af8e ffeff2f4 N
+4a3a6 fff04da4 N
+4a3a6 fff1774c N
+4af8e fff1d1fc N
+4d294 fff2266b N
+50a3e fff26ef2 N
+552c5 fff2a69c N
+580e8 fff2b9c2 N
+580e8 fff2eb5e N
+552c5 fff2fe84 N
+50a3e fff3362e N
+4d294 fff37eb5 N
+4af8e fff3d324 N
+4a3a6 fff42dd4 N
+4a3a6 fff5577c N
+4af8e fff5b22c N
+4d294 fff6069b N
+50a3e fff64f22 N
+552c5 fff686cc N
+580e8 fff699f2 N
+580e8 fff6cb8e N
+552c5 fff6deb4 N
+50a3e fff7165e N
+4d294 fff75ee5 N
+4af8e fff7b354 N
+4a3a6 fff80e04 N
+4a3a6 fff937ac N
+4af8e fff9925c N
+4d294 fff9e6cb N
+50a3e fffa2f52 N
+552c5 fffa66fc N
+5a734 fffa8a02 N
+601e4 fffa95ea N
+8b86c fffa95ea N
+9131c fffa8a02 N
+9678b fffa66fc N
+9b012 fffa2f52 N
+9e7bc fff9e6cb N
+a0ac2 fff9925c N
+a16aa fff937ac N
+a16aa fff80e04 N
+a0ac2 fff7b354 N
+9e7bc fff75ee5 N
+9b012 fff7165e N
+9678b fff6deb4 N
+93968 fff6cb8e N
+93968 fff699f2 N
+9678b fff686cc N
+9b012 fff64f22 N
+9e7bc fff6069b N
+a0ac2 fff5b22c N
+a16aa fff5577c N
+a16aa fff42dd4 N
+a0ac2 fff3d324 N
+9e7bc fff37eb5 N
+9b012 fff3362e N
+9678b fff2fe84 N
+93968 fff2eb5e N
+93968 fff2b9c2 N
+9678b fff2a69c N
+9b012 fff26ef2 N
+9e7bc fff2266b N
+a0ac2 fff1d1fc N
+a16aa fff1774c N
+a16aa fff04da4 N
+a0ac2 ffeff2f4 N
+9e7bc ffef9e85 N
+9b012 ffef55fe N
+9678b ffef1e54 N
+93968 ffef0b2e N
+93968 ffeed992 N
+9678b ffeec66c N
+9b012 ffee8ec2 N
+9e7bc ffee463b N
+a0ac2 ffedf1cc N
+a16aa ffed971c N
+a16aa ffec6d74 N
+a0ac2 ffec12c4 N
+9e7bc ffebbe55 N
+9b012 ffeb75ce N
+9678b ffeb3e24 N
+93968 ffeb2afe N
+93968 ffeaf962 N
+9678b ffeae63c N
+9b012 ffeaae92 N
+9e7bc ffea660b N
+a0ac2 ffea119c N
+a16aa ffe9b6ec N
+a16aa ffe88d44 N
+a0ac2 ffe83294 N
+9e7bc ffe7de25 N
+9b012 ffe7959e N
+9678b ffe75df4 N
+9572c ffe7571c N
+9572c ffe72580 N
+98c74 ffe70f79 N
+9c567 ffe6e3b7 N
+9f129 ffe6aac4 N
+a0ca5 ffe66863 N
+a1612 ffe62126 N
+a1612 ffe5225b N
+a24a7 ffe513ac N
+2e7149 ffe513ac N
+2eb07c ffe552df N
+2eb07c ffe92218 N
+2ebe14 ffe989ae N
+2ee610 ffe9ea38 N
+2f25aa ffea3d2a N
+2f789c ffea7cc4 N
+2fd926 ffeaa4c0 N
+3040bc ffeab258 N
+3518f8 ffeab258 N
+35808e ffeaa4c0 N
+35e118 ffea7cc4 N
+36340a ffea3d2a N
+3673a4 ffe9ea38 N
+369ba0 ffe989ae N
+36a938 ffe92218 N
+369ba0 ffe8ba82 N
+3673a4 ffe859f8 N
+36340a ffe80706 N
+35e118 ffe7c76c N
+35808e ffe79f70 N
+3518f8 ffe791d8 N
+31d0fc ffe791d8 N
+31d0fc ffe4ad14 N
+31c364 ffe4457e N
+319b68 ffe3e4f4 N
+315bce ffe39202 N
+306147 ffe2977b N
+30743b ffe269a4 N
+2186726 ffe269a4 N
+218771f ffe298ac N
+2187556 ffe299f6 N
+21835bc ffe2ece8 N
+2180dc0 ffe34d72 N
+218000f ffe3b508 N
+218000f ffeaaef8 N
+2180dc0 ffeb168e N
+21821e4 ffeb4745 N
+2180669 ffeb708b N
+21709b3 ffeb708b N
+216edb8 ffeb2cfa N
+216b674 ffeae4f2 N
+2166e6c ffeaadae N
+2161a7b ffea8af4 N
+215c07e ffea7f0c N
+212519c ffea7f0c N
+211f785 ffea8af4 N
+211a395 ffeaadae N
+2115b8c ffeae4f2 N
+2112449 ffeb2cfa N
+211084e ffeb708b N
+209d7cc ffeb708b N
+209bc37 ffeb4745 N
+209d0c0 ffeb15c2 N
+209de58 ffeaaef8 N
+209d0c0 ffea482e N
+209a92a ffe9e86f N
+20969f6 ffe9962e N
+2094b01 ffe97e5e N
+2094b01 ffe6fd51 N
+20937a8 ffe69c7a N
+20900e3 ffe64a6c N
+207da4f ffe523f1 N
+2078841 ffe4ed13 N
+2072784 ffe4d9d3 N
+1ee5984 ffe4d9d3 N
+1edf8c7 ffe4ed13 N
+1eda6b9 ffe523f1 N
+1ed11e5 ffe5b8c5 N
+1ecdb07 ffe60ad3 N
+1ecc7c7 ffe66b90 N
+1ecc7c7 ffe91d88 N
+1ecabe6 ffe932f6 N
+1ec6cb2 ffe98537 N
+1ec451c ffe9e4f6 N
+1ec3784 ffea4bc0 N
+1ec451c ffeab28a N
+1ec6cb2 ffeb1249 N
+1ec92e5 ffeb4418 N
+1ec7cf8 ffeb708b N
+1e85291 ffeb708b N
+1e83696 ffeb2cfa N
+1e7ff52 ffeae4f2 N
+1e7b74a ffeaadae N
+1e76359 ffea8af4 N
+1e7095b ffea7f0c N
+1e39a7a ffea7f0c N
+1e34063 ffea8af4 N
+1e2ec73 ffeaadae N
+1e2a46a ffeae4f2 N
+1e26d26 ffeb2cfa N
+1e2512c ffeb708b N
+1b99b6e ffeb708b N
+1b97f74 ffeb2cfa N
+1b94830 ffeae4f2 N
+1b90027 ffeaadae N
+1b8ac37 ffea8af4 N
+1b85239 ffea7f0c N
+1b4e33f ffea7f0c N
+1b48941 ffea8af4 N
+1b43550 ffeaadae N
+1b3ed48 ffeae4f2 N
+1b3b604 ffeb2cfa N
+1b39a09 ffeb708b N
+18ae44c ffeb708b N
+18ac851 ffeb2cfa N
+18a910e ffeae4f2 N
+18a4905 ffeaadae N
+189f515 ffea8af4 N
+1899afe ffea7f0c N
+1862c1c ffea7f0c N
+185d21f ffea8af4 N
+1857e2e ffeaadae N
+1853626 ffeae4f2 N
+184fec9 ffeb2cfa N
+184e2e7 ffeb708b N
+15c2d2a ffeb708b N
+15c112f ffeb2cfa N
+15bd9eb ffeae4f2 N
+15b91ca ffeaadae N
+15b3df3 ffea8af4 N
+15ae3db ffea7f0c N
+15774fa ffea7f0c N
+1571afc ffea8af4 N
+156c70c ffeaadae N
+1567f04 ffeae4f2 N
+15647a6 ffeb2cfa N
+1562bac ffeb708b N
+12d7608 ffeb708b N
+12d5a0d ffeb2cfa N
+12d22b0 ffeae4f2 N
+12cdaa7 ffeaadae N
+12c86d0 ffea8af4 N
+12c2cb9 ffea7f0c N
+128bdd8 ffea7f0c N
+12863c1 ffea8af4 N
+1280fea ffeaadae N
+127c7e1 ffeae4f2 N
+1279084 ffeb2cfa N
+1277489 ffeb708b N
+febecc ffeb708b N
+fea2eb ffeb2cfa N
+fe6b8e ffeae4f2 N
+fe2385 ffeaadae N
+fdcfae ffea8af4 N
+fd7597 ffea7f0c N
+fa06b6 ffea7f0c N
+f9ac9f ffea8af4 N
+f958c8 ffeaadae N
+f910a6 ffeae4f2 N
+f8d962 ffeb2cfa N
+f8bd67 ffeb708b N
+d007aa ffeb708b N
+cfebaf ffeb2cfa N
+cfb46b ffeae4f2 N
+cf6c63 ffeaadae N
+cf1873 ffea8af4 N
+cebe75 ffea7f0c N
+cb4f94 ffea7f0c N
+caf57c ffea8af4 N
+caa18c ffeaadae N
+ca5984 ffeae4f2 N
+ca2240 ffeb2cfa N
+ca0645 ffeb708b N
+a15088 ffeb708b N
+a1348d ffeb2cfa N
+a0fd49 ffeae4f2 N
+a0b541 ffeaadae N
+a06150 ffea8af4 N
+a00753 ffea7f0c N
+9c9858 ffea7f0c N
+9c3e5a ffea8af4 N
+9bea6a ffeaadae N
+9ba261 ffeae4f2 N
+9b6b1e ffeb2cfa N
+9b4f23 ffeb708b N
+729966 ffeb708b N
+727d6b ffeb2cfa N
+724627 ffeae4f2 N
+71fe1f ffeaadae N
+71aa2e ffea8af4 N
+715030 ffea7f0c N
+6de136 ffea7f0c N
+6d8738 ffea8af4 N
+6d3348 ffeaadae N
+6ceb3f ffeae4f2 N
+6cb3fb ffeb2cfa N
+6c9801 ffeb708b N
+43e243 ffeb708b N
+43c649 ffeb2cfa N
+438f05 ffeae4f2 N
+4346e3 ffeaadae N
+42f30c ffea8af4 N
+4298f5 ffea7f0c N
+3f2a14 ffea7f0c N
+3ed016 ffea8af4 N
+3e7c25 ffeaadae N
+3e341d ffeae4f2 N
+3dfcd9 ffeb2cfa N
+3de0de ffeb708b N
+152b21 ffeb708b N
+150f26 ffeb2cfa N
+14d7e3 ffeae4f2 N
+148fc1 ffeaadae N
+143bea ffea8af4 N
+13e1d3 ffea7f0c N
+1072f1 ffea7f0c N
+1018da ffea8af4 N
+fc503 ffeaadae N
+f7cfb ffeae4f2 N
+f459e ffeb2cfa N
+f22e4 ffeb80ea N
+f1715 ffebdb02 N
+f1715 ffecffe6 N
+f22e4 ffed59fe N
+f459e ffedadee N
+f7cfb ffedf5f6 N
+fc503 ffee2d3a N
+ffdc4 ffee44be N
+ffdc4 ffee765a N
+fc503 ffee8dde N
+f7cfb ffeec522 N
+f459e ffef0d2a N
+f22e4 ffef611a N
+f1715 ffefbb32 N
+f1715 fff0e016 N
+f22e4 fff13a2e N
+f459e fff18e1e N
+f7cfb fff1d626 N
+fc503 fff20d6a N
+ffdc4 fff224ee N
+ffdc4 fff2568a N
+fc503 fff26e0e N
+f7cfb fff2a552 N
+f459e fff2ed5a N
+f22e4 fff3414a N
+f1715 fff39b62 N
+f1715 fff4c046 N
+f22e4 fff51a5e N
+f459e fff56e4e N
+f7cfb fff5b656 N
+fc503 fff5ed9a N
+ffdc4 fff6051e N
+ffdc4 fff636ba N
+fc503 fff64e3e N
+f7cfb fff68582 N
+f459e fff6cd8a N
+f22e4 fff7217a N
+f1715 fff77b92 N
+f1715 fff8a076 N
+f22e4 fff8fa8e N
+f459e fff94e7e N
+f7cfb fff99686 N
+fc503 fff9cdca N
+1018da fff9f084 N
+1072f1 fff9fc6c N
+13e1d3 fff9fc6c N
+143bea fff9f084 N
+148fc1 fff9cdca N
+14cdaa fff99e5d N
+1efbf2 fff99e5d N
+1f1787 fff9c78a N
+1f0c37 fff9e2d3 N
+1f08a5 fff9fe1c N
+214dab fff9fe1c N
+214a19 fff9e2d3 N
+213ec9 fff9c78a N
+215a5e fff99e5d N
+3e3e3c fff99e5d N
+3e7c25 fff9cdca N
+3ed016 fff9f084 N
+3f2a14 fff9fc6c N
+4298f5 fff9fc6c N
+42f30c fff9f084 N
+4346e3 fff9cdca N
+4384cd fff99e5d N
+6cf577 fff99e5d N
+6d3348 fff9cdca N
+6d8738 fff9f084 N
+6de136 fff9fc6c N
+715030 fff9fc6c N
+71aa2e fff9f084 N
+71fe1f fff9cdca N
+723bef fff99e5d N
+9bac9a fff99e5d N
+9bea6a fff9cdca N
+9c3e5a fff9f084 N
+9c9858 fff9fc6c N
+a00753 fff9fc6c N
+a06150 fff9f084 N
+a0b541 fff9cdca N
+a0f311 fff99e5d N
+ca63bc fff99e5d N
+caa18c fff9cdca N
+caf57c fff9f084 N
+cb4f94 fff9fc6c N
+cebe75 fff9fc6c N
+cf1873 fff9f084 N
+cf6c63 fff9cdca N
+cfaa4d fff99e5d N
+f91ade fff99e5d N
+f958c8 fff9cdca N
+f9ac9f fff9f084 N
+fa06b6 fff9fc6c N
+fd7597 fff9fc6c N
+fdcfae fff9f084 N
+fe2385 fff9cdca N
+fe616f fff99e5d N
+127d200 fff99e5d N
+1280fea fff9cdca N
+12863c1 fff9f084 N
+128bdd8 fff9fc6c N
+12c2cb9 fff9fc6c N
+12c86d0 fff9f084 N
+12cdaa7 fff9cdca N
+12d1891 fff99e5d N
+1568922 fff99e5d N
+156c70c fff9cdca N
+1571afc fff9f084 N
+15774fa fff9fc6c N
+15ae3db fff9fc6c N
+15b3df3 fff9f084 N
+15b91ca fff9cdca N
+15bcfb3 fff99e5d N
+1854045 fff99e5d N
+1857e2e fff9cdca N
+185d21f fff9f084 N
+1862c1c fff9fc6c N
+1899afe fff9fc6c N
+189f515 fff9f084 N
+18a4905 fff9cdca N
+18a86d5 fff99e5d N
+1b3f780 fff99e5d N
+1b43550 fff9cdca N
+1b48941 fff9f084 N
+1b4e33f fff9fc6c N
+1b85239 fff9fc6c N
+1b8ac37 fff9f084 N
+1b90027 fff9cdca N
+1b93df8 fff99e5d N
+1e2aea2 fff99e5d N
+1e2ec73 fff9cdca N
+1e34063 fff9f084 N
+1e39a7a fff9fc6c N
+1e7095b fff9fc6c N
+1e76359 fff9f084 N
+1e7b74a fff9cdca N
+1e7f51a fff99e5d N
+1f7770b fff99e5d N
+1f7b55a fff9ef86 N
+1f9109e fffb4aca N
+1f96390 fffb8a64 N
+1f9c41a fffbb260 N
+1fa2bb0 fffbbff8 N
+1fd13d4 fffbbff8 N
+1fd7b6a fffbb260 N
+1fddbf4 fffb8a64 N
+1fe2ee6 fffb4aca N
+1fe6e80 fffaf7d8 N
+1fe967c fffa974e N
+1fea42d fffa2fb8 N
+1fea42d fff99e5d N
+21165c5 fff99e5d N
+211a395 fff9cdca N
+211f785 fff9f084 N
+212519c fff9fc6c N
+215c07e fff9fc6c N
+2161a7b fff9f084 N
+2166e6c fff9cdca N
+216ac55 fff99e5d N
+2401ce7 fff99e5d N
+2405ad0 fff9cdca N
+240aea7 fff9f084 N
+24108bf fff9fc6c N
+24477a0 fff9fc6c N
+244d19e fff9f084 N
+245258e fff9cdca N
+2456378 fff99e5d N
+26ed409 fff99e5d N
+26f11f3 fff9cdca N
+26f65ca fff9f084 N
+26fbfe1 fff9fc6c N
+2732ec2 fff9fc6c N
+27388d9 fff9f084 N
+273dcb0 fff9cdca N
+2741a9a fff99e5d N
+29d8b2b fff99e5d N
+29dc915 fff9cdca N
+29e1cec fff9f084 N
+29e7703 fff9fc6c N
+2a1e5e4 fff9fc6c N
+2a23ffb fff9f084 N
+2a293d2 fff9cdca N
+2a2d1bc fff99e5d N
+2cc424d fff99e5d N
+2cc8037 fff9cdca N
+2ccd427 fff9f084 N
+2cd2e25 fff9fc6c N
+2d09d06 fff9fc6c N
+2d0f71e fff9f084 N
+2d14b0e fff9cdca N
+2d19316 fff99686 N
+2d1ca5a fff94e7e N
+2d1ed14 fff8fa8e N
+2d1f8fc fff8a076 N
+2d1f8fc fff77b92 N
+2d1ed14 fff7217a N
+2d1ca5a fff6cd8a N
+2d19316 fff68582 N
+2d14b0e fff64e3e N
+2d11234 fff636ba N
+2d11234 fff6051e N
+2d14b0e fff5ed9a N
+2d19316 fff5b656 N
+2d1ca5a fff56e4e N
+2d1ed14 fff51a5e N
+2d1f8fc fff4c046 N
+2d1f8fc fff39b62 N
+2d1ed14 fff3414a N
+2d1ca5a fff2ed5a N
+2d19316 fff2a552 N
+2d14b0e fff26e0e N
+2d11234 fff2568a N
+2d11234 fff224ee N
+2d14b0e fff20d6a N
+2d19316 fff1d626 N
+2d1ca5a fff18e1e N
+2d1e655 fff14a8d N
+2d5f410 fff14a8d N
+2d609fd fff17700 N
+2d5e37e fff1a934 N
+2d5c5d3 fff1f0d7 N
+2d5c241 fff20c20 N
+2d80747 fff20c20 N
+2d803b5 fff1f0d7 N
+2d7e60a fff1a934 N
+2d7bf8b fff17700 N
+2d7d578 fff14a8d N
+2ddbff2 fff14a8d N
+2ddd5df fff17700 N
+2ddd57a fff17798 N
+2ddb7cf fff1bf3b N
+2ddb43d fff1da84 N
+2dff943 fff1da84 N
+2dff5b1 fff1bf3b N
+2dfd806 fff17798 N
+2dfd7a1 fff17700 N
+2dfed8e fff14a8d N
+2f67df9 fff14a8d N
+2f69974 fff173d3 N
+2f68550 fff1a48a N
+2f6779f fff20c20 N
+2f6779f fff74794 N
+2f68550 fff7af2a N
+2f6ad4c fff80fb4 N
+2f6ece6 fff862a6 N
+2f7b356 fff92916 N
+2f80648 fff968b0 N
+2f866d2 fff990ac N
+2f8ce68 fff99e5d N
+2faf989 fff99e5d N
+2fb3759 fff9cdca N
+2fb8b4a fff9f084 N
+2fbe547 fff9fc6c N
+2ff5442 fff9fc6c N
+2ffae40 fff9f084 N
+3000230 fff9cdca N
+3004a39 fff99686 N
+300817c fff94e7e N
+300a436 fff8fa8e N
+300b01e fff8a076 N
+300b01e fff77b92 N
+300a436 fff7217a N
+300817c fff6cd8a N
+3004a39 fff68582 N
+3000230 fff64e3e N
+2ffc96f fff636ba N
+2ffc96f fff6051e N
+3000230 fff5ed9a N
+3004a39 fff5b656 N
+300817c fff56e4e N
+300a436 fff51a5e N
+300b01e fff4c046 N
+300b01e fff39b62 N
+300a436 fff3414a N
+300817c fff2ed5a N
+3004a39 fff2a552 N
+3000230 fff26e0e N
+2ffc96f fff2568a N
+2ffc96f fff224ee N
+3000230 fff20d6a N
+3004a39 fff1d626 N
+300817c fff18e1e N
+3009d77 fff14a8d N
+307f348 fff14a8d N
+3080935 fff17700 N
+307e2b6 fff1a934 N
+307c50b fff1f0d7 N
+307c179 fff20c20 N
+30a067f fff20c20 N
+30a02ed fff1f0d7 N
+309e542 fff1a934 N
+309bec3 fff17700 N
+309d4b0 fff14a8d N
+3295334 fff14a8d N
+3296f2f fff18e1e N
+329a673 fff1d626 N
+329ee7b fff20d6a N
+32a273c fff224ee N
+32a273c fff2568a N
+329ee7b fff26e0e N
+329a673 fff2a552 N
+3296f2f fff2ed5a N
+3294c75 fff3414a N
+329408d fff39b62 N
+329408d fff4c046 N
+3294c75 fff51a5e N
+3296f2f fff56e4e N
+329a673 fff5b656 N
+329ee7b fff5ed9a N
+32a273c fff6051e N
+32a273c fff636ba N
+329ee7b fff64e3e N
+329a673 fff68582 N
+3296f2f fff6cd8a N
+3294c75 fff7217a N
+329408d fff77b92 N
+329408d fff8a076 N
+3294c75 fff8fa8e N
+3296f2f fff94e7e N
+329a673 fff99686 N
+329ee7b fff9cdca N
+32a426c fff9f084 N
+32a9c6a fff9fc6c N
+32e0b64 fff9fc6c N
+32e6562 fff9f084 N
+32eb952 fff9cdca N
+32f015b fff99686 N
+32f389f fff94e7e N
+32f5b72 fff8fa8e N
+32f6741 fff8a076 N
+32f6741 fff77b92 N
+32f5b72 fff7217a N
+32f389f fff6cd8a N
+32f015b fff68582 N
+32eb952 fff64e3e N
+32e8092 fff636ba N
+32e8092 fff6051e N
+32eb952 fff5ed9a N
+32f015b fff5b656 N
+32f389f fff56e4e N
+32f5b72 fff51a5e N
+32f6741 fff4c046 N
+32f6741 fff39b62 N
+32f5b72 fff3414a N
+32f389f fff2ed5a N
+32f015b fff2a552 N
+32eb952 fff26e0e N
+32e8092 fff2568a N
+32e8092 fff224ee N
+32eb952 fff20d6a N
+32f015b fff1d626 N
+32f389f fff18e1e N
+32f5499 fff14a8d N
+3580a57 fff14a8d N
+3582651 fff18e1e N
+3585d95 fff1d626 N
+358a59e fff20d6a N
+358de78 fff224ee N
+358de78 fff2568a N
+358a59e fff26e0e N
+3585d95 fff2a552 N
+3582651 fff2ed5a N
+3580397 fff3414a N
+357f7af fff39b62 N
+357f7af fff4c046 N
+3580397 fff51a5e N
+3582651 fff56e4e N
+3585d95 fff5b656 N
+358a59e fff5ed9a N
+358de78 fff6051e N
+358de78 fff636ba N
+358a59e fff64e3e N
+3585d95 fff68582 N
+3582651 fff6cd8a N
+3580397 fff7217a N
+357f7af fff77b92 N
+357f7af fff8a076 N
+3580397 fff8fa8e N
+3582651 fff94e7e N
+3585d95 fff99686 N
+358a59e fff9cdca N
+358f98e fff9f084 N
+35953a5 fff9fc6c N
+35cc286 fff9fc6c N
+35d1c84 fff9f084 N
+35d7075 fff9cdca N
+35db87d fff99686 N
+35defc1 fff94e7e N
+35e1294 fff8fa8e N
+35e1e63 fff8a076 N
+35e1e63 fff77b92 N
+35e1294 fff7217a N
+35defc1 fff6cd8a N
+35db87d fff68582 N
+35d7075 fff64e3e N
+35d37b4 fff636ba N
+35d37b4 fff6051e N
+35d7075 fff5ed9a N
+35db87d fff5b656 N
+35defc1 fff56e4e N
+35e1294 fff51a5e N
+35e1e63 fff4c046 N
+35e1e63 fff39b62 N
+35e1294 fff3414a N
+35defc1 fff2ed5a N
+35db87d fff2a552 N
+35d7075 fff26e0e N
+35d37b4 fff2568a N
+35d37b4 fff224ee N
+35d7075 fff20d6a N
+35db87d fff1d626 N
+35defc1 fff18e1e N
+35e0bbc fff14a8d N
+386c179 fff14a8d N
+386dd74 fff18e1e N
+38714b7 fff1d626 N
+3875cd9 fff20d6a N
+387959a fff224ee N
+387959a fff2568a N
+3875cd9 fff26e0e N
+38714b7 fff2a552 N
+386dd74 fff2ed5a N
+386baba fff3414a N
+386aed2 fff39b62 N
+386aed2 fff4c046 N
+386baba fff51a5e N
+386dd74 fff56e4e N
+38714b7 fff5b656 N
+3875cd9 fff5ed9a N
+387959a fff6051e N
+387959a fff636ba N
+3875cd9 fff64e3e N
+38714b7 fff68582 N
+386dd74 fff6cd8a N
+386baba fff7217a N
+386aed2 fff77b92 N
+386aed2 fff8a076 N
+386baba fff8fa8e N
+386dd74 fff94e7e N
+38714b7 fff99686 N
+3875cd9 fff9cdca N
+387b0b0 fff9f084 N
+3880ac7 fff9fc6c N
+38b79a9 fff9fc6c N
+38bd3c0 fff9f084 N
+38c2797 fff9cdca N
+38c6fb9 fff99686 N
+38ca6fc fff94e7e N
+38cc9b6 fff8fa8e N
+38cd585 fff8a076 N
+38cd585 fff77b92 N
+38cc9b6 fff7217a N
+38ca6fc fff6cd8a N
+38c6fb9 fff68582 N
+38c2797 fff64e3e N
+38beed6 fff636ba N
+38beed6 fff6051e N
+38c2797 fff5ed9a N
+38c6fb9 fff5b656 N
+38ca6fc fff56e4e N
+38cc9b6 fff51a5e N
+38cd585 fff4c046 N
+38cd585 fff39b62 N
+38cc9b6 fff3414a N
+38ca6fc fff2ed5a N
+38c6fb9 fff2a552 N
+38c2797 fff26e0e N
+38beed6 fff2568a N
+38beed6 fff224ee N
+38c2797 fff20d6a N
+38c6fb9 fff1d626 N
+38ca6fc fff18e1e N
+38cc9b6 fff13a2e N
+38cd585 fff0e016 N
+38cd585 ffefbb32 N
+38cc9b6 ffef611a N
+38ca6fc ffef0d2a N
+38c6fb9 ffeec522 N
+38c2797 ffee8dde N
+38beed6 ffee765a N
+38beed6 ffee44be N
+38c2797 ffee2d3a N
+38c6fb9 ffedf5f6 N
+38ca6fc ffedadee N
+38cc9b6 ffed59fe N
+38cd585 ffecffe6 N
+38cd585 ffebdb02 N
+38cc9b6 ffeb80ea N
+38ca6fc ffeb2cfa N
+38c6fb9 ffeae4f2 N
+38c2797 ffeaadae N
+38bd3c0 ffea8af4 N
+38b79a9 ffea7f0c N
+3880ac7 ffea7f0c N
+387b0b0 ffea8af4 N
+3875cd9 ffeaadae N
+38714b7 ffeae4f2 N
+386dd74 ffeb2cfa N
+386c179 ffeb708b N
+35e0bbc ffeb708b N
+35defc1 ffeb2cfa N
+35db87d ffeae4f2 N
+35d7075 ffeaadae N
+35d1c84 ffea8af4 N
+35cc286 ffea7f0c N
+35953a5 ffea7f0c N
+358f98e ffea8af4 N
+358a59e ffeaadae N
+3585d95 ffeae4f2 N
+3582651 ffeb2cfa N
+3580a57 ffeb708b N
+32f5499 ffeb708b N
+32f389f ffeb2cfa N
+32f015b ffeae4f2 N
+32eb952 ffeaadae N
+32e6562 ffea8af4 N
+32e0b64 ffea7f0c N
+32a9c6a ffea7f0c N
+32a426c ffea8af4 N
+329ee7b ffeaadae N
+329a673 ffeae4f2 N
+3296f2f ffeb2cfa N
+3295334 ffeb708b N
+3009d77 ffeb708b N
+300817c ffeb2cfa N
+3004a39 ffeae4f2 N
+3000230 ffeaadae N
+2ffae40 ffea8af4 N
+2ff5442 ffea7f0c N
+2fbe547 ffea7f0c N
+2fb8b4a ffea8af4 N
+2fb3759 ffeaadae N
+2faef51 ffeae4f2 N
+2fab80d ffeb2cfa N
+2fa9c12 ffeb708b N
+2f8b979 ffeb708b N
+2f898bb ffeb4b3d N
+2f8a045 ffeb1230 N
+2f89294 ffeaaa9a N
+2f86a98 ffea4a10 N
+2f82afe ffe9f71e N
+2f7d80c ffe9b784 N
+2f77782 ffe98f88 N
+2f70fec ffe981f0 N
+2f688c9 ffe981f0 N
+2f66d4d ffe958aa N
+2f66dcc ffe95746 N
+2f67b64 ffe8f07c N
+2f66dcc ffe889b2 N
+2f6461c ffe829f3 N
+2f6338f ffe811a4 N
+2f66a3a ffe7e792 N
+2f6a96e ffe79551 N
+2f6d104 ffe73592 N
+2f6de9c ffe6cec8 N
+2f6d104 ffe667fe N
+2f6a96e ffe6083f N
+2f66a3a ffe5b5fe N
+2f617f9 ffe576ca N
+2f5b83a ffe54f34 N
+2f55170 ffe5419c N
+2f4eaa6 ffe54f34 N
+2f48ae7 ffe576ca N
+2f438a6 ffe5b5fe N
+2f42338 ffe5d1df N
+2ef2d38 ffe5d1df N
+2ef1aaa ffe5a507 N
+2eedb76 ffe552c6 N
+2ee8935 ffe51392 N
+2ee2976 ffe4ebfc N
+2edc2ac ffe4de64 N
+2ed5be2 ffe4ebfc N
+2ecfc23 ffe51392 N
+2eca9e2 ffe552c6 N
+2ec90c8 ffe5736b N
+2ec395e ffe54f34 N
+2ebd294 ffe5419c N
+2eb6bca ffe54f34 N
+2eb0c0b ffe576ca N
+2eab9ca ffe5b5fe N
+2ea7ab0 ffe6083f N
+2ea5300 ffe667fe N
+2ea4568 ffe6cec8 N
+2ea5300 ffe73592 N
+2ea7ab0 ffe79551 N
+2eab9ca ffe7e792 N
+2eb0c0b ffe826c6 N
+2eb6bca ffe84e5c N
+2ebc6f8 ffe85a5e N
+2ecc09b ffe9541a N
+2ecad8e ffe981f0 N
+2e41594 ffe981f0 N
+2e41594 ffe8f07c N
+2e407fc ffe888e6 N
+2e3e000 ffe8285c N
+2e3a066 ffe7d56a N
+2e34d74 ffe795d0 N
+2e2ecea ffe76dd4 N
+2e28554 ffe7603c N
+2e21dbe ffe76dd4 N
+2e1bd34 ffe795d0 N
+2e16a42 ffe7d56a N
+2e12aa8 ffe8285c N
+2e102ac ffe888e6 N
+2e0f4fb ffe8f07c N
+2e0f4fb ffea7d5c N
+2e102ac ffeae4f2 N
+2e12aa8 ffeb457c N
+2e1156d ffeb708b N
+2d1e655 ffeb708b N
+2d1ca5a ffeb2cfa N
+2d19316 ffeae4f2 N
+2d14b0e ffeaadae N
+2d0f71e ffea8af4 N
+2d09d06 ffea7f0c N
+2cd2e25 ffea7f0c N
+2ccd427 ffea8af4 N
+2cc8037 ffeaadae N
+2cc382f ffeae4f2 N
+2cc00eb ffeb2cfa N
+2cbe4f0 ffeb708b N
+2a32f33 ffeb708b N
+2a31338 ffeb2cfa N
+2a2dbf4 ffeae4f2 N
+2a293d2 ffeaadae N
+2a23ffb ffea8af4 N
+2a1e5e4 ffea7f0c N
+29e7703 ffea7f0c N
+29e1cec ffea8af4 N
+29dc915 ffeaadae N
+29d810c ffeae4f2 N
+29d49af ffeb2cfa N
+29d2dce ffeb708b N
+2747811 ffeb708b N
+2745c16 ffeb2cfa N
+27424b9 ffeae4f2 N
+273dcb0 ffeaadae N
+27388d9 ffea8af4 N
+2732ec2 ffea7f0c N
+26fbfe1 ffea7f0c N
+26f65ca ffea8af4 N
+26f11f3 ffeaadae N
+26ec9ea ffeae4f2 N
+26e928d ffeb2cfa N
+26e7692 ffeb708b N
+245c0d5 ffeb708b N
+245a4f4 ffeb2cfa N
+2456d96 ffeae4f2 N
+245258e ffeaadae N
+244d19e ffea8af4 N
+24477a0 ffea7f0c N
+24108bf ffea7f0c N
+240aea7 ffea8af4 N
+2405ad0 ffeaadae N
+24012af ffeae4f2 N
+23fdb6b ffeb2cfa N
+23fbf70 ffeb708b N
+21b1a67 ffeb708b N
+21afeec ffeb4745 N
+21b1310 ffeb168e N
+21b20c1 ffeaaef8 N
+21b20c1 ffe3b508 N
+21b1310 ffe34d72 N
+21aeb14 ffe2ece8 N
+21aab7a ffe299f6 N
+21aa9b1 ffe298ac N
+21ab9aa ffe269a4 N
+39298ce ffe269a4 N
+39298ce ffff11e0 N
+ee20 ffff11e0 N
+ee20 ffe269a4 N
+F128
+9 1 0
+389f3d4 ffe85ba8 N
+389f3d4 ffe7004b N
+38b79a9 ffe7004b N
+38bd981 ffe71357 N
+38c2ac4 ffe7499d N
+38c6123 ffe79ae0 N
+38c7430 ffe7fad2 N
+38c7430 ffe85ba8 N
+389f3d4 ffe85ba8 N
+9 1 0
+3871040 ffe7fad2 N
+387234d ffe79ae0 N
+3875993 ffe7499d N
+387aaef ffe71357 N
+3880ac7 ffe7004b N
+389909c ffe7004b N
+389909c ffe85ba8 N
+3871040 ffe85ba8 N
+3871040 ffe7fad2 N
+9 1 0
+35b3cb2 ffe85ba8 N
+35b3cb2 ffe7004b N
+35cc286 ffe7004b N
+35d225f ffe71357 N
+35d73a1 ffe7499d N
+35daa01 ffe79ae0 N
+35dbd0d ffe7fad2 N
+35dbd0d ffe85ba8 N
+35b3cb2 ffe85ba8 N
+9 1 0
+3e2f8d ffe91fb6 N
+3e2f8d ffe8bee0 N
+40afe8 ffe8bee0 N
+40afe8 ffea1a3d N
+3f2a14 ffea1a3d N
+3eca3b ffea0731 N
+3e78f9 ffe9d0eb N
+3e4299 ffe97fa8 N
+3e2f8d ffe91fb6 N
+9 1 0
+125bfe ffea1a3d N
+125bfe ffe8bee0 N
+14dc5a ffe8bee0 N
+14dc5a ffe91fb6 N
+14c94d ffe97fa8 N
+149307 ffe9d0eb N
+1441ab ffea0731 N
+13e1d3 ffea1a3d N
+125bfe ffea1a3d N
+9 1 0
+f786a ffe91fb6 N
+f786a ffe8bee0 N
+11f8c6 ffe8bee0 N
+11f8c6 ffea1a3d N
+1072f1 ffea1a3d N
+101319 ffea0731 N
+fc1d6 ffe9d0eb N
+f8b77 ffe97fa8 N
+f786a ffe91fb6 N
+9 1 0
+358591e ffe7fad2 N
+3586c2b ffe79ae0 N
+358a271 ffe7499d N
+358f3b3 ffe71357 N
+35953a5 ffe7004b N
+35ad97a ffe7004b N
+35ad97a ffe85ba8 N
+358591e ffe85ba8 N
+358591e ffe7fad2 N
+9 1 0
+2cf1732 ffe85ba8 N
+2cf1732 ffe7004b N
+2d09d06 ffe7004b N
+2d0fcf8 ffe71357 N
+2d14e3b ffe7499d N
+2d18481 ffe79ae0 N
+2d1978d ffe7fad2 N
+2d1978d ffe85ba8 N
+2cf1732 ffe85ba8 N
+9 1 0
+2fdce54 ffe85ba8 N
+2fdce54 ffe7004b N
+2ff5442 ffe7004b N
+2ffb41a ffe71357 N
+300055d ffe7499d N
+3003ba3 ffe79ae0 N
+3004ec9 ffe7fad2 N
+3004ec9 ffe85ba8 N
+2fdce54 ffe85ba8 N
+9 1 0
+2faeac0 ffe7fad2 N
+2fafde7 ffe79ae0 N
+2fb342c ffe7499d N
+2fb856f ffe71357 N
+2fbe547 ffe7004b N
+2fd6b1c ffe7004b N
+2fd6b1c ffe85ba8 N
+2faeac0 ffe85ba8 N
+2faeac0 ffe7fad2 N
+9 1 0
+2cc339e ffe7fad2 N
+2cc46ab ffe79ae0 N
+2cc7d0a ffe7499d N
+2ccce4d ffe71357 N
+2cd2e25 ffe7004b N
+2ceb3fa ffe7004b N
+2ceb3fa ffe85ba8 N
+2cc339e ffe85ba8 N
+2cc339e ffe7fad2 N
+9 1 0
+32c8590 ffe85ba8 N
+32c8590 ffe7004b N
+32e0b64 ffe7004b N
+32e6b3d ffe71357 N
+32ebc7f ffe7499d N
+32ef2c5 ffe79ae0 N
+32f05eb ffe7fad2 N
+32f05eb ffe85ba8 N
+32c8590 ffe85ba8 N
+9 1 0
+329a1fc ffe7fad2 N
+329b509 ffe79ae0 N
+329eb4f ffe7499d N
+32a3c91 ffe71357 N
+32a9c6a ffe7004b N
+32c2258 ffe7004b N
+32c2258 ffe85ba8 N
+329a1fc ffe85ba8 N
+329a1fc ffe7fad2 N
+9 1 0
+12aa6e5 ffea1a3d N
+12aa6e5 ffe8bee0 N
+12d2740 ffe8bee0 N
+12d2740 ffe91fb6 N
+12d1433 ffe97fa8 N
+12cddee ffe9d0eb N
+12c8c92 ffea0731 N
+12c2cb9 ffea1a3d N
+12aa6e5 ffea1a3d N
+9 1 0
+127c351 ffe91fb6 N
+127c351 ffe8bee0 N
+12a43ad ffe8bee0 N
+12a43ad ffea1a3d N
+128bdd8 ffea1a3d N
+1285e00 ffea0731 N
+1280cbd ffe9d0eb N
+127d65e ffe97fa8 N
+127c351 ffe91fb6 N
+9 1 0
+fbefc2 ffea1a3d N
+fbefc2 ffe8bee0 N
+fe701e ffe8bee0 N
+fe701e ffe91fb6 N
+fe5d11 ffe97fa8 N
+fe26b2 ffe9d0eb N
+fdd56f ffea0731 N
+fd7597 ffea1a3d N
+fbefc2 ffea1a3d N
+9 1 0
+1567a73 ffe91fb6 N
+1567a73 ffe8bee0 N
+158facf ffe8bee0 N
+158facf ffea1a3d N
+15774fa ffea1a3d N
+1571522 ffea0731 N
+156c3df ffe9d0eb N
+1568d80 ffe97fa8 N
+1567a73 ffe91fb6 N
+9 1 0
+1881529 ffea1a3d N
+1881529 ffe8bee0 N
+18a9585 ffe8bee0 N
+18a9585 ffe91fb6 N
+18a8278 ffe97fa8 N
+18a4c32 ffe9d0eb N
+189faef ffea0731 N
+1899afe ffea1a3d N
+1881529 ffea1a3d N
+9 1 0
+1853195 ffe91fb6 N
+1853195 ffe8bee0 N
+187b1f1 ffe8bee0 N
+187b1f1 ffea1a3d N
+1862c1c ffea1a3d N
+185cc44 ffea0731 N
+1857b01 ffe9d0eb N
+18544a2 ffe97fa8 N
+1853195 ffe91fb6 N
+9 1 0
+1595e07 ffea1a3d N
+1595e07 ffe8bee0 N
+15bde62 ffe8bee0 N
+15bde62 ffe91fb6 N
+15bcb56 ffe97fa8 N
+15b9510 ffe9d0eb N
+15b43cd ffea0731 N
+15ae3db ffea1a3d N
+1595e07 ffea1a3d N
+9 1 0
+f90c2f ffe91fb6 N
+f90c2f ffe8bee0 N
+fb8c8a ffe8bee0 N
+fb8c8a ffea1a3d N
+fa06b6 ffea1a3d N
+f9a6c4 ffea0731 N
+f95581 ffe9d0eb N
+f91f3c ffe97fa8 N
+f90c2f ffe91fb6 N
+9 1 0
+6fca42 ffea1a3d N
+6fca42 ffe8bee0 N
+724a9e ffe8bee0 N
+724a9e ffe91fb6 N
+723791 ffe97fa8 N
+72014b ffe9d0eb N
+71b009 ffea0731 N
+715030 ffea1a3d N
+6fca42 ffea1a3d N
+9 1 0
+6ce6af ffe91fb6 N
+6ce6af ffe8bee0 N
+6f670a ffe8bee0 N
+6f670a ffea1a3d N
+6de136 ffea1a3d N
+6d815d ffea0731 N
+6d301b ffe9d0eb N
+6cf9bc ffe97fa8 N
+6ce6af ffe91fb6 N
+9 1 0
+411320 ffea1a3d N
+411320 ffe8bee0 N
+43937c ffe8bee0 N
+43937c ffe91fb6 N
+43806f ffe97fa8 N
+434a29 ffe9d0eb N
+42f8e7 ffea0731 N
+4298f5 ffea1a3d N
+411320 ffea1a3d N
+9 1 0
+9b9dd1 ffe91fb6 N
+9b9dd1 ffe8bee0 N
+9e1e46 ffe8bee0 N
+9e1e46 ffea1a3d N
+9c9858 ffea1a3d N
+9c3880 ffea0731 N
+9be73d ffe9d0eb N
+9bb0f7 ffe97fa8 N
+9b9dd1 ffe91fb6 N
+9 1 0
+cd38a0 ffea1a3d N
+cd38a0 ffe8bee0 N
+cfb8fc ffe8bee0 N
+cfb8fc ffe91fb6 N
+cfa5ef ffe97fa8 N
+cf6f90 ffe9d0eb N
+cf1e4d ffea0731 N
+cebe75 ffea1a3d N
+cd38a0 ffea1a3d N
+9 1 0
+ca550d ffe91fb6 N
+ca550d ffe8bee0 N
+ccd568 ffe8bee0 N
+ccd568 ffea1a3d N
+cb4f94 ffea1a3d N
+caefa2 ffea0731 N
+ca9e5f ffe9d0eb N
+ca6819 ffe97fa8 N
+ca550d ffe91fb6 N
+9 1 0
+9e8165 ffea1a3d N
+9e8165 ffe8bee0 N
+a101da ffe8bee0 N
+a101da ffe91fb6 N
+a0eeb3 ffe97fa8 N
+a0b86e ffe9d0eb N
+a0672b ffea0731 N
+a00753 ffea1a3d N
+9e8165 ffea1a3d N
+9 1 0
+f90c2f ffe7fad2 N
+f91f3c ffe79ae0 N
+f95581 ffe7499d N
+f9a6c4 ffe71357 N
+fa06b6 ffe7004b N
+fb8c8a ffe7004b N
+fb8c8a ffe85ba8 N
+f90c2f ffe85ba8 N
+f90c2f ffe7fad2 N
+9 1 0
+cd38a0 ffe85ba8 N
+cd38a0 ffe7004b N
+cebe75 ffe7004b N
+cf1e4d ffe71357 N
+cf6f90 ffe7499d N
+cfa5ef ffe79ae0 N
+cfb8fc ffe7fad2 N
+cfb8fc ffe85ba8 N
+cd38a0 ffe85ba8 N
+9 1 0
+ca550d ffe7fad2 N
+ca6819 ffe79ae0 N
+ca9e5f ffe7499d N
+caefa2 ffe71357 N
+cb4f94 ffe7004b N
+ccd568 ffe7004b N
+ccd568 ffe85ba8 N
+ca550d ffe85ba8 N
+ca550d ffe7fad2 N
+9 1 0
+fbefc2 ffe85ba8 N
+fbefc2 ffe7004b N
+fd7597 ffe7004b N
+fdd56f ffe71357 N
+fe26b2 ffe7499d N
+fe5d11 ffe79ae0 N
+fe701e ffe7fad2 N
+fe701e ffe85ba8 N
+fbefc2 ffe85ba8 N
+9 1 0
+1567a73 ffe7fad2 N
+1568d80 ffe79ae0 N
+156c3df ffe7499d N
+1571522 ffe71357 N
+15774fa ffe7004b N
+158facf ffe7004b N
+158facf ffe85ba8 N
+1567a73 ffe85ba8 N
+1567a73 ffe7fad2 N
+9 1 0
+12aa6e5 ffe85ba8 N
+12aa6e5 ffe7004b N
+12c2cb9 ffe7004b N
+12c8c92 ffe71357 N
+12cddee ffe7499d N
+12d1433 ffe79ae0 N
+12d2740 ffe7fad2 N
+12d2740 ffe85ba8 N
+12aa6e5 ffe85ba8 N
+9 1 0
+127c351 ffe7fad2 N
+127d65e ffe79ae0 N
+1280cbd ffe7499d N
+1285e00 ffe71357 N
+128bdd8 ffe7004b N
+12a43ad ffe7004b N
+12a43ad ffe85ba8 N
+127c351 ffe85ba8 N
+127c351 ffe7fad2 N
+9 1 0
+9e8165 ffe85ba8 N
+9e8165 ffe7004b N
+a00753 ffe7004b N
+a0672b ffe71357 N
+a0b86e ffe7499d N
+a0eeb3 ffe79ae0 N
+a101da ffe7fad2 N
+a101da ffe85ba8 N
+9e8165 ffe85ba8 N
+9 1 0
+3e2f8d ffe7fad2 N
+3e4299 ffe79ae0 N
+3e78f9 ffe7499d N
+3eca3b ffe71357 N
+3f2a14 ffe7004b N
+40afe8 ffe7004b N
+40afe8 ffe85ba8 N
+3e2f8d ffe85ba8 N
+3e2f8d ffe7fad2 N
+9 1 0
+125bfe ffe85ba8 N
+125bfe ffe7004b N
+13e1d3 ffe7004b N
+1441ab ffe71357 N
+149307 ffe7499d N
+14c94d ffe79ae0 N
+14dc5a ffe7fad2 N
+14dc5a ffe85ba8 N
+125bfe ffe85ba8 N
+9 1 0
+f786a ffe7fad2 N
+f8b77 ffe79ae0 N
+fc1d6 ffe7499d N
+101319 ffe71357 N
+1072f1 ffe7004b N
+11f8c6 ffe7004b N
+11f8c6 ffe85ba8 N
+f786a ffe85ba8 N
+f786a ffe7fad2 N
+9 1 0
+411320 ffe85ba8 N
+411320 ffe7004b N
+4298f5 ffe7004b N
+42f8e7 ffe71357 N
+434a29 ffe7499d N
+43806f ffe79ae0 N
+43937c ffe7fad2 N
+43937c ffe85ba8 N
+411320 ffe85ba8 N
+9 1 0
+9b9dd1 ffe7fad2 N
+9bb0f7 ffe79ae0 N
+9be73d ffe7499d N
+9c3880 ffe71357 N
+9c9858 ffe7004b N
+9e1e46 ffe7004b N
+9e1e46 ffe85ba8 N
+9b9dd1 ffe85ba8 N
+9b9dd1 ffe7fad2 N
+9 1 0
+6fca42 ffe85ba8 N
+6fca42 ffe7004b N
+715030 ffe7004b N
+71b009 ffe71357 N
+72014b ffe7499d N
+723791 ffe79ae0 N
+724a9e ffe7fad2 N
+724a9e ffe85ba8 N
+6fca42 ffe85ba8 N
+9 1 0
+6ce6af ffe7fad2 N
+6cf9bc ffe79ae0 N
+6d301b ffe7499d N
+6d815d ffe71357 N
+6de136 ffe7004b N
+6f670a ffe7004b N
+6f670a ffe85ba8 N
+6ce6af ffe85ba8 N
+6ce6af ffe7fad2 N
+9 1 0
+242f1cb ffe85ba8 N
+242f1cb ffe7004b N
+24477a0 ffe7004b N
+244d778 ffe71357 N
+24528bb ffe7499d N
+2455f1a ffe79ae0 N
+2457227 ffe7fad2 N
+2457227 ffe85ba8 N
+242f1cb ffe85ba8 N
+9 1 0
+2400e38 ffe7fad2 N
+2402144 ffe79ae0 N
+240578a ffe7499d N
+240a8e6 ffe71357 N
+24108bf ffe7004b N
+2428e93 ffe7004b N
+2428e93 ffe85ba8 N
+2400e38 ffe85ba8 N
+2400e38 ffe7fad2 N
+9 1 0
+2143aa9 ffe85ba8 N
+2143aa9 ffe7004b N
+215c07e ffe7004b N
+2162056 ffe71357 N
+2167199 ffe7499d N
+216a7f8 ffe79ae0 N
+216bb05 ffe7fad2 N
+216bb05 ffe85ba8 N
+2143aa9 ffe85ba8 N
+9 1 0
+26ec55a ffe7fad2 N
+26ed867 ffe79ae0 N
+26f0eac ffe7499d N
+26f6008 ffe71357 N
+26fbfe1 ffe7004b N
+27145b5 ffe7004b N
+27145b5 ffe85ba8 N
+26ec55a ffe85ba8 N
+26ec55a ffe7fad2 N
+9 1 0
+2a06010 ffe85ba8 N
+2a06010 ffe7004b N
+2a1e5e4 ffe7004b N
+2a245d6 ffe71357 N
+2a29719 ffe7499d N
+2a2cd5e ffe79ae0 N
+2a2e06b ffe7fad2 N
+2a2e06b ffe85ba8 N
+2a06010 ffe85ba8 N
+9 1 0
+29d7c7c ffe7fad2 N
+29d8f89 ffe79ae0 N
+29dc5e8 ffe7499d N
+29e172b ffe71357 N
+29e7703 ffe7004b N
+29ffcd8 ffe7004b N
+29ffcd8 ffe85ba8 N
+29d7c7c ffe85ba8 N
+29d7c7c ffe7fad2 N
+9 1 0
+271a8ed ffe85ba8 N
+271a8ed ffe7004b N
+2732ec2 ffe7004b N
+2738e9a ffe71357 N
+273dff6 ffe7499d N
+274163c ffe79ae0 N
+2742949 ffe7fad2 N
+2742949 ffe85ba8 N
+271a8ed ffe85ba8 N
+9 1 0
+2115715 ffe7fad2 N
+2116a22 ffe79ae0 N
+211a068 ffe7499d N
+211f1ab ffe71357 N
+212519c ffe7004b N
+213d771 ffe7004b N
+213d771 ffe85ba8 N
+2115715 ffe85ba8 N
+2115715 ffe7fad2 N
+9 1 0
+1881529 ffe85ba8 N
+1881529 ffe7004b N
+1899afe ffe7004b N
+189faef ffe71357 N
+18a4c32 ffe7499d N
+18a8278 ffe79ae0 N
+18a9585 ffe7fad2 N
+18a9585 ffe85ba8 N
+1881529 ffe85ba8 N
+9 1 0
+1853195 ffe7fad2 N
+18544a2 ffe79ae0 N
+1857b01 ffe7499d N
+185cc44 ffe71357 N
+1862c1c ffe7004b N
+187b1f1 ffe7004b N
+187b1f1 ffe85ba8 N
+1853195 ffe85ba8 N
+1853195 ffe7fad2 N
+9 1 0
+1595e07 ffe85ba8 N
+1595e07 ffe7004b N
+15ae3db ffe7004b N
+15b43cd ffe71357 N
+15b9510 ffe7499d N
+15bcb56 ffe79ae0 N
+15bde62 ffe7fad2 N
+15bde62 ffe85ba8 N
+1595e07 ffe85ba8 N
+9 1 0
+1b3e8b8 ffe7fad2 N
+1b3fbde ffe79ae0 N
+1b43224 ffe7499d N
+1b48366 ffe71357 N
+1b4e33f ffe7004b N
+1b66913 ffe7004b N
+1b66913 ffe85ba8 N
+1b3e8b8 ffe85ba8 N
+1b3e8b8 ffe7fad2 N
+9 1 0
+1e58387 ffe85ba8 N
+1e58387 ffe7004b N
+1e7095b ffe7004b N
+1e76934 ffe71357 N
+1e7ba76 ffe7499d N
+1e7f0bc ffe79ae0 N
+1e803e2 ffe7fad2 N
+1e803e2 ffe85ba8 N
+1e58387 ffe85ba8 N
+9 1 0
+1e29ff3 ffe7fad2 N
+1e2b300 ffe79ae0 N
+1e2e946 ffe7499d N
+1e33a88 ffe71357 N
+1e39a7a ffe7004b N
+1e5204f ffe7004b N
+1e5204f ffe85ba8 N
+1e29ff3 ffe85ba8 N
+1e29ff3 ffe7fad2 N
+9 1 0
+1b6cc4b ffe85ba8 N
+1b6cc4b ffe7004b N
+1b85239 ffe7004b N
+1b8b212 ffe71357 N
+1b90354 ffe7499d N
+1b9399a ffe79ae0 N
+1b94ca7 ffe7fad2 N
+1b94ca7 ffe85ba8 N
+1b6cc4b ffe85ba8 N
+9 1 0
+307c50b fffadfd5 N
+307c179 fffac48c N
+308b260 fffac48c N
+308b260 fffbb573 N
+3089717 fffbb1e1 N
+3084f74 fffb9436 N
+30811f0 fffb64fc N
+307e2b6 fffb2778 N
+307c50b fffadfd5 N
+9 1 0
+11d0f64 fffa9a15 N
+11d2aad fffa9da7 N
+11d7250 fffabb52 N
+11dafd4 fffaea8c N
+11ddf0e fffb2810 N
+11dfcb9 fffb6fb3 N
+11e004b fffb8afc N
+11d0f64 fffb8afc N
+11d0f64 fffa9a15 N
+9 1 0
+11bbb45 fffb8afc N
+11bbed7 fffb6fb3 N
+11bdc82 fffb2810 N
+11c0bbc fffaea8c N
+11c4940 fffabb52 N
+11c90e3 fffa9da7 N
+11cac2c fffa9a15 N
+11cac2c fffb8afc N
+11bbb45 fffb8afc N
+9 1 0
+3091598 fffbb573 N
+3091598 fffac48c N
+30a067f fffac48c N
+30a02ed fffadfd5 N
+309e542 fffb2778 N
+309b608 fffb64fc N
+3097884 fffb9436 N
+30930e1 fffbb1e1 N
+3091598 fffbb573 N
+47 1 0
+2e6fa0c fff335c8 N
+2e707a4 fff2cefe N
+2e72f3a fff26f3f N
+2e76e6e fff21cfe N
+2e7c0af fff1ddca N
+2e8206e fff1b634 N
+2e88738 fff1a89c N
+2e8ee02 fff1b634 N
+2e94dc1 fff1ddca N
+2e9a002 fff21cfe N
+2e9df36 fff26f3f N
+2ea06cc fff2cefe N
+2ea1464 fff335c8 N
+2ea06cc fff39c92 N
+2e9df36 fff3fc51 N
+2e9a002 fff44e92 N
+2e98421 fff46400 N
+2e98421 fff99556 N
+2eae937 fffafa6c N
+2eb0c24 fffaf5dc N
+2eb72ee fffb0374 N
+2ebd2ad fffb2b24 N
+2ec24ee fffb6a3e N
+2ec6422 fffbbc7f N
+2ec8bb8 fffc1c3e N
+2ec9950 fffc8308 N
+2ec8bb8 fffce9d2 N
+2ec6422 fffd4991 N
+2ec24ee fffd9bd2 N
+2ebd2ad fffddaec N
+2eb72ee fffe029c N
+2eb0c24 fffe1034 N
+2eaa55a fffe029c N
+2ea459b fffddaec N
+2e9f35a fffd9bd2 N
+2e9b440 fffd4991 N
+2e98c90 fffce9d2 N
+2e97ef8 fffc8308 N
+2e983a2 fffc601b N
+2e7d46d fffab0e7 N
+2e79d8f fffa5ed9 N
+2e78a4f fff9fe1c N
+2e78a4f fff46400 N
+2e76e6e fff44e92 N
+2e72f3a fff3fc51 N
+2e707a4 fff39c92 N
+2e6fa0c fff335c8 N
+9 1 0
+78ec4 fffc516c N
+78ec4 fffaf14b N
+8b86c fffaf14b N
+91929 fffb048b N
+96b37 fffb3b69 N
+9a215 fffb8d77 N
+9b555 fffbee34 N
+9b555 fffc516c N
+78ec4 fffc516c N
+9 1 0
+504fb fffbee34 N
+5183b fffb8d77 N
+54f19 fffb3b69 N
+5a127 fffb048b N
+601e4 fffaf14b N
+72b8c fffaf14b N
+72b8c fffc516c N
+504fb fffc516c N
+504fb fffbee34 N
+9 1 0
+3091598 fff9706d N
+30930e1 fff973ff N
+3097884 fff991aa N
+309b608 fff9c0e4 N
+309e542 fff9fe68 N
+30a02ed fffa460b N
+30a067f fffa6154 N
+3091598 fffa6154 N
+3091598 fff9706d N
+9 1 0
+307c179 fffa6154 N
+307c50b fffa460b N
+307e2b6 fff9fe68 N
+30811f0 fff9c0e4 N
+3084f74 fff991aa N
+3089717 fff973ff N
+308b260 fff9706d N
+308b260 fffa6154 N
+307c179 fffa6154 N
+9 1 0
+3091598 fff3603f N
+3091598 fff26f58 N
+30a067f fff26f58 N
+30a02ed fff28aa1 N
+309e542 fff2d244 N
+309b608 fff30fc8 N
+3097884 fff33f02 N
+30930e1 fff35cad N
+3091598 fff3603f N
+9 1 0
+1f0c37 fffa7c9d N
+1f08a5 fffa6154 N
+1ff98c fffa6154 N
+1ff98c fffb523b N
+1fde43 fffb4ea9 N
+1f96a0 fffb30fe N
+1f591c fffb01c4 N
+1f29e2 fffac440 N
+1f0c37 fffa7c9d N
+9 1 0
+10fe1f4 fffa9a15 N
+10ffd3d fffa9da7 N
+11044e0 fffabb52 N
+1108264 fffaea8c N
+110b19e fffb2810 N
+110cf49 fffb6fb3 N
+110d2db fffb8afc N
+10fe1f4 fffb8afc N
+10fe1f4 fffa9a15 N
+9 1 0
+10e8dd5 fffb8afc N
+10e9167 fffb6fb3 N
+10eaf12 fffb2810 N
+10ede4c fffaea8c N
+10f1bd0 fffabb52 N
+10f6373 fffa9da7 N
+10f7ebc fffa9a15 N
+10f7ebc fffb8afc N
+10e8dd5 fffb8afc N
+9 1 0
+205cc4 fffb523b N
+205cc4 fffa6154 N
+214dab fffa6154 N
+214a19 fffa7c9d N
+212c6e fffac440 N
+20fd34 fffb01c4 N
+20bfb0 fffb30fe N
+20780d fffb4ea9 N
+205cc4 fffb523b N
+9 1 0
+37d6a5 fffc516c N
+37da37 fffc3623 N
+37f7e2 fffbee80 N
+38271c fffbb0fc N
+3864a0 fffb81c2 N
+38ac43 fffb6417 N
+38c78c fffb6085 N
+38c78c fffc516c N
+37d6a5 fffc516c N
+9 1 0
+78ec4 fffe14c5 N
+78ec4 fffcb4a4 N
+9b555 fffcb4a4 N
+9b555 fffd17dc N
+9a215 fffd7899 N
+96b37 fffdcaa7 N
+91929 fffe0185 N
+8b86c fffe14c5 N
+78ec4 fffe14c5 N
+9 1 0
+504fb fffd17dc N
+504fb fffcb4a4 N
+72b8c fffcb4a4 N
+72b8c fffe14c5 N
+601e4 fffe14c5 N
+5a127 fffe0185 N
+54f19 fffdcaa7 N
+5183b fffd7899 N
+504fb fffd17dc N
+43 1 0
+1f207cc fffb8afc N
+1f21564 fffb2432 N
+1f23d14 fffac473 N
+1f27c2e fffa7232 N
+1f2ce6f fffa3318 N
+1f32e2e fffa0b68 N
+1f394f8 fff9fdd0 N
+1f3fbc2 fffa0b68 N
+1f45b81 fffa3318 N
+1f4adc2 fffa7232 N
+1f4c330 fffa8e13 N
+1f58080 fffa8e13 N
+1f595ee fffa7232 N
+1f5e82f fffa3318 N
+1f647ee fffa0b68 N
+1f6aeb8 fff9fdd0 N
+1f71582 fffa0b68 N
+1f77541 fffa3318 N
+1f7c782 fffa7232 N
+1f806b6 fffac473 N
+1f82e4c fffb2432 N
+1f83be4 fffb8afc N
+1f82e4c fffbf1c6 N
+1f806b6 fffc5185 N
+1f7c782 fffca3c6 N
+1f77541 fffce2fa N
+1f71582 fffd0a90 N
+1f6aeb8 fffd1828 N
+1f647ee fffd0a90 N
+1f5e82f fffce2fa N
+1f595ee fffca3c6 N
+1f58080 fffc87e5 N
+1f4c330 fffc87e5 N
+1f4adc2 fffca3c6 N
+1f45b81 fffce2fa N
+1f3fbc2 fffd0a90 N
+1f394f8 fffd1828 N
+1f32e2e fffd0a90 N
+1f2ce6f fffce2fa N
+1f27c2e fffca3c6 N
+1f23d14 fffc5185 N
+1f21564 fffbf1c6 N
+1f207cc fffb8afc N
+9 1 0
+37da37 fffccfed N
+37d6a5 fffcb4a4 N
+38c78c fffcb4a4 N
+38c78c fffda58b N
+38ac43 fffda1f9 N
+3864a0 fffd844e N
+38271c fffd5514 N
+37f7e2 fffd1790 N
+37da37 fffccfed N
+9 1 0
+2eebefc fffea1db N
+2eebefc fffdb0f4 N
+2efafe3 fffdb0f4 N
+2efac51 fffdcc3d N
+2ef8ea6 fffe13e0 N
+2ef5f6c fffe5164 N
+2ef21e8 fffe809e N
+2eeda45 fffe9e49 N
+2eebefc fffea1db N
+9 1 0
+2ed6e6f fffdcc3d N
+2ed6ac4 fffdb0f4 N
+2ee5bc4 fffdb0f4 N
+2ee5bc4 fffea1db N
+2ee407b fffe9e49 N
+2edf8d8 fffe809e N
+2edbb54 fffe5164 N
+2ed8c1a fffe13e0 N
+2ed6e6f fffdcc3d N
+9 1 0
+392ac4 fffda58b N
+392ac4 fffcb4a4 N
+3a1bab fffcb4a4 N
+3a1819 fffccfed N
+39fa6e fffd1790 N
+39cb34 fffd5514 N
+398db0 fffd844e N
+39460d fffda1f9 N
+392ac4 fffda58b N
+9 1 0
+10fe1f4 fffcdf1b N
+10fe1f4 fffbee34 N
+110d2db fffbee34 N
+110cf49 fffc097d N
+110b19e fffc5120 N
+1108264 fffc8ea4 N
+11044e0 fffcbdde N
+10ffd3d fffcdb89 N
+10fe1f4 fffcdf1b N
+9 1 0
+10e9167 fffc097d N
+10e8dd5 fffbee34 N
+10f7ebc fffbee34 N
+10f7ebc fffcdf1b N
+10f6373 fffcdb89 N
+10f1bd0 fffcbdde N
+10ede4c fffc8ea4 N
+10eaf12 fffc5120 N
+10e9167 fffc097d N
+9 1 0
+392ac4 fffb6085 N
+39460d fffb6417 N
+398db0 fffb81c2 N
+39cb34 fffbb0fc N
+39fa6e fffbee80 N
+3a1819 fffc3623 N
+3a1bab fffc516c N
+392ac4 fffc516c N
+392ac4 fffb6085 N
+9 1 0
+11bbed7 fffc097d N
+11bbb45 fffbee34 N
+11cac2c fffbee34 N
+11cac2c fffcdf1b N
+11c90e3 fffcdb89 N
+11c4940 fffcbdde N
+11c0bbc fffc8ea4 N
+11bdc82 fffc5120 N
+11bbed7 fffc097d N
+9 1 0
+2eebefc fffc5cbc N
+2eeda45 fffc6067 N
+2ef21e8 fffc7e12 N
+2ef5f6c fffcad4c N
+2ef8ea6 fffcead0 N
+2efac51 fffd3273 N
+2efafe3 fffd4dbc N
+2eebefc fffd4dbc N
+2eebefc fffc5cbc N
+9 1 0
+2ed6ac4 fffd4dbc N
+2ed6e6f fffd3273 N
+2ed8c1a fffcead0 N
+2edbb54 fffcad4c N
+2edf8d8 fffc7e12 N
+2ee407b fffc6067 N
+2ee5bc4 fffc5cbc N
+2ee5bc4 fffd4dbc N
+2ed6ac4 fffd4dbc N
+9 1 0
+11d0f64 fffcdf1b N
+11d0f64 fffbee34 N
+11e004b fffbee34 N
+11dfcb9 fffc097d N
+11ddf0e fffc5120 N
+11dafd4 fffc8ea4 N
+11d7250 fffcbdde N
+11d2aad fffcdb89 N
+11d0f64 fffcdf1b N
+9 1 0
+271a8ed ffea1a3d N
+271a8ed ffe8bee0 N
+2742949 ffe8bee0 N
+2742949 ffe91fb6 N
+274163c ffe97fa8 N
+273dff6 ffe9d0eb N
+2738e9a ffea0731 N
+2732ec2 ffea1a3d N
+271a8ed ffea1a3d N
+9 1 0
+26ec55a ffe91fb6 N
+26ec55a ffe8bee0 N
+27145b5 ffe8bee0 N
+27145b5 ffea1a3d N
+26fbfe1 ffea1a3d N
+26f6008 ffea0731 N
+26f0eac ffe9d0eb N
+26ed867 ffe97fa8 N
+26ec55a ffe91fb6 N
+9 1 0
+242f1cb ffea1a3d N
+242f1cb ffe8bee0 N
+2457227 ffe8bee0 N
+2457227 ffe91fb6 N
+2455f1a ffe97fa8 N
+24528bb ffe9d0eb N
+244d778 ffea0731 N
+24477a0 ffea1a3d N
+242f1cb ffea1a3d N
+9 1 0
+29d7c7c ffe91fb6 N
+29d7c7c ffe8bee0 N
+29ffcd8 ffe8bee0 N
+29ffcd8 ffea1a3d N
+29e7703 ffea1a3d N
+29e172b ffea0731 N
+29dc5e8 ffe9d0eb N
+29d8f89 ffe97fa8 N
+29d7c7c ffe91fb6 N
+9 1 0
+2cf1732 ffea1a3d N
+2cf1732 ffe8bee0 N
+2d1978d ffe8bee0 N
+2d1978d ffe91fb6 N
+2d18481 ffe97fa8 N
+2d14e3b ffe9d0eb N
+2d0fcf8 ffea0731 N
+2d09d06 ffea1a3d N
+2cf1732 ffea1a3d N
+9 1 0
+2cc339e ffe91fb6 N
+2cc339e ffe8bee0 N
+2ceb3fa ffe8bee0 N
+2ceb3fa ffea1a3d N
+2cd2e25 ffea1a3d N
+2ccce4d ffea0731 N
+2cc7d0a ffe9d0eb N
+2cc46ab ffe97fa8 N
+2cc339e ffe91fb6 N
+9 1 0
+2a06010 ffea1a3d N
+2a06010 ffe8bee0 N
+2a2e06b ffe8bee0 N
+2a2e06b ffe91fb6 N
+2a2cd5e ffe97fa8 N
+2a29719 ffe9d0eb N
+2a245d6 ffea0731 N
+2a1e5e4 ffea1a3d N
+2a06010 ffea1a3d N
+9 1 0
+1e29ff3 ffe91fb6 N
+1e29ff3 ffe8bee0 N
+1e5204f ffe8bee0 N
+1e5204f ffea1a3d N
+1e39a7a ffea1a3d N
+1e33a88 ffea0731 N
+1e2e946 ffe9d0eb N
+1e2b300 ffe97fa8 N
+1e29ff3 ffe91fb6 N
+9 1 0
+1b6cc4b ffea1a3d N
+1b6cc4b ffe8bee0 N
+1b94ca7 ffe8bee0 N
+1b94ca7 ffe91fb6 N
+1b9399a ffe97fa8 N
+1b90354 ffe9d0eb N
+1b8b212 ffea0731 N
+1b85239 ffea1a3d N
+1b6cc4b ffea1a3d N
+9 1 0
+1b3e8b8 ffe91fb6 N
+1b3e8b8 ffe8bee0 N
+1b66913 ffe8bee0 N
+1b66913 ffea1a3d N
+1b4e33f ffea1a3d N
+1b48366 ffea0731 N
+1b43224 ffe9d0eb N
+1b3fbde ffe97fa8 N
+1b3e8b8 ffe91fb6 N
+9 1 0
+1e58387 ffea1a3d N
+1e58387 ffe8bee0 N
+1e803e2 ffe8bee0 N
+1e803e2 ffe91fb6 N
+1e7f0bc ffe97fa8 N
+1e7ba76 ffe9d0eb N
+1e76934 ffea0731 N
+1e7095b ffea1a3d N
+1e58387 ffea1a3d N
+9 1 0
+2400e38 ffe91fb6 N
+2400e38 ffe8bee0 N
+2428e93 ffe8bee0 N
+2428e93 ffea1a3d N
+24108bf ffea1a3d N
+240a8e6 ffea0731 N
+240578a ffe9d0eb N
+2402144 ffe97fa8 N
+2400e38 ffe91fb6 N
+9 1 0
+2143aa9 ffea1a3d N
+2143aa9 ffe8bee0 N
+216bb05 ffe8bee0 N
+216bb05 ffe91fb6 N
+216a7f8 ffe97fa8 N
+2167199 ffe9d0eb N
+2162056 ffea0731 N
+215c07e ffea1a3d N
+2143aa9 ffea1a3d N
+9 1 0
+2115715 ffe91fb6 N
+2115715 ffe8bee0 N
+213d771 ffe8bee0 N
+213d771 ffea1a3d N
+212519c ffea1a3d N
+211f1ab ffea0731 N
+211a068 ffe9d0eb N
+2116a22 ffe97fa8 N
+2115715 ffe91fb6 N
+9 1 0
+2faeac0 ffe91fb6 N
+2faeac0 ffe8bee0 N
+2fd6b1c ffe8bee0 N
+2fd6b1c ffea1a3d N
+2fbe547 ffea1a3d N
+2fb856f ffea0731 N
+2fb342c ffe9d0eb N
+2fafde7 ffe97fa8 N
+2faeac0 ffe91fb6 N
+9 1 0
+2ddb7cf fff25905 N
+2ddb43d fff23dbc N
+2dea524 fff23dbc N
+2dea524 fff32ea3 N
+2de89db fff32b11 N
+2de4238 fff30d66 N
+2de04b4 fff2de2c N
+2ddd57a fff2a0a8 N
+2ddb7cf fff25905 N
+9 1 0
+1f7d860 ffed9e41 N
+1f7f3a9 ffeda1d3 N
+1f83b4c ffedbf7e N
+1f878d0 ffedeeb8 N
+1f8a80a ffee2c3c N
+1f8c5b5 ffee73df N
+1f8c947 ffee8f28 N
+1f7d860 ffee8f28 N
+1f7d860 ffed9e41 N
+9 1 0
+1f68441 ffee8f28 N
+1f687d3 ffee73df N
+1f6a57e ffee2c3c N
+1f6d4b8 ffedeeb8 N
+1f7123c ffedbf7e N
+1f759df ffeda1d3 N
+1f77528 ffed9e41 N
+1f77528 ffee8f28 N
+1f68441 ffee8f28 N
+9 1 0
+2df085c fff32ea3 N
+2df085c fff23dbc N
+2dff943 fff23dbc N
+2dff5b1 fff25905 N
+2dfd806 fff2a0a8 N
+2dfa8cc fff2de2c N
+2df6b48 fff30d66 N
+2df23a5 fff32b11 N
+2df085c fff32ea3 N
+9 1 0
+307c50b fff28aa1 N
+307c179 fff26f58 N
+308b260 fff26f58 N
+308b260 fff3603f N
+3089717 fff35cad N
+3084f74 fff33f02 N
+30811f0 fff30fc8 N
+307e2b6 fff2d244 N
+307c50b fff28aa1 N
+9 1 0
+2d71660 fff3603f N
+2d71660 fff26f58 N
+2d80747 fff26f58 N
+2d803b5 fff28aa1 N
+2d7e60a fff2d244 N
+2d7b6d0 fff30fc8 N
+2d7794c fff33f02 N
+2d731a9 fff35cad N
+2d71660 fff3603f N
+9 1 0
+2d5c5d3 fff28aa1 N
+2d5c241 fff26f58 N
+2d6b328 fff26f58 N
+2d6b328 fff3603f N
+2d697df fff35cad N
+2d6503c fff33f02 N
+2d612b8 fff30fc8 N
+2d5e37e fff2d244 N
+2d5c5d3 fff28aa1 N
+9 1 0
+32c8590 ffea1a3d N
+32c8590 ffe8bee0 N
+32f05eb ffe8bee0 N
+32f05eb ffe91fb6 N
+32ef2c5 ffe97fa8 N
+32ebc7f ffe9d0eb N
+32e6b3d ffea0731 N
+32e0b64 ffea1a3d N
+32c8590 ffea1a3d N
+9 1 0
+329a1fc ffe91fb6 N
+329a1fc ffe8bee0 N
+32c2258 ffe8bee0 N
+32c2258 ffea1a3d N
+32a9c6a ffea1a3d N
+32a3c91 ffea0731 N
+329eb4f ffe9d0eb N
+329b509 ffe97fa8 N
+329a1fc ffe91fb6 N
+9 1 0
+2fdce54 ffea1a3d N
+2fdce54 ffe8bee0 N
+3004ec9 ffe8bee0 N
+3004ec9 ffe91fb6 N
+3003ba3 ffe97fa8 N
+300055d ffe9d0eb N
+2ffb41a ffea0731 N
+2ff5442 ffea1a3d N
+2fdce54 ffea1a3d N
+9 1 0
+358591e ffe91fb6 N
+358591e ffe8bee0 N
+35ad97a ffe8bee0 N
+35ad97a ffea1a3d N
+35953a5 ffea1a3d N
+358f3b3 ffea0731 N
+358a271 ffe9d0eb N
+3586c2b ffe97fa8 N
+358591e ffe91fb6 N
+9 1 0
+389f3d4 ffea1a3d N
+389f3d4 ffe8bee0 N
+38c7430 ffe8bee0 N
+38c7430 ffe91fb6 N
+38c6123 ffe97fa8 N
+38c2ac4 ffe9d0eb N
+38bd981 ffea0731 N
+38b79a9 ffea1a3d N
+389f3d4 ffea1a3d N
+9 1 0
+3871040 ffe91fb6 N
+3871040 ffe8bee0 N
+389909c ffe8bee0 N
+389909c ffea1a3d N
+3880ac7 ffea1a3d N
+387aaef ffea0731 N
+3875993 ffe9d0eb N
+387234d ffe97fa8 N
+3871040 ffe91fb6 N
+9 1 0
+35b3cb2 ffea1a3d N
+35b3cb2 ffe8bee0 N
+35dbd0d ffe8bee0 N
+35dbd0d ffe91fb6 N
+35daa01 ffe97fa8 N
+35d73a1 ffe9d0eb N
+35d225f ffea0731 N
+35cc286 ffea1a3d N
+35b3cb2 ffea1a3d N
+A13
+D2
+F0
+122a62 fff80e04 40e184 fff80e04
+2fd9cd1 ffe88d44 32c53f4 ffe88d44
+32c53f4 ffe88d44 35b0b16 ffe88d44
+2ded6c0 fffdbb2c 2dfcecc fffeb338
+2dfcecc fffeb338 2ed5f74 fffeb338
+2ded6c0 fff20c20 2ded6c0 fffdbb2c
+2ee8d60 fffd7f58 2ee9354 fffd7f58
+308e3fc fff23dbc 308e3fc fffa92f0
+2e28554 ffe8f07c 2e28554 ffea7d5c
+2e28554 ffea7d5c 2e31a28 ffeb1230
+2e31a28 ffeb1230 2f70fec ffeb1230
+2f807f8 fff20c20 2f807f8 fff74794
+2f807f8 fff74794 2f8ce68 fff80e04
+2f8ce68 fff80e04 2fd9cd1 fff80e04
+2d71660 fff20c20 2ded6c0 fff20c20
+242c02f fff80e04 2717751 fff80e04
+2717751 fff80e04 2a02e74 fff80e04
+2a02e74 fff80e04 2cee596 fff80e04
+2ed5f74 fffeb338 2ee9354 fffd7f58
+1ebd498 ffeec0c4 1f7a6c4 ffeec0c4
+1eb3fc4 ffee2bf0 1ebd498 ffeec0c4
+214090d fff80e04 242c02f fff80e04
+1fa2bb0 fffa2fb8 1fd13d4 fffa2fb8
+1f8d06c fff8d474 1fa2bb0 fffa2fb8
+2199068 ffe3b508 2199068 ffeaaef8
+2199068 fff3fc38 2199068 fff7aacc
+1fda8a8 fff80e04 214090d fff80e04
+1fd13d4 fff8a2d8 1fda8a8 fff80e04
+1fd13d4 fff8a2d8 1fd13d4 fffa2fb8
+1e551eb fff80e04 1f89ed0 fff80e04
+1f8d06c fff5577c 1f8d06c fff8d474
+40e184 fff80e04 6f98a6 fff80e04
+6f98a6 fff80e04 9e4fc9 fff80e04
+9e4fc9 fff80e04 cd0704 fff80e04
+cd0704 fff80e04 fbbe26 fff80e04
+12a7549 fff80e04 1592c6b fff80e04
+1592c6b fff80e04 187e38d fff80e04
+187e38d fff80e04 1b69aaf fff80e04
+1b69aaf fff80e04 1e551eb fff80e04
+187e38d ffe88d44 1b69aaf ffe88d44
+1b69aaf ffe88d44 1e551eb ffe88d44
+fbbe26 ffe88d44 12a7549 ffe88d44
+112987c fff58918 112987c fff7dc68
+fbbe26 fff80e04 12a7549 fff80e04
+40e184 ffe88d44 6f98a6 ffe88d44
+6f98a6 ffe88d44 9e4fc9 ffe88d44
+9e4fc9 ffe88d44 cd0704 ffe88d44
+cd0704 ffe88d44 fbbe26 ffe88d44
+97edc ffe3836c 2f1714 ffe3836c
+7c060 ffe541e8 97edc ffe3836c
+3040bc ffe4ad14 3040bc ffe92218
+cca38 ffe88d44 122a62 ffe88d44
+c03c8 ffe953b4 cca38 ffe88d44
+c03c8 ffe953b4 c03c8 fffb8afc
+b0bbc fffc8308 c03c8 fffb8afc
+7c060 fffc8308 b0bbc fffc8308
+1dd7d8 fffc8308 202b28 fffa2fb8
+b0bbc fffc8308 1dd7d8 fffc8308
+1dd7d8 fffc8308 38f928 fffc8308
+2f1714 ffe3836c 3040bc ffe4ad14
+3040bc ffe92218 3518f8 ffe92218
+1123544 fffbbc98 1135eec fffbbc98
+1135eec fffbbc98 11cddc8 fffbbc98
+10fb058 fffbbc98 1135eec fffbbc98
+A14
+6f98a6 ffec6d74 9e4fc9 ffec6d74
+9e4fc9 ffec6d74 cd0704 ffec6d74
+12a7549 ffec6d74 1592c6b ffec6d74
+1592c6b ffec6d74 187e38d ffec6d74
+1b69aaf ffec6d74 1e551eb ffec6d74
+242c02f ffec6d74 2717751 ffec6d74
+2717751 ffec6d74 2a02e74 ffec6d74
+2a02e74 ffec6d74 2cee596 ffec6d74
+35b0b16 ffec6d74 389c238 ffec6d74
+122a62 fff04da4 40e184 fff04da4
+40e184 fff04da4 6f98a6 fff04da4
+6f98a6 fff04da4 9e4fc9 fff04da4
+9e4fc9 fff04da4 cd0704 fff04da4
+cd0704 fff04da4 fbbe26 fff04da4
+12a7549 fff04da4 1592c6b fff04da4
+1592c6b fff04da4 187e38d fff04da4
+187e38d fff04da4 1b69aaf fff04da4
+1b69aaf fff04da4 1e551eb fff04da4
+214090d fff04da4 242c02f fff04da4
+242c02f fff04da4 2717751 fff04da4
+2717751 fff04da4 2a02e74 fff04da4
+2a02e74 fff04da4 2cee596 fff04da4
+32c53f4 fff04da4 35b0b16 fff04da4
+35b0b16 fff04da4 389c238 fff04da4
+2e88738 fff9fe1c 2eb0c24 fffc8308
+2e88738 fff335c8 2e88738 fff9fe1c
+1ff6724 fff04da4 214090d fff04da4
+2f83994 ffec6d74 2fd9cd1 ffec6d74
+2fd9cd1 ffec6d74 31f9048 ffec6d74
+31f9048 ffec6d74 32c53f4 ffec6d74
+2ee25e4 ffe6cec8 2f55170 ffe6cec8
+32c53f4 ffec6d74 3569958 ffec6d74
+3569958 ffec6d74 35b0b16 ffec6d74
+2fd9cd1 fff04da4 30d8a9c fff04da4
+30d8a9c fff04da4 32c53f4 fff04da4
+2edc2ac ffe8f07c 2f4ee38 ffe8f07c
+2ebd294 ffe6cec8 2ebd294 ffe70064
+2ebd294 ffe70064 2ec6768 ffe79538
+2ec6768 ffe79538 2edc2ac ffe8f07c
+2cee596 ffec6d74 2e2b6f0 ffec6d74
+2e2b6f0 ffec6d74 2f83994 ffec6d74
+2e2221c fff04da4 2f9633c fff04da4
+2f9633c fff04da4 2fd9cd1 fff04da4
+2cee596 fff04da4 2d4c310 fff04da4
+2d4c310 fff04da4 2e2221c fff04da4
+1e551eb ffec6d74 1efe664 ffec6d74
+1efe664 ffec6d74 214090d ffec6d74
+1f07b38 ffe79538 1f07b38 ffea7d5c
+1f07b38 ffe79538 1f17344 ffe69d2c
+1f17344 ffe69d2c 2062f78 ffe69d2c
+2062f78 ffe69d2c 206f5e8 ffe7639c
+206f5e8 ffe7639c 206f5e8 ffe7f870
+206f5e8 ffe7f870 206f5e8 ffe92218
+2072784 ffe5d6bc 2084dff ffe6fd51
+1ee5984 ffe5d6bc 2072784 ffe5d6bc
+1edc4b0 ffe66b90 1ee5984 ffe5d6bc
+1edc4b0 ffe66b90 1edc4b0 ffea4bc0
+1f394f8 fffb8afc 1f6aeb8 fffb8afc
+1e551eb fff04da4 1f6aeb8 fff04da4
+1f6aeb8 fff04da4 1ff6724 fff04da4
+214090d ffec6d74 218c9f8 ffec6d74
+218c9f8 ffec6d74 242c02f ffec6d74
+122a62 fff42dd4 174120 fff42dd4
+187e38d ffec6d74 18d74d4 ffec6d74
+18d74d4 ffec6d74 1b69aaf ffec6d74
+cd0704 ffec6d74 f713f4 ffec6d74
+f713f4 ffec6d74 fbbe26 ffec6d74
+fbbe26 ffec6d74 10b3b54 ffec6d74
+fbbe26 fff04da4 10c3360 fff04da4
+10c3360 fff04da4 12a7549 fff04da4
+1120852 fff23912 1123544 fff1a8e8
+328f62 fff23912 1120852 fff23912
+3230d4 fff1da84 328f62 fff23912
+40e184 ffec6d74 61dcbc ffec6d74
+61dcbc ffec6d74 6f98a6 ffec6d74
+122a62 ffec6d74 33ef50 ffec6d74
+33ef50 ffec6d74 40e184 ffec6d74
+174120 fff42dd4 193138 fff61dec
+193138 fff61dec 103ac90 fff61dec
+103ac90 fff61dec 103de2c fff5ec50
+10b3b54 ffec6d74 110a864 ffec6d74
+110a864 ffec6d74 12a7549 ffec6d74
+1047300 ffedc8b8 11203a8 ffedc8b8
+1040fc8 ffee2bf0 1047300 ffedc8b8
+2084dff ffe6fd51 2084dff ffeaaef8
+1f429cc fff1a8e8 1f4bea0 fff1a8e8
+1f4bea0 fff1a8e8 1fed250 fff1a8e8
+1f2ce88 fff1a8e8 1f4bea0 fff1a8e8
+1f26b50 fff20c20 1f2ce88 fff1a8e8
+A15
+D1
+75d28 ffed0248
+75d28 ffe92218
+75d28 fff0e278
+75d28 fff4c2a8
+75d28 fff8a2d8
+75d28 fffc8308
+A16
+75d28 ffe541e8
+A17
+122a62 ffe88d44
+122a62 ffec6d74
+122a62 fff04da4
+122a62 fff42dd4
+122a62 fff80e04
+40e184 fff80e04
+40e184 fff42dd4
+40e184 fff04da4
+40e184 ffec6d74
+40e184 ffe88d44
+6f98a6 ffe88d44
+6f98a6 ffec6d74
+6f98a6 fff04da4
+6f98a6 fff42dd4
+6f98a6 fff80e04
+9e4fc9 fff80e04
+9e4fc9 fff42dd4
+9e4fc9 fff04da4
+9e4fc9 ffec6d74
+9e4fc9 ffe88d44
+cd0704 ffe88d44
+cd0704 ffec6d74
+cd0704 fff04da4
+cd0704 fff42dd4
+cd0704 fff80e04
+fbbe26 fff80e04
+fbbe26 fff42dd4
+fbbe26 fff04da4
+fbbe26 ffec6d74
+fbbe26 ffe88d44
+12a7549 ffe88d44
+12a7549 ffec6d74
+12a7549 fff04da4
+12a7549 fff42dd4
+12a7549 fff80e04
+1592c6b fff80e04
+1592c6b fff42dd4
+1592c6b fff04da4
+1592c6b ffec6d74
+1592c6b ffe88d44
+187e38d ffe88d44
+187e38d ffec6d74
+187e38d fff04da4
+187e38d fff42dd4
+187e38d fff80e04
+1b69aaf fff80e04
+1b69aaf fff42dd4
+1b69aaf fff04da4
+1b69aaf ffec6d74
+1b69aaf ffe88d44
+1e551eb ffe88d44
+1e551eb ffec6d74
+1e551eb fff04da4
+1e551eb fff42dd4
+1e551eb fff80e04
+214090d fff80e04
+214090d fff42dd4
+214090d fff04da4
+214090d ffec6d74
+214090d ffe88d44
+242c02f ffe88d44
+242c02f ffec6d74
+242c02f fff04da4
+242c02f fff42dd4
+242c02f fff80e04
+2717751 fff80e04
+2717751 fff42dd4
+2717751 fff04da4
+2717751 ffec6d74
+2717751 ffe88d44
+2a02e74 ffe88d44
+2a02e74 ffec6d74
+2a02e74 fff04da4
+2a02e74 fff42dd4
+2a02e74 fff80e04
+2cee596 fff80e04
+2cee596 fff42dd4
+2cee596 fff04da4
+2cee596 ffec6d74
+2cee596 ffe88d44
+2fd9cd1 ffe88d44
+2fd9cd1 ffec6d74
+2fd9cd1 fff04da4
+2fd9cd1 fff42dd4
+2fd9cd1 fff80e04
+32c53f4 fff80e04
+32c53f4 fff42dd4
+32c53f4 fff04da4
+32c53f4 ffec6d74
+32c53f4 ffe88d44
+35b0b16 ffe88d44
+35b0b16 ffec6d74
+35b0b16 fff04da4
+35b0b16 fff42dd4
+35b0b16 fff80e04
+389c238 fff80e04
+389c238 fff42dd4
+389c238 fff04da4
+389c238 ffec6d74
+389c238 ffe88d44
+A18
+11cddc8 fffbbc98
+2eb0c24 fffc8308
+2e88738 fff335c8
+1f394f8 fffb8afc
+1f6aeb8 fffb8afc
+1f26b50 fff20c20
+1ff03ec fff1da84
+2f4ee38 ffe8f07c
+2edc2ac ffe66b90
+2f55170 ffe6cec8
+308e3fc fffa92f0
+308e3fc fff23dbc
+2ded6c0 fff20c20
+2ee8d60 fffd7f58
+2ebd294 ffe6cec8
+2e28554 ffe8f07c
+2f70fec ffeb1230
+2f807f8 fff20c20
+2d6e4c4 fff23dbc
+1f07b38 ffea7d5c
+206f5e8 ffe92218
+208512c ffeaaef8
+1edc4b0 ffea4bc0
+1f7a6c4 ffeec0c4
+1eb3fc4 ffee2bf0
+1fd13d4 fffa2fb8
+1f8d06c fff5577c
+2199068 ffe3b508
+2199068 ffeaaef8
+2199068 fff3fc38
+103de2c fff5ec50
+10fb058 fffbbc98
+112987c fff58918
+1123544 fff1a8e8
+31ff38 fff20c20
+3040bc ffe92218
+202b28 fffa2fb8
+38f928 fffc8308
+3518f8 ffe92218
+3518f8 fff80e04
+11203a8 ffedc8b8
+1044164 ffedfa54
+L5
+I0
+N0
+F0
+C" Layer_Color=16711935"
+C":AMPARAMS|DCode=10|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=270.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=12|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=180.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=15|XSize=60mil|YSize=100mil|CornerRadius=15mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=16|XSize=60mil|YSize=100mil|CornerRadius=7.5mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=17|XSize=59.06mil|YSize=118.11mil|CornerRadius=14.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=19|XSize=63.12mil|YSize=47.37mil|CornerRadius=8.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=270.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=21|XSize=63.12mil|YSize=47.37mil|CornerRadius=8.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=180.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=22|XSize=68mil|YSize=108mil|CornerRadius=19mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=23|XSize=68mil|YSize=108mil|CornerRadius=11.5mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=24|XSize=67.06mil|YSize=126.11mil|CornerRadius=18.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+A22
+D1
+75d28 ffed0248
+75d28 ffe92218
+75d28 fff0e278
+75d28 fff4c2a8
+75d28 fff8a2d8
+75d28 fffc8308
+A23
+75d28 ffe541e8
+A24
+122a62 ffe88d44
+122a62 ffec6d74
+122a62 fff04da4
+122a62 fff42dd4
+122a62 fff80e04
+40e184 fff80e04
+40e184 fff42dd4
+40e184 fff04da4
+40e184 ffec6d74
+40e184 ffe88d44
+6f98a6 ffe88d44
+6f98a6 ffec6d74
+6f98a6 fff04da4
+6f98a6 fff42dd4
+6f98a6 fff80e04
+9e4fc9 fff80e04
+9e4fc9 fff42dd4
+9e4fc9 fff04da4
+9e4fc9 ffec6d74
+9e4fc9 ffe88d44
+cd0704 ffe88d44
+cd0704 ffec6d74
+cd0704 fff04da4
+cd0704 fff42dd4
+cd0704 fff80e04
+fbbe26 fff80e04
+fbbe26 fff42dd4
+fbbe26 fff04da4
+fbbe26 ffec6d74
+fbbe26 ffe88d44
+12a7549 ffe88d44
+12a7549 ffec6d74
+12a7549 fff04da4
+12a7549 fff42dd4
+12a7549 fff80e04
+1592c6b fff80e04
+1592c6b fff42dd4
+1592c6b fff04da4
+1592c6b ffec6d74
+1592c6b ffe88d44
+187e38d ffe88d44
+187e38d ffec6d74
+187e38d fff04da4
+187e38d fff42dd4
+187e38d fff80e04
+1b69aaf fff80e04
+1b69aaf fff42dd4
+1b69aaf fff04da4
+1b69aaf ffec6d74
+1b69aaf ffe88d44
+1e551eb ffe88d44
+1e551eb ffec6d74
+1e551eb fff04da4
+1e551eb fff42dd4
+1e551eb fff80e04
+214090d fff80e04
+214090d fff42dd4
+214090d fff04da4
+214090d ffec6d74
+214090d ffe88d44
+242c02f ffe88d44
+242c02f ffec6d74
+242c02f fff04da4
+242c02f fff42dd4
+242c02f fff80e04
+2717751 fff80e04
+2717751 fff42dd4
+2717751 fff04da4
+2717751 ffec6d74
+2717751 ffe88d44
+2a02e74 ffe88d44
+2a02e74 ffec6d74
+2a02e74 fff04da4
+2a02e74 fff42dd4
+2a02e74 fff80e04
+2cee596 fff80e04
+2cee596 fff42dd4
+2cee596 fff04da4
+2cee596 ffec6d74
+2cee596 ffe88d44
+2fd9cd1 ffe88d44
+2fd9cd1 ffec6d74
+2fd9cd1 fff04da4
+2fd9cd1 fff42dd4
+2fd9cd1 fff80e04
+32c53f4 fff80e04
+32c53f4 fff42dd4
+32c53f4 fff04da4
+32c53f4 ffec6d74
+32c53f4 ffe88d44
+35b0b16 ffe88d44
+35b0b16 ffec6d74
+35b0b16 fff04da4
+35b0b16 fff42dd4
+35b0b16 fff80e04
+389c238 fff80e04
+389c238 fff42dd4
+389c238 fff04da4
+389c238 ffec6d74
+389c238 ffe88d44
+L7
+Z"dv_spectrum_row"
+I0
+N0
+F0
+T1
+S999
+D6
+202b28 fffa2fb8 N N N N Y -1
+3518f8 fff80e04 N N N N Y -1
+38f928 fffc8308 N N N N Y -1
+31ff38 fff20c20 N N N N Y -1
+3040bc ffe92218 N N N N Y -1
+3518f8 ffe92218 N N N N Y -1
+1044164 ffedfa54 N N N N Y -1
+103de2c fff5ec50 N N N N Y -1
+112987c fff58918 N N N N Y -1
+1123544 fff1a8e8 N N N N Y -1
+11203a8 ffedc8b8 N N N N Y -1
+10fb058 fffbbc98 N N N N Y -1
+11cddc8 fffbbc98 N N N N Y -1
+1f394f8 fffb8afc N N N N Y -1
+1f6aeb8 fffb8afc N N N N Y -1
+1fd13d4 fffa2fb8 N N N N Y -1
+1f8d06c fff5577c N N N N Y -1
+1f7a6c4 ffeec0c4 N N N N Y -1
+1f26b50 fff20c20 N N N N Y -1
+1f07b38 ffea7d5c N N N N Y -1
+1edc4b0 ffea4bc0 N N N N Y -1
+1eb3fc4 ffee2bf0 N N N N Y -1
+1ff03ec fff1da84 N N N N Y -1
+208512c ffeaaef8 N N N N Y -1
+206f5e8 ffe92218 N N N N Y -1
+2199068 ffeaaef8 N N N N Y -1
+2199068 ffe3b508 N N N N Y -1
+2199068 fff3fc38 N N N N Y -1
+2d6e4c4 fff23dbc N N N N Y -1
+2ded6c0 fff20c20 N N N N Y -1
+2e88738 fff335c8 N N N N Y -1
+2eb0c24 fffc8308 N N N N Y -1
+2ee8d14 fffd7f0c N N N N Y -1
+2f807f8 fff20c20 N N N N Y -1
+2f70fec ffeb1230 N N N N Y -1
+2f4ee38 ffe8f07c N N N N Y -1
+2f55170 ffe6cec8 N N N N Y -1
+2edc2ac ffe66b90 N N N N Y -1
+2ebd294 ffe6cec8 N N N N Y -1
+2e28554 ffe8f07c N N N N Y -1
+308e3fc fff23dbc N N N N Y -1
+308e3fc fffa92f0 N N N N Y -1
+T2
+75d28 ffe541e8 N N N N Y -1
+75d28 ffe92218 N N N N Y -1
+75d28 ffed0248 N N N N Y -1
+75d28 fff0e278 N N N N Y -1
+75d28 fff4c2a8 N N N N Y -1
+75d28 fff8a2d8 N N N N Y -1
+75d28 fffc8308 N N N N Y -1
+T3
+122a62 ffe88d44 N N N N Y -1
+122a62 ffec6d74 N N N N Y -1
+122a62 fff04da4 N N N N Y -1
+122a62 fff42dd4 N N N N Y -1
+122a62 fff80e04 N N N N Y -1
+40e138 fff80e04 N N N N Y -1
+40e138 fff42dd4 N N N N Y -1
+40e138 fff04da4 N N N N Y -1
+40e138 ffec6d74 N N N N Y -1
+40e138 ffe88d44 N N N N Y -1
+6f990c ffe88d44 N N N N Y -1
+6f990c ffec6d74 N N N N Y -1
+6f990c fff04da4 N N N N Y -1
+6f990c fff42dd4 N N N N Y -1
+6f990c fff80e04 N N N N Y -1
+9e4fe2 fff80e04 N N N N Y -1
+9e4fe2 fff42dd4 N N N N Y -1
+9e4fe2 fff04da4 N N N N Y -1
+9e4fe2 ffec6d74 N N N N Y -1
+9e4fe2 ffe88d44 N N N N Y -1
+cd06b8 ffe88d44 N N N N Y -1
+cd06b8 ffec6d74 N N N N Y -1
+cd06b8 fff04da4 N N N N Y -1
+cd06b8 fff42dd4 N N N N Y -1
+cd06b8 fff80e04 N N N N Y -1
+fbbe8c fff80e04 N N N N Y -1
+fbbe8c fff42dd4 N N N N Y -1
+fbbe8c fff04da4 N N N N Y -1
+fbbe8c ffec6d74 N N N N Y -1
+fbbe8c ffe88d44 N N N N Y -1
+12a7562 ffe88d44 N N N N Y -1
+12a7562 ffec6d74 N N N N Y -1
+12a7562 fff04da4 N N N N Y -1
+12a7562 fff42dd4 N N N N Y -1
+12a7562 fff80e04 N N N N Y -1
+1592c38 fff80e04 N N N N Y -1
+1592c38 fff42dd4 N N N N Y -1
+1592c38 fff04da4 N N N N Y -1
+1592c38 ffec6d74 N N N N Y -1
+1592c38 ffe88d44 N N N N Y -1
+187e40c ffe88d44 N N N N Y -1
+187e40c ffec6d74 N N N N Y -1
+187e40c fff04da4 N N N N Y -1
+187e40c fff42dd4 N N N N Y -1
+187e40c fff80e04 N N N N Y -1
+1b69ae2 fff80e04 N N N N Y -1
+1b69ae2 fff42dd4 N N N N Y -1
+1b69ae2 fff04da4 N N N N Y -1
+1b69ae2 ffec6d74 N N N N Y -1
+1b69ae2 ffe88d44 N N N N Y -1
+1e551b8 ffe88d44 N N N N Y -1
+1e551b8 ffec6d74 N N N N Y -1
+1e551b8 fff04da4 N N N N Y -1
+1e551b8 fff42dd4 N N N N Y -1
+1e551b8 fff80e04 N N N N Y -1
+214088e fff80e04 N N N N Y -1
+214088e fff42dd4 N N N N Y -1
+214088e fff04da4 N N N N Y -1
+214088e ffec6d74 N N N N Y -1
+214088e ffe88d44 N N N N Y -1
+242c062 ffe88d44 N N N N Y -1
+242c062 ffec6d74 N N N N Y -1
+242c062 fff04da4 N N N N Y -1
+242c062 fff42dd4 N N N N Y -1
+242c062 fff80e04 N N N N Y -1
+2717738 fff80e04 N N N N Y -1
+2717738 fff42dd4 N N N N Y -1
+2717738 fff04da4 N N N N Y -1
+2717738 ffec6d74 N N N N Y -1
+2717738 ffe88d44 N N N N Y -1
+2a02e0e ffe88d44 N N N N Y -1
+2a02e0e ffec6d74 N N N N Y -1
+2a02e0e fff04da4 N N N N Y -1
+2a02e0e fff42dd4 N N N N Y -1
+2a02e0e fff80e04 N N N N Y -1
+2cee5e2 fff80e04 N N N N Y -1
+2cee5e2 fff42dd4 N N N N Y -1
+2cee5e2 fff04da4 N N N N Y -1
+2cee5e2 ffec6d74 N N N N Y -1
+2cee5e2 ffe88d44 N N N N Y -1
+2fd9cb8 ffe88d44 N N N N Y -1
+2fd9cb8 ffec6d74 N N N N Y -1
+2fd9cb8 fff04da4 N N N N Y -1
+2fd9cb8 fff42dd4 N N N N Y -1
+2fd9cb8 fff80e04 N N N N Y -1
+32c538e fff80e04 N N N N Y -1
+32c538e fff42dd4 N N N N Y -1
+32c538e fff04da4 N N N N Y -1
+32c538e ffec6d74 N N N N Y -1
+32c538e ffe88d44 N N N N Y -1
+35b0b62 ffe88d44 N N N N Y -1
+35b0b62 ffec6d74 N N N N Y -1
+35b0b62 fff04da4 N N N N Y -1
+35b0b62 fff42dd4 N N N N Y -1
+35b0b62 fff80e04 N N N N Y -1
+389c238 fff80e04 N N N N Y -1
+389c238 fff42dd4 N N N N Y -1
+389c238 fff04da4 N N N N Y -1
+389c238 ffec6d74 N N N N Y -1
+389c238 ffe88d44 N N N N Y -1
+L8
+I0
+N0
+F0
+C" Layer_Color=16711935"
+C":AMPARAMS|DCode=10|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=270.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=12|XSize=55.12mil|YSize=39.37mil|CornerRadius=4.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=180.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=15|XSize=60mil|YSize=100mil|CornerRadius=15mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=16|XSize=60mil|YSize=100mil|CornerRadius=7.5mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=17|XSize=59.06mil|YSize=118.11mil|CornerRadius=14.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=19|XSize=63.12mil|YSize=47.37mil|CornerRadius=8.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=270.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=21|XSize=63.12mil|YSize=47.37mil|CornerRadius=8.92mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=180.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=22|XSize=68mil|YSize=108mil|CornerRadius=19mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=23|XSize=68mil|YSize=108mil|CornerRadius=11.5mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+C":AMPARAMS|DCode=24|XSize=67.06mil|YSize=126.11mil|CornerRadius=18.76mil|HoleSize=0mil|Usage=FLASHONLY|Rotation=90.000|XOffset=0mil|YOffset=0mil|HoleType=Round|Shape=RoundedRectangle|"
+A25
+D2
+0 ffe17b84 0 0
+0 ffe17b84 3938707 ffe17b84
+3938707 ffe17b84 3938707 0
+0 0 3938707 0
+$End
+$Dimensions
+0
+$End
+$Redlining
+$End
+$ConstructionLines
+0
+$End
+$NoteBalloons
+0
+$End
+$ExternalNetData
+$End
+$NCOrderLists
+$End
+$NetList
+$End

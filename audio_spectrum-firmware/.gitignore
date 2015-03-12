@@ -34,3 +34,10 @@ release
 *.exe
 *.out
 *.app
+#Keil C
+JLink*
+*.bak
+*.dep
+*.uvopt
+*.plg
+
